@@ -1,0 +1,18 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore notebooks' checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+.plotly_env/
+plotly_env/

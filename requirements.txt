@@ -1,0 +1,8 @@
+pandas
+numpy
+faker
+plotly
+kaleido          # for exporting figures
+jupyterlab       # for notebook execution
+scikit-learn >= 1.0
+streamlit

@@ -1,0 +1,48 @@
+# ⛔ Ignore ONLY the project environments
+# Replace with your actual env folder names if different
+.env/
+env/
+venv/
+.plotly_env/
+plotly_env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔄 Ignore Jupyter cache
+.ipynb_checkpoints/
+
+# 💻 IDE/editor-specific
+.vscode/
+.idea/
+
+# 🧪 Pytest and MyPy cache
+.pytest_cache/
+.mypy_cache/
+
+# 📦 Package manager artifacts
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# 🧾 Logs and temp
+*.log
+*.tmp
+*.bak
+
+# 🐳 Docker runtime artifacts (if any)
+*.pid
+*.sock
+
+# 💻 System-specific
+.DS_Store
+Thumbs.db
+
+# ⚠️ Optional: Uncomment below lines if datasets/exports shouldn't be tracked
+# datasets/
+# exports/
+# *.csv
+# *.json
+# *.xlsx
+# *.parquet

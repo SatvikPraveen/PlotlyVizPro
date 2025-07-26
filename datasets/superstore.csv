@@ -1,0 +1,1001 @@
+OrderID,OrderDate,Category,SubCategory,Region,Sales,Profit
+56bf2d38-cc21-4993-b86a-6715422b9b46,2024-11-05,Technology,Phones,East,744.13,-2.04
+8dd59406-ef89-4f24-a639-9a1634c23673,2025-01-30,Furniture,Bookcases,East,679.93,256.87
+4a444c57-04f3-417e-b016-f32e17731401,2024-12-21,Furniture,Bookcases,South,41.46,-62.52
+3eab8292-a2e8-4bf9-9e1d-45fd2e608a12,2024-09-25,Furniture,Bookcases,East,565.63,186.41
+a8e906c3-07c6-4109-a477-9bbae9de08cc,2025-05-19,Technology,Accessories,South,228.24,135.71
+c51a2271-ce28-4382-8d5e-d3baed618b1b,2024-10-18,Furniture,Chairs,South,346.85,-37.81
+5ee5c501-9c42-4523-8d5d-b235021cd56b,2024-07-27,Office Supplies,Binders,East,386.13,43.59
+1be003e2-9c44-4b58-8155-12315f5507ce,2024-08-17,Office Supplies,Pens,Central,809.06,191.89
+637c472c-e630-47d7-bb93-e1c4c4f5ccad,2024-12-31,Technology,Phones,South,88.01,17.27
+7bec0b75-54a7-4f0e-b42d-192df7f0a94c,2025-02-22,Technology,Accessories,Central,581.58,181.83
+f8dc7373-d9fd-490b-90b7-acf1239a38ce,2024-09-28,Furniture,Bookcases,West,775.34,294.09
+c83ec32b-3dd1-4990-a4d7-71a1cd6d930e,2025-03-15,Furniture,Chairs,South,285.19,154.27
+1a2e6baa-e2c5-4990-ab6a-d0a610cfcc65,2024-09-01,Office Supplies,Binders,Central,361.72,168.07
+df863371-7eae-48ba-bfcb-3418d058396c,2025-06-23,Technology,Accessories,East,613.04,-31.54
+d6297417-f6de-414d-a1fd-3c8d358f0483,2025-02-16,Technology,Phones,West,467.64,7.98
+f36014f4-2617-4c5d-8693-fdf6555a2af2,2024-12-18,Technology,Accessories,West,687.77,237.14
+37ce122c-dccc-48d9-aa51-6258cdff546b,2025-06-18,Furniture,Chairs,East,807.0,60.47
+84d637a3-f813-4c30-ac7c-92556a9f0380,2025-07-22,Furniture,Chairs,Central,220.5,99.69
+81acec26-90a1-4105-8e61-1f9dc4fd7650,2025-03-01,Technology,Laptops,West,272.23,-1.35
+c69e4803-da8f-4f68-a9b7-08a5b6e67080,2024-10-13,Technology,Accessories,Central,749.54,71.37
+0fa066fc-666f-410f-8c82-8fe4181ab7ed,2025-04-02,Technology,Laptops,Central,227.13,299.02
+4979c744-00dd-4bd2-9cff-3012ff69f723,2025-06-12,Technology,Laptops,East,758.22,244.44
+6898bd78-5b31-4209-92e7-af52daf79521,2025-04-25,Furniture,Bookcases,West,794.16,68.86
+93663a33-3215-4f31-b3b7-ee0acc73a669,2025-07-18,Furniture,Tables,South,599.93,87.22
+f8253c79-4252-4d73-a4cf-f8fe91dadea6,2024-10-18,Office Supplies,Pens,East,683.48,-54.18
+bf71815e-aab8-48ae-afc2-de9ea6f3badd,2024-09-08,Technology,Laptops,Central,120.44,73.91
+112fa2b9-927b-4b36-af29-8aea84d61595,2025-05-31,Office Supplies,Binders,Central,972.17,204.78
+e0f9726a-ffd5-4dc5-ab1c-7e957e628d58,2024-12-20,Technology,Phones,Central,843.25,103.07
+69776a15-2986-41a0-b937-e2c2cc7cf884,2024-08-23,Furniture,Chairs,Central,764.89,115.75
+c47f99b3-ebbd-47fc-bf2d-7e2863f6e825,2025-02-21,Technology,Phones,Central,493.72,-55.25
+192c184b-f526-4b9b-b8f1-08b15e4386e8,2025-04-30,Office Supplies,Paper,West,67.35,251.2
+4cfda614-8676-4087-9dd0-1b0de81ebae6,2025-05-05,Furniture,Chairs,South,817.86,291.19
+3fb80dd5-367f-4341-b11c-fc9df7528a89,2024-11-06,Technology,Phones,West,663.15,278.74
+7b104643-9a63-415b-98bf-7de9abf1b35e,2025-04-23,Furniture,Tables,South,964.72,271.57
+105dfaa4-2b1c-4a29-8fb8-50e0f0e29811,2025-06-24,Technology,Accessories,West,715.82,59.6
+43976438-10dc-4cba-9909-09ff94239d40,2024-10-19,Technology,Accessories,Central,443.72,107.03
+efc171bc-5195-4057-bef2-d370875a31ea,2025-05-18,Furniture,Chairs,West,73.39,-91.59
+0c7473c4-cd8e-4d34-9097-cd0247329226,2024-11-07,Technology,Phones,West,17.12,183.14
+2f131a20-12d2-4129-9e68-714117c322e3,2025-04-11,Furniture,Chairs,East,906.37,243.85
+db7f6472-80b1-4dff-8272-80565b98e288,2024-07-24,Furniture,Bookcases,West,285.69,94.17
+af7752fd-a3a5-409a-849a-93eb2c215836,2025-01-29,Technology,Phones,South,250.57,89.19
+6bae664d-dca8-45bb-889c-d0c3d0ad5dbf,2024-12-10,Office Supplies,Binders,East,105.96,72.42
+3269d7d5-0640-4524-a9eb-9c9185a42771,2024-12-27,Office Supplies,Paper,South,865.2,-78.33
+03c93f20-181b-4101-96b9-c4640bece904,2024-07-30,Technology,Accessories,East,70.01,191.29
+76c939fb-6832-4d6b-b646-8a613cf25f86,2025-01-15,Furniture,Chairs,West,198.31,79.45
+b21e0570-4b6d-40d7-8b48-2595dd2f9980,2024-08-01,Office Supplies,Binders,Central,468.0,249.79
+5b8d5644-0b4c-47bd-9b5b-3f6bc736c2a2,2025-07-11,Furniture,Tables,East,60.08,299.71
+0a509615-5e03-4597-974e-a2c3fd9db0c9,2025-07-20,Furniture,Chairs,West,174.65,94.26
+49da9ff1-9d5e-4f9e-a4d5-7650159a9325,2025-03-26,Furniture,Tables,East,172.99,-99.14
+14c85702-42a8-4287-9314-961310e07c31,2024-08-17,Office Supplies,Paper,South,292.4,178.64
+e81ced57-f035-44f1-a09d-431114dad5d0,2025-05-04,Technology,Accessories,South,163.25,18.68
+1d771ebb-8848-446f-8dc5-f341e4021cbd,2024-12-25,Furniture,Bookcases,East,750.5,-77.13
+d060bdb5-fda0-4804-a074-78b794b692d2,2025-03-11,Technology,Laptops,West,66.31,103.13
+4dd3b4fd-e172-4dae-ba90-c759c4bae5e8,2025-02-25,Furniture,Chairs,East,678.46,-5.92
+fe14e9a2-67fd-4ddf-93a2-59898ab7278e,2025-05-04,Furniture,Bookcases,West,583.13,-84.1
+f8d7e435-666c-4d11-86c5-7f313f6a3f3f,2025-03-04,Furniture,Tables,Central,935.36,-18.3
+00f6b66d-cb88-4b70-ae54-6ca9f3ca28c1,2025-07-10,Technology,Laptops,West,272.96,-47.65
+b68e6621-53cf-4517-bd40-b0aa3d8a23ec,2025-06-11,Technology,Laptops,South,323.02,200.75
+43729684-bcb4-4f81-bfab-1c4436ea9b63,2024-12-24,Furniture,Chairs,South,624.95,125.2
+31d70074-5f55-473f-8d75-72fb5b6f7a43,2024-11-28,Furniture,Chairs,West,510.83,-47.02
+0ead0cd7-46ae-4ee8-a211-52c24b72fd60,2024-12-14,Office Supplies,Binders,West,375.83,-36.9
+20045e41-fd93-4419-908f-2b8a0fcb165e,2025-04-25,Technology,Accessories,Central,615.56,294.89
+62a81868-3e48-4c38-8144-9d7f05de423b,2025-06-23,Technology,Accessories,East,671.18,121.84
+8e146d25-f2d6-4b89-afd5-cdb6dda27823,2024-12-31,Technology,Phones,West,271.82,255.89
+e429efe8-dac8-414a-a1ac-555cb9a1b6bb,2024-12-18,Technology,Accessories,West,279.62,141.93
+ddbb7b2d-7370-4e99-9335-0571340bc0ff,2024-09-01,Technology,Laptops,West,690.62,241.17
+023deb01-11ed-4d5d-8fbe-f500b10440fd,2025-07-02,Technology,Laptops,Central,906.28,238.44
+ff032b33-0f55-44b8-9bbc-e384ef8f2cad,2025-03-28,Furniture,Bookcases,South,831.05,-82.37
+42683dd7-e2bc-4927-88d6-484de64d2c23,2025-02-06,Office Supplies,Binders,Central,169.97,76.73
+732fa684-fad8-4694-9c27-040ba630f4fe,2024-10-06,Technology,Laptops,East,120.76,278.02
+9e11b150-9674-446c-b34f-dbafe18816ac,2024-11-07,Technology,Phones,East,836.25,133.0
+3c9c4abe-cca2-4a4b-b537-d0f0373b5197,2025-05-12,Furniture,Tables,West,51.41,45.86
+e5cc2cc9-0072-4b91-812d-08244e3daf20,2025-01-09,Furniture,Tables,West,685.25,166.77
+409e21e6-329c-40e9-abe2-a8ec9b9ed498,2025-05-20,Office Supplies,Pens,South,974.1,199.79
+2296eb77-8f70-4583-9aa8-8749640aba09,2024-12-05,Furniture,Chairs,West,882.6,-90.09
+e4a17f50-8410-4999-b4e4-f5a1e8518a2e,2025-03-17,Technology,Laptops,South,804.21,245.63
+dd153bbd-2055-4333-8bc0-87dd83c6701e,2025-05-13,Furniture,Tables,West,789.5,-56.76
+767fb2a4-3a59-4c5e-b508-1654e49a511f,2024-07-27,Furniture,Tables,West,207.58,267.38
+6dcdf56b-cd04-4d94-bf44-dd8632c143d7,2024-12-15,Office Supplies,Paper,West,230.69,164.01
+e20a8872-32cf-4066-ae6f-8d73592f8f54,2025-03-15,Office Supplies,Paper,Central,865.71,286.76
+8d238297-6f99-4448-a8fa-e95104ad632f,2024-09-05,Office Supplies,Paper,South,682.72,237.46
+377a6825-9cd2-4779-bc04-ee46289bd77d,2024-09-18,Office Supplies,Binders,East,878.27,4.49
+c14e3959-03b0-4b63-a5f8-116fde0ec7f7,2025-03-03,Technology,Laptops,East,117.32,73.83
+e671f189-9295-4eed-b95c-0723f50cb622,2024-12-31,Technology,Laptops,South,610.15,104.57
+8981068b-9595-49ca-97b6-8a07835fd5a0,2025-06-05,Office Supplies,Pens,West,262.18,183.51
+9f8cc8c9-ce77-4401-b948-740fc156df14,2025-03-07,Furniture,Bookcases,West,370.58,-72.01
+866d7988-bee8-4c2b-acc2-38b9b9acdc1a,2024-07-25,Technology,Laptops,Central,666.75,-50.15
+42fda19e-5bdd-4ead-a56a-fe2d9df3040e,2025-04-26,Office Supplies,Pens,Central,670.22,30.47
+0e6f30db-2f15-4003-ad85-76a10a7a2875,2025-06-24,Technology,Laptops,West,199.92,165.97
+85d914f1-24b5-42d2-97a3-a42c57eb0196,2025-03-02,Office Supplies,Pens,West,619.36,20.38
+0ef65592-cabb-4fa1-9bea-3f264346bd5b,2025-04-16,Technology,Phones,Central,294.04,71.96
+fe413696-8642-4d03-9610-7d868d127a3f,2024-09-08,Technology,Accessories,Central,470.34,76.86
+226d2bc3-0493-4c7e-bdab-d0479e8d6bc5,2025-04-18,Furniture,Bookcases,South,795.8,283.93
+e4a17fa9-8f0e-45a6-b730-9a1ac5ff0315,2025-03-09,Technology,Phones,East,290.95,165.54
+23833f76-eaff-4361-8854-73ce58f1d6d9,2024-08-19,Technology,Laptops,East,820.24,200.46
+e697c24d-5077-4443-b2bc-9d238c61ea08,2025-06-12,Technology,Laptops,West,808.5,-41.06
+7976af2a-d7e6-4c6c-b683-91ccf12527ab,2025-06-06,Furniture,Chairs,South,615.16,207.4
+9e0b81fe-2250-4fe0-8814-0fc246ce6281,2024-12-17,Office Supplies,Paper,West,721.16,53.59
+39089fd1-adfe-4c15-b03d-24790bf05eca,2025-03-13,Office Supplies,Binders,West,659.5,-97.78
+eae7e1d4-5184-473c-a09b-fa9546ade40b,2025-03-24,Furniture,Tables,West,184.13,283.19
+959fa59e-6511-493f-9604-c5011b820dac,2025-06-15,Technology,Laptops,East,561.83,266.99
+d545f63e-7b53-46cb-8123-841e6bf77a5e,2025-03-10,Furniture,Tables,West,803.4,167.03
+f1560a8c-f3bd-4ad2-ab1f-a8876cae5498,2025-06-03,Technology,Accessories,Central,950.54,256.57
+a54c209f-0ab6-4a2d-9c1f-3cc5034bfc35,2025-05-26,Technology,Accessories,South,832.26,119.15
+e086ede5-4d1a-440a-8f14-0e2747d74714,2024-10-17,Furniture,Bookcases,South,455.57,200.71
+2e25357c-0e95-402f-9a5f-4f50eb238f26,2025-05-31,Technology,Laptops,South,630.48,9.84
+7ba50b2b-03be-4608-94a2-89484f3756e0,2025-02-20,Furniture,Bookcases,Central,242.15,34.34
+a9bed8df-744b-4888-97f4-24be017d9ee0,2024-08-25,Technology,Phones,West,159.32,53.21
+c2e73738-4c4b-4ffa-930b-414f1a22e42e,2025-06-29,Furniture,Bookcases,West,73.59,63.04
+07dc5f6b-8453-459f-ac9e-6240df9e4e25,2024-12-04,Technology,Laptops,South,71.64,233.16
+8974eb87-58b2-46ca-8ab7-e4f924747c0a,2025-05-05,Office Supplies,Pens,East,858.16,206.24
+63fe4712-c0bd-42aa-9113-d32744def658,2024-07-29,Office Supplies,Paper,East,943.31,19.45
+10083207-2f5e-4b3c-ba3e-8b3d0a4cf9a9,2024-10-19,Office Supplies,Paper,West,493.35,9.17
+b5aa227c-7926-4376-baa0-a2e629b36167,2025-07-08,Office Supplies,Binders,South,342.77,171.66
+db355438-8f60-4882-b6a4-cc35ba0c62c0,2024-09-19,Office Supplies,Pens,West,842.1,267.82
+3cb01512-69d1-44dd-bc98-9f9c85537641,2024-08-26,Technology,Accessories,East,907.86,136.76
+33226264-d858-46de-9f4e-41d68c4e897a,2025-05-12,Technology,Phones,East,646.32,-45.72
+a6da303d-a4e2-4ac9-86a3-bffc43ef9e2f,2025-02-26,Office Supplies,Binders,East,267.55,30.94
+a68fd047-c30a-4493-bb87-26fb5770784a,2024-09-27,Office Supplies,Paper,Central,763.62,51.65
+389b819f-14c9-4ddf-95ca-0e9a1c24c9ae,2025-05-12,Office Supplies,Paper,East,475.6,199.61
+3485b6b2-f14e-4f76-ac03-a2b3de6c6fa5,2025-01-11,Furniture,Tables,West,653.64,212.49
+99a5c5e3-21e7-4ea7-a619-7fd4520801d3,2025-06-11,Technology,Phones,East,950.12,-20.26
+25b4ad58-d274-4710-8463-6328f102e9a1,2024-12-12,Furniture,Bookcases,West,246.16,89.42
+879d3814-5268-4e62-ac6d-95eb25b40f1d,2024-09-19,Furniture,Bookcases,West,470.38,2.5
+896cef07-7fa8-4073-b1df-73e5d9186aad,2025-03-14,Office Supplies,Binders,East,780.01,-34.49
+b3538506-3faa-458f-bf98-8b0edd8432c0,2025-05-18,Office Supplies,Binders,East,929.6,130.32
+d9d70603-5f46-42be-8a9c-8a43a13cf0ba,2025-07-03,Office Supplies,Paper,West,85.24,176.25
+3c334e30-bb07-49fa-a60d-8befcda97a1d,2025-06-18,Technology,Phones,East,700.22,20.63
+99d2a8e9-7be8-45ed-8e59-59aa0f8b76d1,2024-11-18,Technology,Accessories,East,798.26,126.37
+fa42b540-5634-4e03-8b06-4752b89fb85b,2024-09-27,Furniture,Tables,South,664.91,-72.42
+3f372a5e-83b1-4904-9b8b-f125821f773a,2024-09-29,Technology,Laptops,East,851.08,228.93
+df07e51b-1dca-41d9-9757-0be1b5eab405,2024-12-05,Furniture,Tables,Central,639.23,231.48
+ba35c37a-6b37-4036-b001-a5374d834875,2025-03-04,Technology,Phones,South,184.38,108.7
+fe432e80-33ac-4f1c-97cf-1fe4c6525029,2025-03-31,Technology,Laptops,South,470.23,230.29
+7ce2ad03-0b75-49e3-9606-76b4f345eff2,2025-02-12,Technology,Laptops,Central,853.2,232.29
+397ffa3a-4205-44a8-a530-9f7c4c75e1ef,2024-12-27,Furniture,Tables,South,251.42,85.88
+6173f55a-5f17-4ec2-95b9-e5a2f6689448,2025-03-24,Technology,Accessories,South,343.03,97.72
+8bdbeec6-2a8b-4905-94f2-880966272f59,2025-06-16,Office Supplies,Binders,South,220.0,219.13
+a1f57521-41ef-431b-8249-6c572881b2a7,2025-03-12,Office Supplies,Paper,Central,560.23,106.65
+ce73fa92-f03b-404f-ba36-0b944d1fb8c6,2024-09-04,Furniture,Chairs,West,722.87,95.43
+9abb292a-8aad-4054-8c03-23a4d0721c73,2024-12-12,Furniture,Bookcases,South,649.44,96.33
+b2ae6276-09d5-42dc-ae8e-99c8c0b7bebc,2024-11-30,Furniture,Chairs,Central,229.38,176.71
+f6bda97f-f529-4c35-9741-185b69c3cd76,2025-03-10,Office Supplies,Pens,Central,478.53,112.37
+8580ced9-2bbc-4145-9104-c8ab5abe2f8d,2024-07-27,Office Supplies,Pens,Central,358.29,81.5
+ac32fbf3-448c-4071-9e3a-7990ad6ec71d,2025-07-05,Office Supplies,Paper,West,129.45,-22.97
+65badd65-968a-40c1-9203-84120424ad71,2024-11-23,Furniture,Bookcases,West,199.63,195.44
+3175e7b3-0d27-4de6-994e-3de15ca16c59,2024-10-18,Office Supplies,Pens,Central,980.71,233.05
+419cc491-9fd9-474a-8220-9b09321530ce,2024-10-14,Office Supplies,Binders,Central,187.65,-94.34
+92cd27b4-a108-43fc-b6e5-7a653408f4ae,2024-11-21,Technology,Phones,Central,55.06,-78.19
+ae078e22-3681-4e3f-8395-ff2fc8ee9f3b,2024-09-20,Office Supplies,Pens,West,641.49,201.12
+4adbc6b7-7cb7-40bb-b036-32985f3473e1,2024-10-11,Furniture,Chairs,Central,474.7,76.19
+74956bd2-4c15-435a-ba55-2228d83c7080,2024-11-24,Furniture,Chairs,Central,941.65,91.09
+1c0c650b-1c1b-42f0-9255-0bebbe52edb3,2025-01-18,Furniture,Tables,South,83.34,151.78
+9f245fb3-c85f-4878-a113-63f2f8d81f2e,2025-02-05,Furniture,Chairs,West,813.03,279.65
+869f024a-f810-4f00-ad65-32ef43c87ba5,2025-03-26,Furniture,Chairs,East,562.49,66.47
+b14b18fe-7e0d-4632-bdf3-0af3f9e2b17d,2025-05-31,Technology,Accessories,West,777.94,52.15
+03c14c97-28bc-4e5d-9efb-69597bd5263a,2024-08-22,Office Supplies,Paper,South,312.33,148.41
+bd385432-cd65-4a2d-9ebc-693b5602d29f,2024-07-31,Technology,Accessories,East,948.11,-16.88
+f506f2c5-6471-4515-af0f-4fbf9058db55,2025-07-19,Furniture,Tables,East,165.49,-30.47
+0393e3f4-677c-4755-90a1-c03305ce0d28,2025-01-15,Furniture,Chairs,East,414.43,175.75
+039f0da0-caf4-4ce9-80ce-1bf76bcbdb15,2025-03-06,Office Supplies,Paper,East,239.16,182.78
+8d47705e-ba30-423e-9e16-348f2e0c6347,2024-08-07,Technology,Laptops,East,690.51,269.56
+72eb0714-c9ee-4d42-9f4c-ec55c16442d5,2025-01-24,Technology,Accessories,West,430.89,117.82
+8ecaaf33-01b5-4ab6-9858-1c86444b74a9,2024-11-28,Technology,Phones,Central,828.36,-71.44
+fc7913f0-cb19-4d47-8cdb-49383658dc98,2025-06-06,Furniture,Tables,Central,444.76,87.48
+ce372cc1-b329-46d6-ab79-5d1b477fb16e,2025-05-14,Office Supplies,Pens,South,943.25,100.19
+2cdf6dd1-8869-492f-9d8c-e521fb9853cd,2025-05-09,Office Supplies,Paper,East,602.06,255.77
+0bfad4ae-fb6a-4a5a-a145-880873848293,2025-02-05,Technology,Laptops,Central,35.61,-8.43
+86e4b2d3-39fc-4d54-85e9-576e3712b958,2025-01-30,Technology,Accessories,East,999.58,168.91
+2e56884a-ee10-4fbf-b84b-88db3a6f1038,2025-07-22,Office Supplies,Pens,East,765.48,-29.92
+551959ea-9060-4da8-8592-9e8cb90fc5c3,2025-05-09,Technology,Accessories,South,916.91,-27.4
+bd55be29-1f26-4060-900f-2502bae6e392,2025-02-10,Technology,Laptops,South,969.36,88.0
+3adf45b5-515a-44c2-b0a4-8a9afdfb6d77,2024-09-13,Office Supplies,Paper,Central,673.43,243.09
+9f1ff08d-8113-48c6-bc33-0fb464e36609,2024-12-20,Office Supplies,Paper,South,295.34,278.08
+414dfce2-0cf1-4519-8396-e013d634b6b6,2025-01-17,Technology,Phones,South,97.18,0.96
+2ba40a5b-35a1-47d4-a900-6d967161efba,2025-01-21,Furniture,Tables,East,661.08,117.04
+d21feada-736f-47da-a75d-66316584f053,2025-03-16,Office Supplies,Binders,West,523.25,149.05
+89298bd9-1f94-464b-80b1-be83adf58727,2025-07-13,Office Supplies,Pens,South,762.39,-18.58
+ec8d7dc1-56ab-4a0e-9460-f908bd1717d0,2024-08-17,Technology,Phones,Central,443.73,179.3
+eca08bb9-59e2-4799-b57d-11b131652b37,2025-02-09,Furniture,Chairs,West,712.68,24.3
+e6d8e2ab-4501-4fec-9340-29bc4b900cb9,2024-08-04,Furniture,Bookcases,South,102.28,296.9
+c72439ad-bbde-4f5a-b9a8-d4a45258453e,2025-01-23,Furniture,Tables,East,651.23,-38.41
+a80ff4c5-57e2-460b-9086-7a10eafd304a,2024-08-07,Technology,Laptops,Central,421.34,93.0
+12505a12-fabc-4b95-9b5a-709f81ac5b8d,2024-12-31,Office Supplies,Binders,South,555.75,53.43
+52ad6092-4021-4ec9-96a0-e550c6da3a73,2024-08-13,Technology,Accessories,West,865.39,10.5
+4b280e13-5742-4a52-9039-55d497d45a5e,2024-09-15,Office Supplies,Paper,Central,822.34,13.14
+3b150d4c-41a8-4768-b43c-cfffeb98a83b,2025-06-05,Office Supplies,Pens,South,866.61,78.62
+c14a52df-608f-4983-9e66-ec6ba5349f3d,2024-09-22,Office Supplies,Paper,Central,556.4,117.37
+d7b25d45-9d7b-49ea-9f89-f2aaaa3f236f,2025-06-01,Office Supplies,Paper,West,980.97,-4.48
+2957a6ad-f8be-4284-99ab-00fb1e61e602,2025-06-17,Office Supplies,Binders,South,53.21,197.88
+ff0f0e9a-23eb-4772-87c4-dcc6550386f3,2024-12-16,Technology,Laptops,South,988.53,216.96
+72d6b1c0-456a-49f0-a6ef-4b797143599d,2025-07-05,Technology,Phones,South,965.18,-49.5
+32cedbdb-0abf-4dab-81f1-bd1b958dd235,2025-05-26,Technology,Laptops,East,875.45,76.12
+5c925dda-6151-42b2-a387-7c26f82c7f2f,2024-10-16,Technology,Laptops,East,725.22,63.99
+1bc53414-0473-4fac-b72a-3effc72ed38b,2025-02-11,Technology,Phones,East,474.8,287.68
+11031747-f753-43ab-97ba-e61316718ac0,2024-12-31,Office Supplies,Pens,South,653.34,240.71
+6babe582-eaab-45cb-a651-62f9a579e3f4,2025-04-02,Technology,Accessories,South,954.6,150.72
+21fd7d37-b1f3-4c6c-9dfd-dece01fb3f47,2025-06-08,Office Supplies,Pens,East,621.28,-6.09
+9915e67a-903c-424a-a8eb-2048e80f90a3,2025-06-10,Technology,Laptops,West,749.3,73.59
+41118236-9f8e-4118-b679-41ca4dc6fcf4,2025-01-18,Furniture,Bookcases,East,449.24,177.6
+bf0ec963-7da5-41bc-8e9a-5515d031c5f5,2024-12-08,Furniture,Chairs,Central,798.18,17.35
+71890343-c26a-4225-9e0f-46ab5eaeaf51,2025-03-23,Office Supplies,Paper,West,251.76,64.82
+cd5ddc24-d6b1-454b-9599-ec9bce1d1d7b,2025-05-20,Technology,Phones,West,183.32,143.8
+60713511-a870-44ef-9551-86ef55e88f26,2024-08-31,Office Supplies,Pens,West,502.69,133.26
+0f2c0d4d-f894-44ff-9912-64c5a9196d0d,2025-04-04,Furniture,Tables,Central,464.97,166.74
+c7187ec4-cb31-4ceb-b493-e52263396f3c,2024-11-15,Office Supplies,Paper,West,83.12,278.09
+ac3bad5c-047c-4810-ac98-331a93ce83c7,2025-02-25,Technology,Laptops,South,693.41,82.73
+0921e325-2954-4925-afc1-3b8becb64885,2024-09-25,Office Supplies,Binders,South,854.8,-57.34
+1c18c479-3444-4f16-9544-7e47f462fc81,2025-06-30,Office Supplies,Pens,Central,579.06,297.08
+922e1b94-86f7-47b2-98ab-fd8f45d3fd56,2025-04-13,Office Supplies,Binders,South,281.74,126.37
+382bada2-82ea-4490-955c-7f70a1c82db8,2024-11-30,Technology,Accessories,East,911.51,198.07
+882af95f-f8db-496d-86f2-af734299407f,2024-07-28,Office Supplies,Binders,Central,226.81,-23.95
+8a52038d-7f09-45ba-9ef9-92a621aa1b1a,2024-10-24,Office Supplies,Pens,West,631.97,261.36
+3231123f-05fa-4ecb-96cf-a0c3ed8c39c6,2024-09-15,Technology,Phones,Central,790.72,-86.65
+876c6334-1374-4fa4-a968-85e15bb39720,2024-11-02,Office Supplies,Pens,West,99.23,18.04
+c889de19-8765-4efc-a4c3-689c4e47cb06,2024-11-17,Technology,Laptops,West,208.79,214.61
+a33b97d5-1207-4d68-b153-760c2e3c148f,2025-05-22,Office Supplies,Pens,Central,832.17,2.79
+ff381d19-e925-4d9a-8ca6-b9973cd98936,2025-03-10,Office Supplies,Paper,Central,806.19,87.33
+79e6e791-ce7f-44b8-a2ef-6f3af680d84b,2025-03-29,Furniture,Chairs,West,861.54,189.69
+ec9c5bf7-e5a4-44db-8f3c-55764c275853,2025-02-21,Office Supplies,Pens,Central,99.4,57.83
+1aef289b-fb3d-4e5f-bede-5420baa86ad9,2025-06-15,Office Supplies,Pens,East,460.24,169.13
+67d81382-65d7-4bf6-aee6-f672233b51e4,2024-11-22,Technology,Laptops,South,824.19,276.12
+c5f9efa3-e369-4911-87b7-bc0d58328b30,2025-05-04,Furniture,Bookcases,West,476.76,147.82
+eae4369d-db7c-44d3-8b1d-e873a2f1f9db,2025-04-08,Technology,Laptops,West,651.18,154.16
+0b6c7982-e386-4728-9a86-117103648779,2025-05-21,Office Supplies,Pens,Central,652.75,-53.33
+0c2ad956-1f4f-4152-a2b1-4fe371364016,2024-08-14,Furniture,Chairs,Central,995.97,-53.55
+9c7dff9c-72ca-4e08-b0ef-ff408db38675,2025-06-10,Furniture,Bookcases,West,394.76,48.4
+9ea31fa3-6868-4392-af0b-035c7d1c2fe7,2024-11-02,Technology,Accessories,South,591.47,190.64
+042b047c-d686-4756-9e8e-9eeef552e663,2025-05-26,Office Supplies,Pens,East,835.36,146.26
+74049e0f-f636-45d8-871c-a51ff0acc9d4,2024-11-09,Office Supplies,Binders,Central,225.1,77.88
+4539e22f-f77f-4a45-95cd-590094acc53e,2024-12-12,Furniture,Tables,East,981.12,46.93
+c19a0d51-771e-4aa7-b0a9-74d816a8a15b,2025-04-23,Technology,Laptops,East,404.16,-24.08
+42f68a20-d5ab-4581-a27f-a32d5a118daf,2024-10-28,Furniture,Tables,East,666.14,156.68
+eecd2e56-fd2b-48ec-a532-f374b5c5b885,2025-06-12,Technology,Phones,East,788.93,-2.57
+1c27a17b-cfdc-4a96-9741-3e45a94dc31d,2025-01-19,Furniture,Bookcases,West,77.92,206.06
+63268b3e-f82d-43e7-9a51-f058e8d9519d,2025-02-21,Furniture,Bookcases,West,814.92,-6.8
+7b8f1a3d-9acf-48fe-92ce-5e02779ca6ce,2024-09-06,Furniture,Bookcases,East,284.5,293.61
+62b9fc3c-b023-47bb-ab0d-d80333de2521,2025-05-18,Furniture,Bookcases,Central,800.53,-56.03
+ceedb526-1e83-44dd-9148-d298628bc782,2024-12-06,Furniture,Chairs,East,364.66,215.37
+4abe4cb2-ee97-47f6-99ef-33d9a4b3371c,2024-11-30,Technology,Laptops,East,182.5,-79.04
+3d032948-141f-4d77-85f9-e4da40dbe5e4,2025-06-09,Technology,Laptops,East,748.21,90.5
+5e40b3ec-a22a-4f9f-81dc-969790007928,2025-06-01,Office Supplies,Pens,East,457.49,-11.38
+88d7bc72-76c1-4898-8564-af7ac70de460,2025-02-08,Technology,Phones,Central,463.46,285.61
+d2a620af-44da-4b33-a4ae-e16cfd8354e3,2024-08-03,Furniture,Tables,South,432.01,-56.82
+c1ae898e-d6dd-4527-9b67-9369cab7668a,2025-05-03,Technology,Laptops,East,900.27,28.84
+b07c30d8-e756-4fdf-8b39-34e326e1b57f,2024-12-15,Furniture,Chairs,West,282.27,153.23
+0812cc4e-82c5-48ef-8122-c279168ea8b0,2025-02-13,Technology,Accessories,Central,387.1,138.96
+28e0c62a-c66f-4051-b243-97ca9f6b928a,2025-02-13,Office Supplies,Paper,South,108.19,180.71
+2e823c30-25ef-4f6c-91d0-6477b601b861,2025-06-13,Technology,Accessories,West,435.77,255.24
+620c442d-5780-4939-b9e1-a61b01b0b723,2025-01-13,Office Supplies,Paper,South,404.74,191.85
+e5f6fb2a-df3c-4fe8-84f6-909b883f3307,2025-04-13,Office Supplies,Paper,Central,668.46,49.72
+059c064c-e12d-444a-953b-57a5b44a68ab,2024-12-11,Furniture,Bookcases,South,76.46,232.71
+412bb506-fd5b-4dfa-a997-794360376158,2024-08-29,Furniture,Tables,East,747.14,49.06
+b71390ff-6042-4e3a-bf70-54f6a04bfedb,2024-09-18,Furniture,Bookcases,East,590.6,124.63
+af757f48-46f6-44e6-9883-2582e978a745,2025-01-01,Office Supplies,Pens,East,416.7,249.44
+675b9dea-8607-45ed-b9cd-31067aab070a,2025-07-09,Office Supplies,Pens,East,968.71,140.16
+a0a01d87-2df8-4392-9808-4b17708a899c,2024-08-06,Office Supplies,Binders,West,163.18,92.88
+9ff64c9f-cecf-4697-beff-dbb37e5a9174,2024-10-02,Furniture,Tables,Central,123.74,11.43
+7f00ac6e-e901-4cd6-b12c-a5591a846124,2025-02-06,Furniture,Tables,East,612.9,163.13
+0fe32fb4-f0c4-4513-9868-1148c561e2dd,2024-07-31,Technology,Laptops,East,188.61,181.08
+bd0f57c0-f1c5-4816-a643-9ee25539061d,2025-06-19,Office Supplies,Paper,Central,16.04,247.95
+8a23297b-bef0-466f-91f9-ffc84864cae7,2025-02-04,Technology,Accessories,South,78.89,196.39
+ca33782a-d16c-49c0-b33b-100a1394bc0b,2025-04-07,Furniture,Chairs,West,382.43,81.46
+cd71a27b-775f-4203-951c-f14ac31a540d,2025-02-17,Furniture,Tables,Central,724.38,210.73
+04fa30e3-b369-433a-87bf-e97fe2a46279,2024-12-30,Technology,Accessories,East,884.51,-37.77
+0b6bf676-bec9-4ffe-b216-a7d4c2c0512b,2025-06-22,Technology,Phones,East,279.38,164.78
+0b3d32ab-253a-4d26-af68-87b873fc6cb8,2024-12-11,Office Supplies,Pens,South,420.04,-13.77
+fe451236-b4eb-4834-8525-e5f83e99777f,2025-04-20,Technology,Phones,Central,435.61,13.3
+734a3892-c5e1-48a7-9146-89023b7bee2a,2025-07-18,Technology,Accessories,South,531.66,23.37
+b8dddeaf-3395-4a3d-8a02-e8a709bb5d77,2025-01-16,Furniture,Tables,East,17.61,20.57
+114888c0-8170-4032-840f-5c7bd1c1d663,2025-04-12,Furniture,Chairs,Central,296.55,-52.01
+d8d359d0-df13-4840-820e-956581a4063d,2025-06-02,Office Supplies,Pens,South,183.94,52.08
+f552983f-5da2-4566-ab72-7ae8833f6819,2025-02-03,Technology,Phones,Central,81.35,244.71
+52f1bdf0-605f-4a86-a4f6-bf45b363cc79,2024-08-30,Furniture,Tables,East,465.16,-68.85
+b3e29a79-5520-4ec0-974e-2e0f029565e0,2025-04-05,Office Supplies,Pens,South,577.67,183.8
+8087fb55-38a9-4a4f-8930-926bd805e948,2025-07-11,Office Supplies,Paper,East,410.98,286.48
+e3f3bac7-f150-4fc8-b69b-ab91be5eaec4,2025-04-27,Furniture,Bookcases,South,833.71,267.91
+b21d86a6-b9c9-4b4a-b9e4-6eeb46dd4500,2025-02-14,Furniture,Tables,East,250.88,135.55
+6248029d-87b3-4dfc-9446-97333b6063ce,2025-05-15,Technology,Phones,South,871.82,198.32
+7438c14c-2479-44f2-a4e5-2672c5a634ab,2025-01-24,Furniture,Tables,West,85.62,153.29
+a07712dd-fe77-4bb4-897b-effffa3ea396,2024-09-15,Technology,Accessories,West,906.86,39.75
+bd22dd8a-55e3-443e-83d6-36ee4a2ac913,2025-06-05,Technology,Accessories,West,243.91,-41.42
+1a495112-c017-4758-9a0b-c0c0dc61d8a0,2024-08-23,Furniture,Chairs,West,762.61,162.2
+ddb8a867-9a28-4645-85a0-c29b466b7d09,2025-03-22,Furniture,Bookcases,South,469.31,125.49
+eacb2f9f-e3c6-4b3c-be7e-69979881b3a7,2025-06-02,Technology,Laptops,Central,865.6,150.89
+96dba90d-ffee-4b92-8196-2d70eedcfc0a,2024-09-23,Furniture,Tables,East,474.23,152.55
+c75d1444-b246-45e2-9465-6b7ea91d611c,2025-01-14,Office Supplies,Pens,East,358.42,-70.32
+f96be40f-42d8-4792-928a-2e661fcc9cf4,2025-03-26,Office Supplies,Paper,East,66.32,232.68
+bf017081-6a33-4bce-8489-2b6c1a3d061c,2024-12-28,Furniture,Bookcases,East,618.86,102.83
+bf87a6a1-84b9-4960-89f9-3c77a6d47a7a,2024-11-15,Office Supplies,Pens,East,455.24,223.93
+addb2746-a889-4eea-abd7-cb580612ca93,2025-05-30,Technology,Phones,Central,608.96,100.55
+8b184a13-7690-45d0-910a-07f13e12a89e,2024-11-19,Furniture,Tables,East,812.86,234.95
+0e2ef1a7-7089-41ea-a773-2b948c77921b,2024-07-26,Technology,Phones,West,48.75,183.05
+2c26e434-ccf1-4835-930d-0373c3b4b090,2024-07-28,Office Supplies,Pens,West,370.26,267.17
+79a7f784-032c-4cc1-aa20-e8e9e11a8b41,2025-01-11,Office Supplies,Paper,Central,682.11,-79.05
+4a97d950-6cb5-4efc-8227-3c3132605975,2024-10-16,Technology,Accessories,Central,75.25,-62.2
+90fc62de-3640-48c3-ba42-f3cdd438f626,2024-12-06,Technology,Laptops,Central,259.48,240.63
+4a09385d-2945-4ee2-bb80-f6786852aee5,2024-09-24,Technology,Phones,Central,90.69,165.44
+a82da2f8-4f5b-4e2e-9cc5-dd474ddc2d96,2025-01-10,Office Supplies,Paper,South,137.66,183.53
+1cfbf9e0-1aec-4042-ad31-8529dbb1e9e4,2025-07-05,Furniture,Tables,South,647.06,31.39
+444516a2-f7cb-45a9-9b9b-ec8d7087395a,2025-05-19,Furniture,Bookcases,East,649.56,69.36
+7578e136-c300-4e0a-97ad-1b7ee3f45c68,2024-09-10,Office Supplies,Binders,Central,315.78,280.47
+a91c32b3-668a-40e9-82f1-c8776e0c42aa,2024-09-11,Office Supplies,Paper,West,234.28,-44.97
+5a8c9479-618f-4976-bdda-8887c23d20f4,2024-12-27,Furniture,Tables,East,512.61,115.91
+2227c616-67a5-4794-b550-465fecd180cf,2024-10-07,Technology,Accessories,East,665.31,250.56
+610555ab-259b-4311-bcbc-03f77aba028b,2025-03-23,Technology,Phones,South,162.71,-27.66
+a857df78-0915-4835-b8d0-3e58070af066,2025-05-13,Technology,Accessories,West,723.97,-82.52
+2369ab01-0e69-418d-b8db-2b57577997ad,2025-06-09,Office Supplies,Pens,West,969.89,144.24
+5b20644a-80a5-4a78-a86c-439804364d75,2025-03-20,Technology,Laptops,West,538.67,23.79
+1b8cd850-769a-400a-a9c0-3b27f32b99e6,2024-08-28,Office Supplies,Binders,Central,681.52,128.17
+34d05bee-efa3-492a-8248-e2928fa6b78a,2025-06-15,Office Supplies,Paper,Central,780.34,101.16
+10c049a8-5bd7-4306-bb66-f4b9ce422915,2025-03-13,Office Supplies,Binders,West,803.25,-44.64
+bd944c43-fc1c-40b0-9a7b-cdd5f1bb7fb9,2025-02-17,Office Supplies,Binders,South,875.38,121.82
+401b6a76-e647-48aa-bf3b-796cb261c564,2025-07-23,Furniture,Bookcases,East,292.21,205.25
+7bdfd134-f8e1-409e-8762-bd982ae17515,2024-10-13,Office Supplies,Paper,West,832.74,-63.31
+244030ae-8daf-41a0-ae60-01cd36562ba0,2025-05-13,Furniture,Tables,Central,931.17,65.96
+3448d608-18f5-48fe-9696-cdc0f889efc5,2025-01-24,Office Supplies,Pens,Central,243.42,297.81
+143f19a7-c4d1-4ba6-971b-4ab06ab96e14,2025-06-22,Office Supplies,Binders,East,325.5,-60.37
+2941f223-4127-4777-b244-dc0d5589dbde,2025-03-26,Technology,Accessories,Central,793.47,-44.96
+29436055-0300-48df-88ed-10e6801ef7ca,2024-08-24,Office Supplies,Paper,West,761.25,87.64
+93bb749f-e522-4585-8401-afa00a345de3,2024-07-26,Technology,Phones,East,28.81,-13.74
+c9ed8aff-f249-4730-9dd6-9093f624a6a5,2024-08-22,Furniture,Bookcases,South,120.07,15.24
+bb1a22c8-d92d-42db-af38-ea50a6264948,2025-06-18,Office Supplies,Binders,East,246.06,155.58
+fb0f28fd-5b26-4b53-ab7a-1ceee4341b04,2025-03-17,Technology,Laptops,East,119.75,262.06
+350e68c3-56a0-4f2b-b04b-c4605bfd3893,2025-06-26,Technology,Accessories,East,635.64,130.02
+63f0f52d-d188-460d-8d44-c8bdba232a69,2025-04-09,Technology,Phones,Central,434.95,145.92
+17d2a34d-87ea-4495-9448-f93c55c0b1ce,2024-10-03,Furniture,Bookcases,South,195.44,167.29
+13bd7cdc-1cf6-416f-9189-39638a70f4cf,2025-01-06,Technology,Laptops,East,953.87,117.63
+9fdc2a88-f5f4-4de8-8e6f-f5be43b773e1,2025-03-16,Technology,Accessories,East,396.55,88.05
+8a599809-6d25-4efb-8c08-0d3f6d8c17fe,2025-07-22,Technology,Laptops,Central,261.11,-93.5
+b6b38057-5042-4abd-9a20-f69ddfe090cd,2024-12-13,Furniture,Tables,West,735.61,151.3
+e257f3d8-6da5-4891-a840-4094dc779162,2025-06-10,Technology,Accessories,Central,142.08,40.92
+cc91db21-917f-4289-b182-2cd1c4dcfeb0,2025-05-08,Office Supplies,Pens,West,832.08,173.87
+6e2bb83b-94fc-4ecd-8b01-fe7b052aa6d7,2024-10-22,Technology,Laptops,West,813.38,-74.76
+632bd88e-7adf-4cef-a923-c8564275ba70,2024-11-25,Office Supplies,Binders,Central,209.58,216.44
+ee7b7306-8313-4940-b762-02db80b2604d,2024-08-26,Furniture,Tables,Central,520.23,295.65
+4bc2eb93-0cd9-43cb-a276-a5d0f7bb8388,2025-05-20,Technology,Laptops,Central,46.25,158.76
+8176b511-3e23-47ad-b427-7cea75892f52,2024-10-16,Office Supplies,Paper,East,867.14,32.77
+166f6da6-0bb2-4ae6-9aa8-a7485b142c24,2025-01-08,Furniture,Tables,South,890.59,197.32
+328a265f-bf26-479a-983d-5f33ab8cf610,2025-02-23,Office Supplies,Paper,West,501.24,99.01
+11d353e9-76b1-47fe-80c9-22567d20ee9b,2024-12-23,Technology,Laptops,East,729.81,-68.43
+ea23ad5c-d903-471a-b2cf-61f671cb8faa,2024-12-01,Technology,Phones,Central,328.0,-67.97
+a139fc25-3bc3-4328-b9c6-c1bb42bc2841,2025-05-04,Technology,Laptops,Central,451.46,187.07
+a4886acf-17dd-4253-8a36-32139bbbe867,2025-04-30,Furniture,Bookcases,South,358.03,-83.06
+f2c9fc91-ff5e-49be-a513-0645a02dbbb5,2024-09-02,Office Supplies,Pens,South,281.81,292.01
+07365458-63fb-4152-914e-35c7512d6a5a,2024-11-27,Furniture,Chairs,South,369.68,220.44
+376c4e01-3b2f-47e3-a86a-d796c23bf395,2025-02-18,Technology,Phones,East,151.35,143.03
+310a7dbb-711e-4977-a1cb-64d561747ce9,2025-05-30,Office Supplies,Binders,West,76.56,211.41
+7a4360f5-dc1b-4127-99e9-f0f0ac677fc1,2025-03-19,Office Supplies,Paper,South,949.97,-87.05
+464b4358-009d-421c-8223-33b7e1748d22,2025-02-06,Furniture,Bookcases,South,949.34,48.81
+fb047510-1bf0-4736-be01-a19892d95fec,2025-03-09,Furniture,Bookcases,West,534.17,59.21
+48e974f6-9315-4c3c-bdb0-063238f4f9b2,2024-09-26,Technology,Laptops,West,960.91,-89.63
+07fd88a3-6ebd-4eed-adfb-2b13cfcabf73,2025-04-06,Furniture,Tables,South,914.41,-52.9
+912c11e7-d225-4ae0-92ce-511d13751730,2025-02-20,Office Supplies,Pens,South,222.42,144.75
+e3b326a3-4d56-4ca4-ad28-705ad734f4fb,2025-02-05,Technology,Laptops,West,131.41,241.13
+68cb7fb3-083e-40bb-b07d-68cd3076cade,2024-11-14,Office Supplies,Binders,South,997.29,224.21
+38754f3a-ea7d-414a-b213-23ecf55635da,2025-05-02,Office Supplies,Pens,Central,712.45,120.0
+0f684adb-dc34-4f55-8466-efdaff074809,2024-07-30,Office Supplies,Paper,West,714.69,270.93
+e1323ceb-efab-41d8-a29d-ba07002792b1,2024-08-27,Technology,Phones,Central,513.67,-51.46
+0cb0b882-5372-460f-bbe3-7e6ce5b8913b,2024-12-14,Furniture,Chairs,West,792.47,-89.49
+63bc4640-9623-4a91-ad45-67fe9a33b4d8,2025-02-10,Technology,Accessories,Central,472.73,293.2
+c5ec8eeb-d22e-4f84-b17f-271eec2b0b75,2025-03-15,Furniture,Bookcases,East,75.09,59.26
+8d39bfc4-8940-42ce-96fa-9cbf3a2c33b9,2025-05-19,Technology,Accessories,South,530.44,207.67
+44655a30-7082-46d7-9580-f31e45a340e4,2024-10-27,Technology,Phones,West,972.66,156.94
+3b0862e0-3f38-40bf-a671-7f00471aaf98,2024-09-25,Office Supplies,Paper,Central,137.05,231.62
+04ed276d-d1d5-4036-a6c8-a7c95ea56fba,2025-06-22,Technology,Accessories,West,770.1,-48.39
+fc525faf-792e-4fe7-a234-e215a0414957,2025-02-06,Technology,Phones,East,522.92,21.65
+0b87098d-1c98-4cea-98b2-f43de830ba3e,2025-01-14,Furniture,Tables,West,352.56,276.36
+d01a22ef-69f4-4f61-925b-108259792603,2025-03-01,Office Supplies,Binders,Central,204.34,282.54
+668d3da7-fc63-4703-8967-5dce17fd7e93,2024-09-14,Office Supplies,Binders,Central,618.28,-62.63
+78e03c78-8a0e-4bb4-8062-04fadd5c7157,2025-06-25,Technology,Phones,West,179.49,149.79
+6e0f02bc-bb6a-4278-93ef-994762872202,2025-07-06,Technology,Laptops,East,826.98,-88.65
+412a80d5-3691-4a89-b268-afed25e11c46,2025-01-03,Furniture,Bookcases,Central,654.62,206.78
+bc48ff1f-ec11-4fd0-b07a-2fbf65806ab0,2025-05-16,Office Supplies,Pens,East,503.06,150.87
+dc0b0199-7ca7-41ca-afb7-0fee2f70b164,2025-05-25,Office Supplies,Pens,Central,488.12,221.88
+1da767e5-a02b-46fd-aa31-5c6bf466aac0,2024-10-19,Technology,Laptops,Central,459.01,175.45
+105d2fe2-1f36-4585-bcba-f7a3b31b5d77,2024-07-28,Furniture,Tables,South,489.41,-18.39
+781ab250-2fd1-44af-a622-b99a007df356,2025-01-05,Technology,Phones,Central,862.87,27.73
+3cbeaf34-7c3d-46db-ac33-449ab6468252,2025-04-10,Office Supplies,Paper,West,763.06,105.99
+b9027b48-6e48-49b5-bff9-a09f6ab9db71,2024-11-14,Furniture,Tables,West,471.81,6.99
+44f543d4-c13c-49f9-b846-a707f0e1c060,2025-06-28,Furniture,Chairs,East,60.1,278.15
+c09181a7-31bc-42d2-9a92-3ad5aba026bf,2025-07-10,Technology,Laptops,West,963.06,260.92
+d0e20e69-2d29-42e7-93a6-6dc104478ac8,2025-02-21,Office Supplies,Pens,Central,197.94,-36.26
+9301f7ad-5acf-48ce-b173-074faaf91106,2024-12-29,Technology,Laptops,South,880.28,98.95
+f46c05d2-5f72-4c2f-869c-e2db3b4565cd,2025-05-21,Furniture,Tables,South,967.02,-13.94
+d02b8437-53c4-49a0-8fa9-cab070f46f57,2025-01-11,Office Supplies,Binders,East,288.54,139.01
+7ed6429c-434f-4576-b622-e00ec21c35ac,2025-05-14,Technology,Accessories,South,292.89,-96.73
+a958a461-ccad-4e25-82f0-732042a716af,2025-03-02,Furniture,Tables,West,883.63,191.0
+c7a90189-fdf8-4779-be25-43acff395f9b,2025-04-02,Office Supplies,Paper,East,406.58,128.11
+d3f867f3-c542-4d01-b47a-2f931be45c6d,2024-09-28,Furniture,Tables,Central,82.8,101.7
+7987e0de-b7a0-47f4-ade7-930b971d4e10,2025-03-19,Technology,Laptops,East,137.38,-61.33
+c551b6ab-18a9-4ea5-bdf7-decfea304340,2025-01-29,Office Supplies,Paper,Central,757.42,-20.38
+89ffd36f-8731-4063-90af-1bfb5fb02d12,2025-03-31,Technology,Laptops,East,54.85,-45.19
+36cb4468-a535-4d25-aa8e-88f95e0c095c,2024-08-26,Office Supplies,Paper,South,157.45,257.25
+ed16af6b-791e-4578-8386-1c196bf6494a,2025-03-16,Furniture,Tables,Central,170.88,296.25
+80196f82-b54c-4031-86fc-2d941c0f8cd9,2025-04-22,Technology,Laptops,Central,512.24,103.89
+19161996-389c-4a96-a3fd-8c29de3bc143,2025-07-17,Office Supplies,Pens,Central,480.14,-93.35
+45f6f84a-e70c-48b3-b1a7-e63719c67474,2025-05-23,Office Supplies,Pens,East,980.1,133.48
+93e19d32-826b-46ca-aa60-864d90eaf4ac,2024-11-29,Technology,Accessories,East,600.94,6.21
+d51b63b8-b6af-4fc8-9d70-f2fb05daa06b,2025-03-22,Technology,Accessories,West,724.19,133.41
+3ab34f4d-e6e0-4b4b-ba24-f07e77e3725e,2024-11-15,Furniture,Bookcases,South,156.3,172.29
+02e6fac9-cb91-4c2b-95db-3c516e4e8da1,2024-08-16,Furniture,Bookcases,East,198.88,76.42
+162cad42-cbc7-4323-80bc-e0eb406cbe3c,2025-07-08,Office Supplies,Binders,South,693.6,64.15
+864b28b6-62c0-4140-a210-aeb2ff634fd1,2025-01-21,Technology,Laptops,East,708.72,107.47
+72162232-c583-4b8b-ae82-c7a87b1339a9,2024-07-28,Technology,Laptops,South,530.22,25.5
+7305a36c-f701-4098-a94a-767bfbdcb3a5,2024-10-19,Furniture,Tables,Central,550.81,170.35
+61a341b2-18a3-41bb-b86b-5f632d79d3ef,2025-05-04,Technology,Accessories,Central,613.98,-23.09
+e4c028b3-2900-4ee0-9fa6-3f710391a582,2025-04-23,Furniture,Tables,Central,232.62,289.16
+d7482dbe-d4b3-40aa-baeb-85f34c17a7eb,2025-01-25,Office Supplies,Paper,West,693.34,95.6
+3daf7d68-f5e7-4a33-b640-89c93a879971,2024-10-16,Office Supplies,Paper,Central,294.91,129.39
+d017e34f-f5a0-4e01-9e9a-44faab9e65ef,2024-09-14,Technology,Laptops,South,820.19,281.84
+83bc4fc7-f227-4ce0-a940-624f1087dd70,2025-06-03,Furniture,Tables,East,294.75,185.66
+c34d6a66-c16c-4a48-becb-b03963fb60fc,2025-04-07,Office Supplies,Paper,Central,749.87,-14.41
+d9c3359f-eaa0-4cf4-bde5-a6588a84092d,2025-03-22,Technology,Laptops,Central,145.9,146.27
+d9959c0c-d351-40cc-9498-2bc62b315e08,2024-07-28,Technology,Phones,West,60.26,262.07
+2ec1525a-78c3-45e3-8f79-dff59523c86a,2024-07-31,Furniture,Bookcases,West,61.97,65.32
+33f54441-d925-4e41-94d3-5bb2fd7330e6,2025-06-09,Technology,Laptops,East,684.38,-45.01
+97d22717-f206-4df8-a59f-471d3613fc7d,2025-05-17,Technology,Phones,South,656.36,252.26
+a20a0c9d-83c8-453a-9898-340a4255cfa3,2025-07-03,Office Supplies,Paper,West,758.35,14.9
+f39115e8-c259-4503-a7a3-5ef0c22ae1d8,2024-08-16,Office Supplies,Pens,East,908.86,-64.22
+20cd8314-ecb8-4872-b521-b3440e4617cb,2024-12-21,Technology,Phones,East,914.1,-29.97
+b62cb815-8aa4-4790-816e-faa615be090e,2024-10-03,Furniture,Chairs,South,790.08,-25.48
+0463399e-1d3d-4a36-8d1c-beabe5b3bf5e,2024-11-17,Technology,Laptops,East,19.17,127.18
+c1c3ab0f-779e-4cd1-9c13-db9ad9658e64,2025-04-29,Furniture,Tables,Central,459.81,156.52
+6d7ee69a-d518-495e-8fd2-043e2b382818,2025-05-15,Technology,Laptops,West,852.55,87.21
+0899fd3a-ff2a-49f6-a844-370787c2781f,2024-09-15,Furniture,Chairs,Central,170.87,83.57
+73dbc933-6278-4a33-aefd-90b9f263a0bb,2025-01-11,Office Supplies,Pens,West,23.94,34.84
+5ee75716-aaba-4f3c-8d3f-e5536ddce3ab,2025-05-02,Office Supplies,Pens,West,183.74,242.46
+b7583695-f237-45bb-b92d-2c9f54344dc6,2024-10-02,Office Supplies,Paper,Central,95.87,167.7
+58e8f6ec-c3bf-45b8-9793-b0d5d8c1163d,2025-01-08,Furniture,Chairs,South,330.37,-0.78
+c456d7a2-f505-4604-b535-d79510f86c79,2025-05-05,Office Supplies,Paper,West,452.27,6.8
+20196c2d-e35b-41d5-8e3d-b507cb504e4e,2025-05-28,Office Supplies,Paper,East,268.94,43.82
+7eacb9bb-e338-42d6-bc76-4c61e110deee,2025-02-17,Furniture,Chairs,East,470.74,-36.11
+27f72aee-cf7a-44d5-980d-c07164ef074e,2024-12-14,Technology,Accessories,Central,693.39,155.48
+a7d3e9a0-4816-42a2-941e-47a0cc5f3fc2,2024-09-30,Office Supplies,Paper,West,226.94,-46.57
+2ef2c458-23e9-4062-8565-b09cac3b385b,2024-12-24,Furniture,Tables,Central,421.69,119.69
+06bc49e9-688a-46aa-8d21-8bf3c405b9cc,2024-08-20,Office Supplies,Pens,West,764.24,172.14
+5e14502f-988a-4d44-b808-1051c639ebfd,2025-07-06,Technology,Phones,South,532.89,44.71
+214d8107-959f-45a4-bb94-2473934006a8,2024-12-07,Technology,Phones,East,830.49,261.16
+f81988cc-dbea-498f-adb3-d8612b2789e6,2025-05-13,Furniture,Bookcases,West,172.89,241.79
+0d921d3d-e8b0-43dd-a821-63ad92ab36c1,2025-07-06,Office Supplies,Binders,West,719.75,95.53
+a63b2678-86ce-4678-a472-c5be99f3607b,2024-12-17,Technology,Laptops,East,458.9,105.3
+61e19b47-4c31-41ac-aa37-d1aaa5193876,2024-12-18,Office Supplies,Pens,East,563.21,169.11
+1f9bef8c-4278-4244-ba7c-032e00d450cb,2024-08-16,Office Supplies,Pens,East,401.99,226.58
+5e669992-6260-4a85-8c32-587f7c910b26,2024-10-09,Technology,Phones,East,54.84,37.81
+223bc689-53db-4ed6-aa6d-3a16bcd50d06,2025-02-28,Furniture,Bookcases,East,935.24,-72.39
+b862a42d-a623-4658-8f43-79f3835d61b2,2024-09-23,Office Supplies,Binders,Central,414.78,207.59
+32ec443f-86d2-4b01-8f20-1e509d397b91,2024-09-03,Technology,Accessories,South,380.72,256.53
+aa5a5a04-2d13-44df-8e87-0bbccf81bf7c,2024-09-17,Office Supplies,Paper,South,89.45,285.66
+24773edf-a59a-49c4-93f6-940ba45a14c3,2024-10-01,Technology,Phones,Central,127.45,297.14
+a6140995-2497-46fd-91f6-dfb306ea7cbe,2025-07-05,Office Supplies,Pens,West,730.58,-10.92
+58582bfe-64fa-4e6d-a393-d8205efb390c,2025-03-13,Furniture,Chairs,Central,468.37,187.64
+b8535d00-5fa8-4eb8-8373-0add6324d5ec,2024-08-11,Office Supplies,Pens,South,825.13,-1.0
+5a61093d-500c-440c-925e-5fd0792aeb77,2025-07-12,Office Supplies,Binders,Central,196.6,250.08
+d75f61b5-1ad6-4ae8-ad9d-c30a5562759b,2025-04-13,Furniture,Chairs,South,618.77,274.5
+42f50a2d-a08f-48a6-9a3d-42834197c279,2025-04-23,Furniture,Chairs,West,76.62,137.58
+f341b260-98d3-4385-83c6-37181ff49ca7,2025-07-02,Office Supplies,Pens,East,252.29,-82.31
+df66a2ce-7ba9-4179-aa59-987798251246,2025-04-27,Office Supplies,Binders,West,756.84,210.43
+fdf0181c-1fcf-4233-a29d-304322343a40,2024-11-21,Furniture,Bookcases,Central,241.82,266.56
+0a6f1803-426e-42cc-afb1-d7c60c344f19,2025-05-07,Technology,Laptops,Central,244.53,250.5
+2f45a205-ff18-4e13-9e34-c25e8800a511,2024-10-06,Technology,Accessories,West,419.42,10.06
+140b144a-dbe2-4c0e-be25-63da46f2ba83,2024-11-06,Technology,Accessories,West,629.73,70.88
+b00442f6-8f0e-4595-979c-452f591b3d95,2025-04-04,Office Supplies,Binders,Central,942.17,168.54
+9aaafebd-f692-46ef-aac8-2c6e47109998,2025-04-07,Technology,Laptops,South,414.18,19.96
+793aa391-3fe9-49e1-99ef-0f1aab243e58,2024-10-16,Furniture,Bookcases,South,248.56,-9.86
+b5ecdc07-2c90-450a-be6e-964e158dc3d6,2025-05-07,Technology,Phones,South,915.59,124.95
+721f1ce8-2196-4de3-b1ca-008b757df602,2024-08-29,Office Supplies,Pens,West,394.53,2.0
+66824e50-a747-419a-849e-59820226c307,2025-03-15,Office Supplies,Pens,East,923.0,238.85
+8de4c7c1-3e17-42ea-95bf-55d23728695c,2024-08-27,Furniture,Bookcases,West,61.02,50.87
+b19aa789-cdb5-44a4-8cf1-50def9b03650,2025-04-13,Technology,Accessories,East,874.88,-24.73
+85d97688-67e6-463d-95a9-d3eda6622ba8,2024-09-10,Technology,Accessories,West,484.6,247.79
+c05409d6-3728-4726-bd0d-e4aeba6750ea,2025-05-29,Office Supplies,Paper,East,219.69,-23.99
+323bdb78-9476-467d-ba76-e4fd1f21372c,2025-06-08,Technology,Phones,South,915.3,178.25
+3dbb9785-92b5-484b-b791-d8f89b297504,2024-09-20,Technology,Phones,South,915.98,120.83
+33936cee-9453-493b-974a-00016de0b132,2025-03-27,Office Supplies,Paper,South,538.31,43.7
+c6abee97-ccc4-45c4-a442-21eee2f74079,2024-09-23,Office Supplies,Paper,South,471.34,221.13
+c5a7d8fc-521d-405c-9551-b2081cd501d8,2025-07-08,Technology,Laptops,Central,915.19,48.28
+42ba9b9f-2314-4749-8f68-968c67b14638,2025-01-02,Office Supplies,Binders,West,743.84,-93.51
+fe2aa371-3c73-4ec8-a686-1aa884b51f00,2024-11-28,Technology,Accessories,South,302.24,-21.52
+7edd9436-5ade-4d4e-b78b-f5db1f1b51d7,2025-04-02,Furniture,Tables,West,504.31,161.84
+ae5f3e45-cfe0-487d-9f32-5448826643f1,2025-03-30,Technology,Laptops,Central,765.73,95.45
+8cd3128a-18e6-48b1-9d71-23a2a9894b5a,2025-03-19,Technology,Accessories,South,466.22,193.11
+d0d48616-325a-4319-b679-d6699fc4b6c9,2025-02-16,Office Supplies,Binders,West,723.11,95.33
+30e24478-0922-46cb-ae9e-215418346439,2025-02-22,Technology,Accessories,East,528.7,235.63
+81512ee4-7cb7-4165-bac2-703ba58f724b,2025-06-27,Furniture,Bookcases,East,766.7,64.96
+13059615-2ce4-4bbc-bd94-8287a7f70e1d,2025-06-19,Technology,Phones,East,710.1,-96.34
+e386cd53-ad22-47fb-bb3b-018aec5192d4,2025-07-13,Technology,Laptops,Central,69.85,155.09
+5b1b55f3-aa49-48ef-b7cd-0a66ac06a7f7,2025-06-27,Technology,Laptops,South,25.57,112.88
+fd3282ac-dd08-4b76-acc0-55d14a85edd1,2025-01-15,Office Supplies,Binders,East,534.12,9.9
+01115ff9-876f-4c24-91a1-849ac8aebf8b,2024-09-22,Office Supplies,Binders,South,808.11,263.91
+fb583f1a-d825-4680-ab19-954f5ba113aa,2025-06-13,Furniture,Chairs,West,248.56,147.91
+dce85f64-e325-48fe-b59e-d726c80b0d8b,2024-10-22,Office Supplies,Paper,Central,796.99,-68.39
+8c58831f-8c44-42cb-85ce-5da4e48c7e1c,2024-07-28,Office Supplies,Paper,West,990.33,-9.66
+e848308a-0e00-41d6-af07-3c65353eac0c,2024-10-23,Technology,Phones,East,102.57,51.71
+7f85076a-fac2-47d6-bfb3-3f1a47d3d6a4,2025-06-02,Technology,Laptops,East,640.38,181.14
+b4fd47bf-6a14-44e4-9101-d31d696e34e3,2025-01-27,Furniture,Tables,South,648.46,32.51
+d0e694f7-ec24-45a8-bf0e-9314d07cc713,2025-07-21,Furniture,Bookcases,East,237.47,260.51
+9ade0d8b-d373-4b60-92f4-1cde32128503,2024-12-10,Technology,Accessories,South,278.38,269.66
+78717e21-9d2f-4d08-b078-d594ae41c43f,2024-11-02,Technology,Laptops,East,187.56,240.17
+3c16bfa7-7724-4a43-b72e-110c789ea1e8,2025-07-09,Furniture,Chairs,West,754.73,185.08
+0cb723e6-7ef6-4f2a-9a74-d6d3cf3794ee,2024-09-13,Office Supplies,Binders,Central,170.83,-3.81
+3cef04ea-6e21-4f8d-a238-df7dd77b26e4,2024-11-09,Office Supplies,Pens,Central,390.01,195.9
+840dae5d-680f-4ef0-94cf-614947d86bbd,2024-12-22,Technology,Accessories,East,505.78,289.73
+f72a3e09-ac13-49ce-96b0-8f3ad410528b,2024-10-06,Furniture,Chairs,South,239.82,-69.59
+bce1afcc-01f6-48a2-be05-0af75c18ac0d,2024-12-13,Technology,Accessories,South,969.23,30.55
+e7e93883-2547-4f99-a273-9b39ad3f5bf0,2025-05-15,Technology,Laptops,South,495.7,42.32
+e265e93b-eb6f-4f0e-ac10-c2028e77df0b,2024-09-29,Office Supplies,Paper,West,682.9,164.27
+c3866328-473c-47b2-a57c-ab279194291c,2024-09-28,Furniture,Bookcases,Central,800.07,185.24
+42f3111b-1caa-4706-bb42-21e842cd7d79,2024-10-28,Furniture,Tables,West,386.2,213.56
+31897771-be42-458c-8429-3c03d9b51e9d,2024-08-13,Furniture,Bookcases,South,323.51,-57.38
+03625020-aa0c-4518-a6c3-3dd94bc70c6d,2025-01-20,Furniture,Tables,South,366.32,7.91
+530e9be5-932c-4168-aaba-d95165f4f42d,2025-04-17,Furniture,Chairs,West,436.67,122.79
+36fb3389-023c-45b3-b664-9fbc0e1a56f8,2025-01-03,Technology,Laptops,East,36.0,41.57
+f331d61a-bb2b-4d7f-a050-c88dec5e5585,2025-07-02,Furniture,Bookcases,Central,865.08,-95.06
+86af2c04-d354-4665-bf42-4fb66b81f912,2024-10-16,Office Supplies,Paper,East,727.6,123.81
+c1836d76-c0e9-41d6-aa20-e83901105994,2025-03-18,Furniture,Bookcases,West,688.46,-32.2
+4ad46059-cbbb-4e0f-a83c-275bb329a8c6,2025-01-08,Office Supplies,Paper,Central,498.19,-74.69
+17fad20b-8742-472f-b6bb-187921dcb9d7,2024-12-16,Office Supplies,Paper,South,306.75,213.07
+a620cc6c-81a7-48cf-85db-11b6ae445f65,2025-05-31,Office Supplies,Paper,West,723.69,98.32
+fdd66160-d946-46d3-8161-87f962381fec,2025-05-14,Technology,Phones,South,115.9,21.86
+97bd2cf7-229e-4693-b36d-2a19d96c8626,2024-11-17,Office Supplies,Paper,South,806.04,31.82
+e7810cd0-cb7c-4667-aa2a-27bc9d106343,2025-03-31,Office Supplies,Paper,West,307.43,141.28
+e2b0ab9a-6316-44f3-8e5b-ff3abd8f51fe,2024-09-20,Technology,Phones,South,321.04,285.83
+30e56845-f859-4c0d-917a-de18d3d1469a,2025-03-17,Office Supplies,Paper,South,968.09,212.79
+be75b614-b904-42e9-b07b-cc039d1f234c,2025-07-12,Office Supplies,Paper,Central,818.33,57.17
+1813088b-48c7-4b02-af80-fa084ce57c92,2025-06-01,Furniture,Bookcases,West,596.3,118.25
+26c76907-4e67-46f3-b080-dae8155d7c40,2024-09-05,Technology,Accessories,East,953.47,84.65
+7dbe4abb-e598-43ed-815d-38b31b677de4,2024-08-16,Technology,Phones,South,799.71,232.51
+afcb6950-7974-4033-8a30-0d404500ddac,2024-08-10,Furniture,Tables,South,147.79,21.13
+a6e7378b-1c0c-409a-9715-cbecf3fb95b4,2024-10-31,Office Supplies,Pens,West,718.08,215.63
+8131c52d-33b3-420e-9ef6-9b386ed3cb60,2024-10-01,Furniture,Tables,South,586.42,113.75
+1750e8b1-eb55-4c93-8306-8997f52dfce1,2025-04-26,Technology,Laptops,East,792.81,43.81
+65be713d-27e4-495a-8799-acd2408f51f6,2024-11-26,Technology,Accessories,East,118.28,-0.71
+76fb4427-48c4-4d5a-94a1-896b0ae3a674,2025-01-23,Technology,Laptops,West,650.53,-82.28
+bcc67617-d58f-4e7f-a0a5-8a6a02925d1f,2024-09-24,Technology,Accessories,South,967.14,32.64
+fc8f4487-ad05-4fe1-bdab-59de11651a37,2025-02-22,Office Supplies,Binders,East,107.62,-11.2
+5c159cc8-0e0b-44b7-982a-000c1e415fed,2025-03-07,Technology,Accessories,West,451.32,56.45
+036ef3d1-5431-40e7-a561-d597a85cc969,2025-06-17,Technology,Accessories,West,351.52,-90.17
+5bd16261-2f74-4b75-9d0c-de477f82ef3d,2025-05-13,Furniture,Tables,South,921.34,-65.66
+e0d6f6d0-ee8a-4bc8-8d54-32551f1494dd,2024-12-30,Technology,Phones,Central,318.77,82.13
+0e6d1545-2397-4751-92e8-c60dbc86468f,2025-02-24,Furniture,Bookcases,South,354.82,-60.95
+5b2198b9-04df-4ce8-a73a-527e41e28107,2024-11-03,Technology,Accessories,South,325.72,20.11
+e7516020-5068-4544-9ef9-17c05bb02b51,2024-11-11,Technology,Phones,East,850.69,159.19
+e615eac9-b42a-42df-819a-e91d799cf04d,2025-02-08,Technology,Phones,West,520.83,120.76
+9cfa14fc-ac3a-41c0-869e-d18325acf8b6,2024-10-05,Office Supplies,Pens,South,958.88,-7.26
+b0542766-ef6c-4269-8414-a11456181c66,2024-11-08,Office Supplies,Pens,West,194.52,162.92
+3ffb6196-8776-4c25-880d-f636fcb28c47,2024-12-16,Office Supplies,Binders,West,455.08,71.82
+fe9c4603-d429-47e5-8e12-6c75f7397a5f,2025-06-13,Furniture,Bookcases,West,213.73,200.93
+9398e3d7-4334-42b9-9031-3fd91b1453d5,2025-07-07,Furniture,Bookcases,East,801.51,114.76
+ce7170fd-11f0-4d99-b153-9ce7013abffe,2025-05-11,Office Supplies,Paper,West,462.97,4.94
+8b78a8e8-c1ea-435e-ac93-a5f04e98e11b,2025-05-05,Office Supplies,Pens,Central,601.0,144.52
+c577c544-02fb-4a63-b9ed-85d431feae2a,2024-11-14,Technology,Phones,Central,358.47,83.14
+5b47157d-896e-433d-8fa4-4f1d5d9ede4f,2025-03-18,Furniture,Bookcases,Central,919.5,136.07
+e650bafd-f040-4a67-bc4b-f366020ebfc9,2024-08-04,Technology,Phones,Central,126.68,22.15
+88e95ac8-92d2-4250-a64e-e69e4793dd9e,2025-02-09,Furniture,Tables,West,515.72,67.3
+19b7505b-637b-4c96-91fb-f5e8db6c1f27,2025-03-07,Furniture,Bookcases,South,428.81,94.67
+56643667-6c03-4727-a792-3c22eb674a10,2024-08-24,Technology,Accessories,West,559.36,95.86
+1ba2d048-75c5-45f6-99be-8263f01a1a8d,2025-03-01,Furniture,Chairs,Central,843.57,147.76
+a50ed1f8-8d55-4db5-96c5-5da23c88c496,2024-11-16,Office Supplies,Binders,South,145.17,226.09
+6ed14737-f85a-4727-8cb2-76967d2db17b,2025-07-24,Technology,Accessories,South,415.04,96.69
+9027e4bf-2499-4401-bb6c-913c3f8f6db2,2024-12-26,Technology,Laptops,South,175.58,126.16
+6748829a-6aab-419d-8a5c-c6cc3cc9d10d,2024-11-21,Furniture,Tables,East,282.1,115.04
+bb6a4561-8812-4574-975b-639e190e6b2c,2025-04-30,Furniture,Tables,South,554.23,-54.72
+a754678a-e005-4a8b-be05-ea59d6b5f799,2025-02-20,Furniture,Tables,Central,546.62,202.71
+d42944e5-eded-4f6e-97fe-ed3f54cee5d2,2024-08-09,Technology,Laptops,West,989.88,-59.03
+12ae5025-da33-4bfc-bf01-f8f96201aa8d,2025-02-21,Technology,Phones,Central,876.06,-87.11
+68667ef5-0d21-4e18-ad0e-4b869341d631,2024-11-28,Office Supplies,Paper,East,444.68,297.58
+dd56e120-7855-49ec-9baf-1417614cc814,2024-09-25,Furniture,Chairs,Central,862.44,144.1
+8544db0b-b1f4-477a-b113-656b580ca33f,2025-02-14,Office Supplies,Binders,West,787.0,225.41
+6de7e37a-5304-4953-8de1-fee094b6bdd1,2024-11-07,Furniture,Bookcases,Central,536.96,138.74
+46ed78f5-2ef7-4f51-a679-6737b3dab3fe,2024-12-12,Furniture,Tables,Central,296.44,6.94
+8fc811e7-1589-4e4a-a61a-0f412ac256a8,2025-01-07,Technology,Accessories,East,144.23,200.04
+30a34e0a-6230-4ff6-a557-cd3e40cf2f6e,2025-05-07,Office Supplies,Binders,Central,868.38,-49.24
+ff8fcb3e-221e-4a5d-b9f7-b17943bb872b,2024-11-12,Furniture,Chairs,West,714.28,231.39
+cd792182-2794-4457-bbcc-8a6db4a7e9ac,2025-05-31,Technology,Laptops,South,150.75,152.96
+18f86b7c-412e-4f60-9f96-7e78a06bad2a,2025-07-04,Technology,Laptops,South,457.47,153.45
+55e4c789-9496-4282-b668-e9cb0e85b795,2025-06-20,Furniture,Tables,Central,697.76,250.93
+864d93b4-9e5e-488e-abb3-4d75a7a9b764,2025-04-19,Office Supplies,Paper,Central,586.14,247.56
+d77be9ff-4a74-44c6-87d2-4cde213e4198,2025-03-12,Technology,Phones,South,638.49,178.92
+5685618e-4cd3-4f9b-9927-20e5c37387da,2024-11-09,Furniture,Bookcases,South,225.65,71.86
+fc8f58ff-118a-4955-b132-fbbf71e36fe1,2025-04-14,Furniture,Tables,Central,329.64,13.44
+0fce0dd0-a4f6-43a9-8aa3-23bbe0dc332e,2024-11-27,Technology,Accessories,West,570.48,94.14
+95a774ba-85b6-455b-9c9e-680389da5edf,2025-05-07,Office Supplies,Pens,East,55.48,150.47
+fada68fb-6d38-45bd-bdb5-ef6369777210,2025-04-10,Office Supplies,Binders,East,930.14,-36.81
+5be08865-c728-41cb-91b5-ed17bdaa6ed4,2024-11-15,Office Supplies,Binders,South,210.3,175.44
+1e30374a-9708-4939-bd67-87bb6bd7d2fb,2025-04-06,Furniture,Bookcases,Central,167.39,273.09
+0d90db96-e282-4e40-b4fa-a94dfe52847a,2024-12-17,Office Supplies,Binders,Central,257.89,48.74
+b3106678-5b9a-41a7-8da9-180e4e657fda,2025-05-31,Technology,Phones,East,402.38,22.2
+3e90f1f7-f479-4939-9494-a46c4d00aa11,2024-09-07,Technology,Phones,South,658.93,181.48
+2ec58a31-2f7f-46e5-b90f-88d599758383,2025-02-26,Furniture,Chairs,South,87.16,137.47
+5df8a52c-7bdf-4e4b-b4ae-839da1256f56,2024-08-18,Technology,Accessories,South,19.19,178.24
+916a4447-c7c7-4b0b-a069-1a13de17f032,2024-10-05,Furniture,Tables,West,482.92,-8.42
+720b55c4-c3ea-4ef8-8dce-abc40b14f2f8,2025-01-15,Furniture,Bookcases,East,112.17,47.02
+b081497d-c597-4084-8d2b-a43d55e8e55c,2025-04-11,Office Supplies,Binders,South,775.73,201.26
+a1fc2e4f-44f1-4324-8809-3e217483522b,2024-09-21,Furniture,Bookcases,West,77.73,125.32
+7fab8ff0-b589-4a6d-b7bd-8dfa31dbed1a,2025-03-19,Technology,Accessories,West,445.7,188.97
+8c9faa14-f81a-46f9-a90b-30cf6cd5508d,2025-03-07,Technology,Accessories,West,920.7,146.43
+4c71691d-a454-4193-a307-5d5b5c177524,2025-02-17,Office Supplies,Binders,East,897.63,-43.99
+cab453fd-c618-48fc-aa1b-8a92eedfece2,2024-11-27,Furniture,Bookcases,South,358.02,71.76
+0fa4a966-998b-4d23-878b-0da5e366bf25,2025-02-25,Furniture,Chairs,Central,648.17,-0.73
+0e9e7fa3-97c8-4fae-82ad-dd82ac8cc389,2025-04-03,Technology,Accessories,Central,781.18,176.19
+bd1808d7-15b4-43ac-9594-407899ba020e,2025-02-11,Technology,Laptops,West,522.57,103.81
+22bf63ed-6114-44f4-b190-cd908d171289,2024-11-11,Technology,Laptops,Central,649.71,213.52
+14b39e94-6be2-4bee-b97e-4d2320e21deb,2024-10-03,Furniture,Tables,South,121.62,99.83
+c642e1d2-bed5-4bfc-9318-1954b6d2c99f,2025-05-26,Technology,Phones,East,987.01,273.57
+670af1b2-2f8f-4c3e-b7cb-240044e73cfc,2025-03-29,Furniture,Tables,South,371.76,173.18
+46a546c0-10b2-4910-8a27-f737e13f3294,2025-04-09,Office Supplies,Binders,East,591.49,-94.48
+b8db5f47-6c92-4206-ac4a-2a2c5de69a2a,2024-09-30,Furniture,Chairs,East,949.19,59.19
+c18e5c02-d488-4116-bbdb-63b5d036959f,2024-07-27,Office Supplies,Pens,South,429.34,60.91
+2d1e92f3-4720-4f21-819a-702aa53d5a53,2024-08-07,Technology,Accessories,West,284.69,23.96
+0c60c6ac-b0d9-4e45-9aad-1b32b8b32a0d,2025-07-04,Technology,Phones,West,541.03,56.29
+b24ac3f9-b0f4-4144-a112-71a98ff2048d,2024-09-03,Technology,Accessories,East,317.07,74.99
+d1686353-f07e-4299-aa68-063e38e3e93a,2024-11-11,Furniture,Chairs,West,95.35,73.79
+b4bcdfc0-7f7a-4bd5-9690-b281f998b93f,2024-11-19,Office Supplies,Pens,East,316.2,196.68
+3661a7fe-4bf1-4470-8a69-a3799a997883,2024-09-13,Technology,Phones,East,22.54,-45.12
+0bb34a27-75be-4412-a2a8-ada2bd3b54e8,2025-06-23,Furniture,Chairs,South,953.49,109.2
+22fe2edc-2b46-4162-b777-fc1867d13c8c,2025-05-18,Technology,Laptops,West,378.15,199.91
+c560bc8b-285a-4ed2-a5c3-a1452084bfc8,2025-07-13,Office Supplies,Pens,East,773.72,-88.26
+d8b7c3c2-30a4-41ab-ab0c-12ac52d50fbc,2025-05-07,Office Supplies,Paper,East,270.32,290.02
+1a38855a-604f-4872-a5b3-0a0efdaf7b60,2025-04-10,Technology,Phones,South,460.65,44.05
+ead56dd8-a4e4-489c-8956-c51a1e10de43,2025-05-31,Office Supplies,Pens,West,374.01,2.05
+df376590-772d-4875-99c3-2375d00d2b26,2025-01-17,Furniture,Bookcases,East,236.12,103.53
+de31fbdc-5466-453f-8b30-771e7de06662,2025-03-01,Furniture,Chairs,West,55.52,45.59
+2a49d391-1ecb-4877-b45b-b92c4b40dceb,2024-08-21,Furniture,Chairs,East,557.34,265.58
+2be1a6cf-59df-4b40-97ed-1c4840341f9f,2025-01-03,Technology,Accessories,South,232.27,-0.69
+3945816e-ead4-4691-bc38-1613a3eca5cd,2025-07-16,Technology,Laptops,Central,827.74,128.61
+ff09a8f1-69ad-4023-a79a-4313d5ad8e3d,2025-04-09,Furniture,Bookcases,East,187.55,221.74
+69ff4f9d-c835-49fa-842f-21fc5e49e5a7,2025-07-17,Furniture,Tables,East,878.22,246.41
+a1096533-a1c0-46a6-b447-83f94b3e5137,2024-11-10,Office Supplies,Paper,East,557.56,-96.81
+53db9261-b317-4f16-a7c5-d61be83eddbb,2024-11-22,Furniture,Tables,Central,742.18,-2.97
+dc8d2184-b88d-4abe-b2b6-15d302192e1c,2025-06-13,Office Supplies,Pens,South,997.81,210.35
+5b54930f-9b6c-4925-91a6-bd441729ca86,2025-05-11,Technology,Accessories,West,159.06,272.96
+288ef900-a2f9-475f-af00-576f9b22740d,2025-06-30,Furniture,Chairs,Central,639.58,177.38
+bba076ed-fe16-4c06-8fa3-b36b811d4706,2024-08-15,Furniture,Tables,East,761.34,50.51
+b79d7c21-80b0-46a6-ae01-5c8e82fb6d31,2025-06-05,Technology,Accessories,Central,112.91,111.93
+743ad902-5a6d-4621-ac30-ec60b6f49c45,2025-04-23,Furniture,Tables,South,961.57,289.02
+f05151cf-d22a-403a-a23d-342df46fc3dc,2025-01-16,Furniture,Bookcases,Central,102.1,268.51
+6b55083d-0267-429a-b02c-5d76c8a9c88c,2024-11-10,Technology,Laptops,Central,463.87,199.16
+f92aef0b-3026-451e-a21f-171c6110c1c5,2025-04-13,Technology,Phones,West,640.84,57.74
+e3984378-adf4-483e-b289-457a177b1bd0,2025-04-13,Technology,Accessories,East,440.63,285.69
+1cf40551-0f29-4967-b41b-f224f74cfea4,2024-08-06,Furniture,Tables,Central,852.4,270.42
+70f8fb3a-836b-472e-aa82-21837d9da3bc,2024-07-29,Office Supplies,Pens,Central,324.88,8.78
+5a00cada-8d00-4941-ab57-c6c83532e015,2024-12-18,Furniture,Chairs,West,782.14,133.88
+7316f231-c9f2-443e-8132-6f24f0f69806,2025-06-18,Furniture,Chairs,West,455.07,25.61
+cc4cbcca-cbe6-4b7f-a9de-7d914d99670a,2025-05-09,Furniture,Bookcases,Central,964.99,-16.95
+068fff35-987d-4c16-853a-03435a71767a,2024-08-10,Office Supplies,Paper,Central,853.96,-63.83
+0d1df02e-379e-4535-b96e-22099b751b68,2025-01-16,Technology,Laptops,East,222.87,242.63
+d408d325-6425-481b-9405-440bbbb946df,2024-12-10,Furniture,Chairs,West,968.72,58.5
+fe73496c-a6ed-456e-a40f-af972c535f9f,2024-08-10,Furniture,Bookcases,Central,267.57,296.27
+4d0a2cab-68a1-4973-978b-558bd6b3ed40,2024-10-17,Furniture,Tables,South,560.39,120.05
+ac928ea6-4e07-4bbc-a8cc-cb0085dc2fc0,2024-12-31,Furniture,Tables,East,805.86,-44.08
+2796bc88-a5d9-4e4b-981f-2abba8b01bf8,2025-04-12,Furniture,Chairs,West,139.41,229.47
+113907be-b71e-4d30-bb5e-b46141c9bc72,2025-02-27,Office Supplies,Pens,East,586.5,3.53
+bd0beb82-c683-409b-8275-2452ce52b74c,2025-03-28,Furniture,Chairs,East,205.77,158.39
+280273f7-742d-43f3-8185-46097ea13c07,2025-03-09,Furniture,Chairs,Central,131.3,276.91
+15b87b2b-af77-4842-ab88-06087e7613bf,2025-07-08,Furniture,Chairs,South,823.47,58.0
+4671f957-17ad-48d2-b545-c4a920f92b2b,2025-07-09,Furniture,Tables,South,181.08,-14.11
+45939343-d228-4eaa-8a1a-441cb621cdd0,2024-08-31,Furniture,Tables,Central,451.55,-40.55
+280a197b-4558-438b-bb24-751e034d3413,2025-03-08,Technology,Accessories,West,650.81,99.56
+713be072-4439-45c8-bb9f-cc3481fba030,2024-08-10,Technology,Laptops,East,96.84,53.21
+713f8c11-9576-4572-b18c-a3963e9fec5f,2025-06-16,Office Supplies,Binders,West,634.45,220.87
+6c46feb5-1d8f-4879-a262-1adef625dab5,2025-05-25,Furniture,Tables,Central,484.89,212.57
+add7a2ff-4e27-4a6a-b7c8-8afc2a565ea6,2025-02-07,Office Supplies,Pens,Central,394.5,-28.07
+a085c1a1-5957-47eb-8fe8-224f851aa34f,2025-02-28,Office Supplies,Pens,West,39.01,224.28
+ab651777-4c48-4cb3-969a-40bdfe676b5f,2024-08-23,Office Supplies,Binders,South,534.14,206.74
+5e89341a-e279-40d8-8aa7-31050d6d6541,2024-10-30,Furniture,Chairs,East,255.38,-3.54
+8c25d973-c64a-45fe-8d45-423fc6ede93e,2025-04-15,Technology,Accessories,East,766.41,279.12
+8f35616f-71a9-4d5b-b3e2-73a70e54b7da,2025-03-11,Technology,Laptops,Central,935.85,296.62
+9cbedeee-15e8-42ea-9d6e-4c8c335cac80,2025-02-11,Furniture,Chairs,West,596.59,222.48
+b62bcbf2-e87d-414b-a14c-885c839ddb5f,2025-04-30,Technology,Laptops,East,706.42,40.67
+c2be080c-8a14-4ad0-bfd8-eff6363e6002,2025-01-27,Technology,Accessories,West,567.48,-24.71
+5b91422d-1ea6-49d6-8697-10d3245ed8a3,2024-09-20,Office Supplies,Pens,Central,183.8,-84.81
+d6f6175b-b049-4479-9c86-48a12e4b89cb,2025-04-03,Furniture,Chairs,West,29.73,91.2
+fd6b8b2c-36b4-4029-8791-db17a851b2fd,2024-11-21,Office Supplies,Pens,West,808.38,36.3
+4ccdac39-f474-45e1-8fe8-0c3ccf3b9878,2025-01-19,Furniture,Tables,East,31.69,134.64
+77dc75d6-32a4-420b-840e-13dd97c04e2e,2025-05-23,Furniture,Chairs,Central,960.95,49.44
+fc6ac319-77ab-453a-a872-4c36545cc879,2024-08-12,Technology,Laptops,East,343.2,29.04
+7e99c366-9aca-4202-94b8-4ec9f6d9f2ec,2025-05-10,Furniture,Bookcases,South,793.92,284.26
+be6289a4-b17d-425d-ba85-765547a8a107,2024-11-04,Technology,Laptops,West,710.11,124.79
+a0c95028-9bd6-47d0-8c06-73a090618bfc,2024-12-18,Technology,Laptops,West,668.88,225.78
+620abfad-6ff6-42df-baa2-e6ba304f8666,2024-08-01,Office Supplies,Paper,Central,136.07,191.53
+e63e1ef7-6b41-44f7-9de4-67bed157a4b1,2024-09-06,Technology,Accessories,South,852.25,208.33
+cb91e571-9acc-4a73-b8a8-b041aaed2b48,2025-05-27,Technology,Phones,West,606.36,268.42
+cede4615-4b1b-4ace-bcff-1aa1e18f7571,2024-09-19,Technology,Phones,East,937.32,-43.74
+1262f018-6d60-4b96-9284-2f28e1230b23,2025-06-07,Technology,Phones,West,353.34,27.81
+3f451091-bda2-43d7-9046-8800c51f414d,2024-12-27,Technology,Phones,Central,452.16,6.08
+2c8f9fc6-1d54-4d8c-abdb-f1b8864c14dc,2025-02-17,Furniture,Bookcases,East,356.98,214.81
+bbfd8e91-79e6-4bf6-bfec-c2503b208726,2025-06-30,Technology,Phones,East,392.08,193.03
+8c51bb1a-056d-4ed7-973c-50fb67ff85b8,2025-03-09,Furniture,Tables,South,882.95,40.49
+9ab6a976-c068-49dd-8a84-2a68b2e109bc,2025-02-04,Office Supplies,Binders,South,790.84,131.22
+9150a451-58b7-4524-ac50-edda51d7d83a,2024-09-01,Technology,Phones,West,456.77,219.68
+487f524c-e4ac-45b5-a159-27c4913d317b,2024-12-18,Furniture,Tables,East,325.53,280.66
+5002e6af-6624-4b97-8470-bc373368971f,2024-08-17,Furniture,Tables,West,889.05,-35.64
+c6b785ac-a3ca-4677-9d3e-f6cddc453879,2024-11-23,Furniture,Bookcases,East,344.57,294.11
+a1332709-8476-4136-b8cf-fe5439c59d52,2024-12-22,Office Supplies,Pens,East,437.01,161.45
+76d20fd4-00a3-4741-808a-9eb64336ff13,2024-08-09,Technology,Laptops,West,63.02,32.44
+e27c081c-1043-4703-a177-0501b7042f8d,2025-06-13,Furniture,Tables,Central,663.99,18.96
+1da48b4a-e0e9-46a1-8542-2d260368b13b,2025-03-10,Furniture,Chairs,South,576.05,235.94
+cbffa5cb-0c5a-4919-8c85-cb4b3ad23790,2025-02-22,Furniture,Chairs,Central,13.78,-64.95
+66dacb1e-5077-4d34-84bd-213b6c161140,2025-06-07,Technology,Accessories,South,207.68,-89.71
+18a7e6e3-0d6e-4288-9672-a089ef79fd9f,2025-02-02,Furniture,Bookcases,Central,977.29,89.43
+48f76308-3320-4d41-bdb1-8e58cc1839b7,2024-08-21,Furniture,Tables,South,476.24,257.95
+6687cc2f-7d23-464e-b9bd-44ba8f32b3dd,2024-10-29,Office Supplies,Binders,South,193.03,254.2
+1267b286-fe87-4dd7-9316-d16324b98561,2025-01-28,Office Supplies,Binders,South,54.17,75.9
+56ddcfe9-6d66-4b68-95a9-1128b731da76,2024-09-28,Office Supplies,Binders,Central,568.6,-39.55
+7b897589-2d9d-4e4d-a053-6205b1b2c1b4,2025-07-04,Technology,Accessories,East,94.85,37.52
+eb1a044e-41ac-49c2-93e3-4c39f13c872b,2025-01-11,Technology,Laptops,West,558.07,236.32
+d56ac233-0ae4-451d-8fee-90ed0bf90306,2024-11-10,Technology,Laptops,South,576.99,-5.74
+8a2b6f69-15f8-4035-915e-1e66c12a8a03,2025-02-13,Office Supplies,Binders,South,903.75,185.72
+1686c988-c535-48f5-b1c4-d4a0441b1d40,2024-10-07,Technology,Accessories,West,129.08,202.88
+46f5c437-7733-4997-a828-c4b627cf2c65,2024-09-19,Furniture,Chairs,West,810.38,-49.53
+1b93dc2a-458a-41ec-9588-11be90ee669e,2025-07-20,Office Supplies,Binders,South,209.9,229.03
+9b528ffd-7c88-4e58-9e1d-e8618b501e3a,2024-09-01,Furniture,Bookcases,Central,326.55,190.84
+b27c41a2-51cc-4d88-a5b9-adb1d55a2eae,2025-01-09,Furniture,Chairs,South,560.8,120.82
+d4153585-8e5f-404e-a5ab-ac43e49570ca,2025-06-24,Office Supplies,Pens,South,917.99,-95.05
+f7cac64a-7dc1-498c-8111-5b41da15cd9d,2024-11-12,Technology,Accessories,South,121.39,-40.14
+1a33323f-33de-410f-b12e-61c37615876a,2025-01-26,Technology,Accessories,East,925.68,125.07
+62f23c62-38c6-469c-b99b-e586ffe880c0,2024-11-22,Furniture,Tables,Central,879.11,5.65
+ec5e74a5-2a59-410a-9f07-7ca52141bd3a,2025-05-13,Technology,Laptops,South,47.09,10.17
+af1a0c3e-1582-43f4-a611-5e5dab9868a5,2025-02-18,Furniture,Bookcases,South,48.39,255.83
+7f0c79b2-0b3e-4eab-a1a1-b5b1e21dda07,2025-06-06,Office Supplies,Pens,West,58.8,90.09
+3e3dc5c2-4728-4641-9ba7-f583853e18c2,2024-07-29,Office Supplies,Paper,East,344.49,217.46
+ef561f77-dae0-410f-9b50-985bc4510f6a,2024-09-13,Office Supplies,Paper,South,859.65,173.94
+b2bf6b26-f4db-43d5-9a1d-aa484e5f6eb7,2024-12-15,Furniture,Chairs,Central,974.48,77.24
+81e9eb8a-f5e4-4b6a-8088-3e20cf99cacf,2024-10-06,Office Supplies,Paper,South,608.93,-64.29
+a6567e76-f67c-44d6-80ba-47b7c7941f8c,2025-02-10,Office Supplies,Binders,South,743.54,203.8
+5e1da087-06e8-4ed5-9618-26d0e25ffe83,2025-03-31,Office Supplies,Binders,West,74.96,183.83
+8152f59f-946f-43c8-bc96-c040b3d207e9,2025-01-18,Office Supplies,Binders,East,182.0,250.07
+4548f36a-a340-4647-ac28-161107c80725,2025-05-15,Furniture,Chairs,West,42.74,-79.78
+cab24542-df3d-488a-81ed-8bf75d527108,2025-03-30,Office Supplies,Pens,West,281.24,229.4
+164f5e6f-b16d-4ce4-b957-34260095587d,2025-02-24,Technology,Laptops,East,684.36,-3.22
+9e82c8b4-89a0-4418-9b10-9d332ac47e88,2025-05-16,Office Supplies,Pens,South,185.81,248.19
+9d75d59b-4ab9-4713-ab7e-95565fe9fda0,2025-03-16,Technology,Accessories,Central,350.81,235.06
+759a3306-a16d-49f9-accc-417398b5ea85,2025-01-25,Office Supplies,Pens,East,292.22,54.63
+8479256c-df53-45c4-8e10-df99e57c8075,2025-02-27,Furniture,Bookcases,West,858.54,158.95
+91a4086f-1e52-4dda-a08f-098ec6221028,2024-09-06,Technology,Phones,Central,655.07,105.31
+6f9117f5-dacf-459f-b42c-c8b465e933ce,2024-08-06,Technology,Phones,South,912.4,158.95
+e8efafd7-2809-45e8-9c9c-670fddaceffe,2024-12-23,Technology,Phones,West,259.87,222.03
+74a3845f-949f-49c7-b4e9-b265762b7298,2025-01-09,Office Supplies,Pens,Central,429.57,50.59
+853397dd-a553-4b67-904a-79467698ae24,2025-05-19,Office Supplies,Paper,Central,226.03,20.86
+1748848e-acd1-4c97-be35-e59a3ad9e2b2,2025-05-04,Technology,Accessories,South,588.64,-97.06
+cd73b73a-abfd-4d94-ba7c-0d28639a55f7,2024-11-23,Technology,Laptops,Central,305.49,-56.76
+58fe5978-2877-4dea-91aa-7d1089d71873,2025-05-12,Furniture,Tables,Central,644.19,244.6
+0d319827-2422-4a2c-980f-0a4873319e31,2025-04-19,Office Supplies,Pens,Central,196.48,106.92
+69acd7f3-85f6-428a-a484-b9d7e28b1a3b,2024-09-16,Furniture,Chairs,South,663.93,172.3
+c8f3d70f-39b8-4ecc-bbf4-8fa3b975f01a,2024-10-28,Technology,Phones,South,997.49,3.77
+b38a8a8f-05c2-4377-9c4a-ef1939c52247,2025-06-09,Office Supplies,Paper,South,739.36,133.21
+ee427f08-2b82-4cb3-81b3-773cdf585dfa,2024-07-24,Technology,Phones,Central,729.28,-11.05
+c14b45ad-c9d5-4453-949c-e1762d26bf86,2024-09-27,Technology,Accessories,South,907.46,168.75
+29ba75bb-1613-4581-a411-69878413c8d7,2025-03-02,Technology,Laptops,West,842.23,250.6
+ff84b94a-116b-49ce-a3a1-b97bbc64fa56,2024-08-06,Furniture,Tables,East,476.07,196.37
+72df48d2-3a86-4c06-8892-8fd6bdeb43a0,2024-12-29,Technology,Accessories,West,947.45,259.84
+e4f0dd7e-7988-499a-9d26-37ba1ca69103,2025-01-20,Technology,Phones,West,361.73,197.68
+49965a44-1d7a-4e1b-8c42-35c801cb264a,2025-01-13,Office Supplies,Paper,Central,377.97,134.23
+e6db90df-8e3d-4034-8b72-1e7aac2c72da,2025-05-16,Office Supplies,Binders,South,63.14,153.76
+78090266-eb17-48a4-911f-b234a2237836,2024-11-04,Technology,Accessories,East,477.5,-22.18
+c16aa009-6069-4f19-b42b-632d92e0c24e,2024-08-01,Furniture,Bookcases,South,534.54,65.24
+32a6abcd-4180-40b1-afa0-0c6837d514c2,2025-03-16,Furniture,Chairs,West,349.24,294.88
+71a5a491-b265-4e9a-b606-4a9973733a31,2025-02-03,Office Supplies,Binders,Central,863.77,-27.86
+2b3689db-21e2-4c57-9ef1-4971fc11ca9b,2024-09-02,Furniture,Tables,Central,634.72,-29.27
+9ab73d87-183c-4608-b028-8961686bf120,2025-05-02,Technology,Phones,East,457.53,-16.25
+9f9b7537-2c18-4115-ac72-55a6026366d3,2024-10-24,Furniture,Bookcases,West,494.68,205.43
+1fcdfafc-82e7-4bfc-a4f2-ae48cbfaa19e,2025-07-04,Furniture,Chairs,South,637.15,61.36
+0dda9e57-bce3-4e8c-aabe-ed4c10a9b61a,2024-12-18,Office Supplies,Paper,East,47.35,-20.23
+1f483595-2c67-41b6-92aa-c2124a46ce34,2024-11-27,Office Supplies,Binders,Central,759.28,112.41
+ddf83905-08f8-4c27-95e9-e5ede3f90271,2024-10-21,Furniture,Bookcases,East,630.42,-0.47
+5f56242a-4ce6-400d-802e-b7e4583ac45b,2025-01-13,Technology,Laptops,Central,137.64,53.42
+cafdedb9-b2fa-4f90-9b63-f4c2daa325f7,2024-10-21,Technology,Laptops,West,74.63,-81.71
+546ffd66-5419-4ce4-b24b-93bdb941b727,2024-12-25,Office Supplies,Paper,Central,439.33,174.71
+906d036a-f465-4a98-b7c7-ee229865a871,2024-08-01,Furniture,Tables,South,365.66,-24.63
+26573a48-728e-4a91-848a-22e0311abfb1,2025-07-10,Office Supplies,Binders,West,232.08,293.95
+96d42b63-4bf7-4005-912a-1c79ef6dfebd,2025-05-20,Furniture,Bookcases,East,593.8,-32.41
+3522183f-d42b-4891-aba3-a7301650b1a2,2025-06-14,Office Supplies,Pens,East,381.44,156.13
+140f9930-5d0d-4479-8473-63f86e585bfc,2025-03-31,Technology,Accessories,East,597.98,-80.82
+11b70f21-aeb3-4665-8fea-29bc356765af,2025-01-01,Furniture,Bookcases,East,57.75,-53.68
+e8091cf7-ca1f-4d4f-ae85-eeb4f81a9b15,2025-06-20,Office Supplies,Paper,East,551.81,89.76
+b7adb0f3-d821-478c-a07e-85437000fc9f,2025-01-31,Furniture,Chairs,East,308.11,164.67
+fbefb3cb-d1fc-401c-9e0a-0273844b50b6,2025-07-13,Technology,Accessories,Central,626.57,180.29
+d32ebff2-c844-4c48-a56b-a2ce642d4036,2025-02-02,Office Supplies,Binders,East,289.88,213.9
+82cc8fa0-c400-4c7f-a8dd-128d5411cf15,2024-10-06,Office Supplies,Binders,West,780.18,232.6
+66860e94-d5be-41a0-9404-8a9eb8dca991,2024-08-15,Furniture,Tables,South,302.4,-84.24
+ed691c4d-7f77-4ad6-add3-7e0845bfa45e,2024-07-26,Office Supplies,Binders,South,337.3,-98.9
+c982b42f-95a7-43a6-8522-3d3e9de92ef6,2024-12-29,Technology,Phones,East,836.88,167.61
+daaf7a2e-92c9-490c-83e2-19889a478fdf,2024-08-18,Furniture,Chairs,East,726.33,-59.48
+724bfa40-55e9-4c09-80d3-fe22e07a75d5,2024-10-19,Office Supplies,Pens,West,462.18,290.92
+2731101a-7fd9-44d2-b1ee-e9b268a79993,2025-07-18,Office Supplies,Paper,East,108.81,-30.12
+3bdd8ec6-4496-4a50-b63e-6080a4bab28a,2024-08-09,Furniture,Tables,Central,803.58,25.08
+be24398f-f535-40c9-85a3-38207e93b868,2025-03-26,Technology,Phones,East,852.73,256.12
+0d7e8c76-6835-46e6-b692-91d7035e2989,2024-10-05,Furniture,Chairs,West,335.37,257.81
+dacd1ee2-1377-4f18-8c27-2778a49813d5,2024-11-29,Technology,Laptops,East,378.9,37.09
+45a36512-293e-4d3f-b82c-d8dfec38a7da,2024-08-08,Furniture,Tables,South,962.69,8.73
+a7792bd7-ba9e-4a78-b7f7-e2f6e2ee1076,2025-05-19,Office Supplies,Pens,South,801.9,159.54
+b1171403-3698-4948-8917-927117f956c2,2024-12-30,Furniture,Chairs,West,699.21,-76.54
+e71bdb5d-340b-4702-b050-bb567fe868e4,2025-03-26,Furniture,Chairs,South,912.11,93.07
+7e5ce02e-19f3-476d-8025-7b87bf4a3312,2024-10-27,Technology,Accessories,South,189.45,51.9
+3d6b7f20-df5d-445a-b291-7fbae0ed39bb,2024-10-03,Office Supplies,Pens,East,863.95,251.98
+be18698d-5075-4c72-893a-ecc2f2dba8b2,2025-02-15,Technology,Phones,South,921.19,-54.83
+a35a57d4-7d42-434f-a59c-a34a4339830b,2025-01-24,Office Supplies,Paper,East,72.7,161.99
+288bd105-63bd-4527-96cf-f561e7a65d71,2025-06-18,Furniture,Bookcases,West,978.12,167.94
+908c9684-02ed-4613-bf6e-23753ba81a1a,2024-11-04,Office Supplies,Pens,East,438.52,190.66
+1d877ddf-190c-4684-b21a-9a8a43ce5429,2025-01-31,Office Supplies,Paper,South,157.17,230.58
+6d1d56b7-c57a-42ae-90c1-960993d0c0ac,2025-03-12,Technology,Phones,East,646.96,-37.23
+add84113-f58d-4cf7-961e-9ea69305c385,2024-10-25,Office Supplies,Paper,West,84.12,96.66
+8dc702bb-f915-416a-a5c6-fef596b24031,2025-03-16,Furniture,Tables,Central,59.85,-10.92
+8d0cfde3-6d5a-4d05-9122-161c7daa9f4f,2025-04-16,Technology,Laptops,South,818.93,-68.47
+edfe6abd-c10b-4a9e-9262-e732259646e5,2024-11-12,Office Supplies,Pens,South,97.14,99.38
+7e1f935b-ff72-49af-a7cc-785b1c3ded43,2025-07-23,Office Supplies,Binders,South,747.79,-92.89
+a5a6dd7a-85ab-48d4-8ecb-188821120d8d,2025-07-13,Office Supplies,Paper,East,561.56,-99.93
+60baf451-4246-4be3-97a1-c782681e9b64,2024-12-12,Furniture,Bookcases,Central,891.21,124.93
+d5fb800b-5b52-4577-bb79-9e335a1a52b4,2025-03-27,Technology,Accessories,South,950.85,45.34
+10ec9904-dc1d-4d34-af78-1f985de80682,2025-06-20,Furniture,Chairs,South,338.65,206.97
+bfc8d00e-1912-4983-ab56-a33dc2f6bb1b,2024-09-30,Technology,Laptops,Central,718.75,-54.39
+0e5fe2f2-47c7-41c5-9937-f1e1a54cd704,2024-10-17,Technology,Phones,East,347.94,231.95
+dc389a65-34e8-459b-858b-86766e7186a1,2025-03-27,Office Supplies,Pens,Central,705.08,-81.69
+eae27822-a697-4ef8-9ef3-e59c5c6dd819,2024-12-14,Furniture,Tables,West,823.62,197.0
+bd936281-7ce5-4eee-804f-68fe936cd30d,2025-05-30,Office Supplies,Binders,Central,614.74,-24.98
+4f1a2bff-1aa2-440c-936c-2ebf422e156c,2025-03-02,Office Supplies,Binders,South,826.31,-23.77
+7ea4de8d-8e62-421c-9798-00a4e344d7c4,2025-07-15,Office Supplies,Binders,South,56.04,153.3
+d0e3e0a4-e32b-4af6-9a92-ba8e95fed57d,2024-12-23,Technology,Accessories,East,774.42,80.2
+d2d8322a-1495-46a7-88aa-e95f16508c2a,2025-01-30,Technology,Accessories,West,964.22,-98.26
+9073bfff-1a77-464b-8159-b92c3e176537,2024-11-16,Technology,Phones,South,840.43,93.17
+b082fe8d-e82b-4160-8b09-7a6a1cadbbab,2025-05-17,Technology,Phones,West,733.19,-48.65
+1bbd0e34-cc15-4bc7-8275-7c696f54dc38,2024-11-26,Office Supplies,Pens,Central,509.07,53.87
+d0dae6c8-7997-4d06-892a-da6d4fda1993,2025-05-14,Technology,Accessories,West,280.86,285.44
+06cbcc61-a9c8-4072-a925-5347427f3a75,2024-10-21,Office Supplies,Paper,West,146.8,141.01
+c2544162-fe11-4de4-b9d1-70f5b088945f,2025-05-23,Technology,Accessories,Central,844.64,119.12
+d647fa09-f52d-48b3-89af-6dd23171eea8,2025-04-29,Office Supplies,Pens,West,208.88,149.67
+8b987a0e-2122-439d-bec0-73c44ef53d22,2025-03-22,Office Supplies,Pens,Central,921.98,-46.93
+cfe9c73e-80ce-48f8-9088-049b0fb51ff1,2025-02-15,Technology,Accessories,West,508.85,177.72
+a06af33b-b735-49bc-9815-b37752169c02,2025-06-07,Office Supplies,Pens,East,763.17,124.91
+8dd6d9e7-f731-4e0a-b908-9992485ede08,2025-01-15,Technology,Accessories,South,677.5,257.55
+477808bd-26fd-4448-9b7f-d63f9cb88e9e,2025-07-05,Technology,Laptops,South,810.22,109.09
+d6b434f4-ad53-4cb8-831c-835dd26f2d58,2025-01-19,Furniture,Tables,West,62.53,-77.36
+025ed761-8744-4695-94d0-d85b6fe30969,2025-01-26,Office Supplies,Binders,Central,686.56,-41.43
+1b038a79-b60f-4e3f-b419-ddbfd7d097c8,2024-12-19,Furniture,Bookcases,Central,211.96,116.47
+2d1a1512-2d3b-438f-a986-b946c3cc47ac,2025-07-06,Office Supplies,Paper,East,619.95,170.21
+8654a3f8-f170-4f98-a7fc-73a940f2c76a,2025-01-14,Technology,Phones,South,245.22,213.72
+3330b94e-115c-4c89-b72b-7333c51210ca,2025-02-03,Technology,Laptops,East,927.22,55.02
+c0f27f13-7b60-4f96-909e-0ca1a13df50d,2024-12-05,Technology,Laptops,East,22.84,0.54
+fcbe291c-d313-4bfe-9cb0-a87b1e2f5424,2024-11-15,Technology,Laptops,West,912.37,181.85
+a2e3a549-9d0e-4f6e-80ec-74708c55bf2b,2024-12-05,Technology,Laptops,West,778.39,285.72
+f0af543c-5721-47f4-8353-d88e3398d376,2024-10-06,Office Supplies,Paper,West,983.62,-70.21
+37a449b3-98aa-49f1-a39f-f0c487be5c9d,2025-06-10,Furniture,Bookcases,East,383.43,71.4
+f4753539-f7eb-4330-8576-be58b1d0a474,2024-07-30,Technology,Laptops,West,169.32,238.41
+21fdcb09-f601-41bb-bbe5-9ed2a6b1b8cf,2025-04-02,Furniture,Tables,South,712.59,-38.08
+038e460d-a761-4331-a80d-08c88607a3e9,2024-07-27,Furniture,Tables,East,775.92,150.15
+a1beae18-1c99-4873-870f-d9c3d53d6251,2025-03-04,Technology,Laptops,South,792.01,120.06
+2748de04-ff11-4fc4-a1c2-8b41deac39a3,2025-03-15,Furniture,Bookcases,Central,530.14,282.8
+29155bd4-c53c-4ebc-93a4-dfa83ef8a34a,2025-04-19,Technology,Phones,West,421.77,114.81
+89d8c86c-b75d-4c72-a921-50173656441b,2024-12-01,Furniture,Tables,West,884.56,165.33
+ec71af61-e8bc-4475-89c7-7286236f7efb,2025-01-24,Office Supplies,Paper,Central,226.26,201.06
+53e34081-3cb5-440a-9142-de5197ce754f,2025-07-09,Technology,Laptops,East,123.57,38.4
+3815d3f1-812d-40a7-bf93-2763bf0e7ec2,2024-09-29,Furniture,Bookcases,West,959.31,173.02
+49719abb-b06e-4e1d-8de2-36a4163fcde3,2024-11-22,Office Supplies,Paper,East,392.02,116.09
+50727a5b-6290-4b08-970f-29e43af088d1,2024-12-24,Office Supplies,Binders,Central,519.17,103.49
+8962e42a-484a-4044-9cf8-4e29c80f3538,2024-12-28,Office Supplies,Binders,Central,899.3,-23.0
+5cf0a565-987c-456b-9e6c-af1283ed9868,2024-11-12,Technology,Phones,East,175.72,282.51
+db030844-2499-43ea-8734-52e46137d454,2025-03-15,Technology,Accessories,East,630.66,-15.69
+1e51b87c-6933-4812-bd35-8a8633847701,2025-01-07,Technology,Phones,South,837.31,-17.77
+70fe1031-791a-4e90-ba9f-71f41aed64a3,2025-03-08,Technology,Accessories,South,650.1,275.9
+36dc085b-a5f4-4d4f-9261-bf1b4da3d14f,2025-03-13,Technology,Accessories,West,33.52,186.75
+0434bda2-ae20-43c4-8b7b-a595ba55583b,2024-12-26,Furniture,Chairs,East,63.73,217.69
+1bea6304-2d0f-46ec-b39a-9f272aba1c2c,2024-11-26,Technology,Phones,West,911.88,63.05
+2f3ddfa4-3022-49f4-a901-83f70c9ae381,2025-05-16,Office Supplies,Pens,South,438.69,-93.24
+cf564f9e-0441-4ed4-94c5-144328549290,2025-01-23,Technology,Phones,East,645.01,147.34
+f54bf01e-8ee1-4678-ac60-c904c88098c0,2025-07-14,Technology,Accessories,East,703.87,-70.96
+da28c88c-97f3-4b36-9ba9-0f8a80c3db7a,2025-07-05,Technology,Phones,Central,789.02,20.54
+0fe4b3bf-6fa2-4350-97e9-44514a92b4e7,2025-04-06,Furniture,Tables,South,387.6,228.85
+05af3638-9623-47f9-bef9-30ef494e1f96,2024-08-02,Furniture,Tables,West,538.13,-45.45
+0804fc6f-4945-4586-9c30-9cfef741edf2,2024-08-03,Office Supplies,Pens,Central,960.53,-42.37
+1d34b919-e56d-4974-8212-86bb57c2bc5d,2025-06-15,Technology,Accessories,Central,957.82,-95.54
+943e7d59-c753-4821-895f-284dc402dcab,2024-09-25,Technology,Phones,East,51.36,129.09
+9fee3b35-c80c-428d-bf61-b81587588a71,2024-09-21,Office Supplies,Pens,East,311.64,199.32
+446ccc3a-9230-4520-988e-f82b1526ee0e,2025-05-06,Technology,Laptops,West,418.53,158.37
+279434ce-8b45-495b-9bcb-7aafa5d6c70b,2025-02-24,Technology,Phones,West,192.15,146.75
+cb369753-48b2-400c-a20b-f520ba6870ba,2024-07-28,Office Supplies,Binders,East,189.54,219.86
+9379b40a-ca21-4f95-853c-7f4577d1879e,2025-06-30,Furniture,Bookcases,South,648.23,-70.74
+1dbfce13-f647-497b-8be1-10df0420262d,2024-12-20,Technology,Phones,Central,107.22,190.24
+6b749435-7d2c-4355-9c52-9cd43ad2465c,2024-09-16,Office Supplies,Paper,Central,136.93,162.19
+d56b2f66-9286-428c-8194-55bd11ab9eb3,2025-01-31,Furniture,Tables,East,901.12,27.11
+1663a053-f1c3-47ef-b43c-2e5fac0fd88e,2025-06-26,Office Supplies,Paper,Central,696.52,-39.04
+b67eab7d-3f24-4d75-8e65-e7a2d2dfcd0a,2025-07-15,Technology,Laptops,Central,959.07,-32.54
+3e551679-2fdc-415d-b5a2-8f761450c8bc,2024-10-15,Office Supplies,Binders,West,715.08,156.34
+8914e582-c401-41ee-b926-8fdf0f8a44bd,2025-03-11,Office Supplies,Paper,West,682.78,32.63
+0beb7fbf-4ff7-4619-bc97-33d7e6d52ef3,2024-11-20,Office Supplies,Paper,South,365.15,22.19
+022b60d7-29a1-4bf5-a06a-da5f2629b84c,2024-11-02,Technology,Phones,West,649.1,-67.21
+94a6f434-7eba-4991-8316-3d914e65162a,2024-08-30,Office Supplies,Binders,West,270.6,254.53
+9b48625d-5ca3-4f79-b4c9-4a81db561c32,2024-10-20,Furniture,Bookcases,East,893.18,239.83
+318ca0c1-0190-43f0-9399-478ce251bae8,2025-02-22,Technology,Phones,South,771.51,-14.9
+bf3002b6-3d04-4253-b65a-7a23e3b20d00,2025-03-27,Furniture,Bookcases,Central,548.03,299.49
+a8d27969-b6c7-4c1d-99c9-46641f477811,2025-02-10,Office Supplies,Pens,West,372.16,-10.68
+82064c5e-d12a-462e-b2cf-397779263a78,2024-08-09,Technology,Accessories,Central,142.54,100.45
+75e3595c-dde8-43a0-a147-4801cfb07d32,2025-02-17,Furniture,Tables,Central,507.15,165.07
+a0b9c938-ce85-40f2-ad7a-edaac3e01ade,2024-11-16,Technology,Accessories,West,759.63,-43.85
+f2ad5dab-69fd-4e9b-ad67-0f9577e81e50,2025-02-23,Furniture,Chairs,West,738.56,93.4
+b8adcc7c-5fa7-4829-b72b-38a9cfba02cb,2025-06-24,Office Supplies,Binders,West,763.86,-7.3
+8e143406-fa86-49a3-8d89-3f82be1b5f57,2025-02-03,Office Supplies,Paper,West,52.38,-17.29
+3603599c-4aaf-4b28-8c3a-ab914c48aa29,2024-09-17,Office Supplies,Paper,South,918.72,252.62
+ab5d5a19-74ec-4b4b-81a1-e892f9184982,2024-09-23,Furniture,Bookcases,Central,112.19,287.38
+fc6de247-61ca-4529-9730-c04f4d66401d,2025-05-03,Technology,Laptops,Central,582.85,128.06
+0ddcc787-e931-493e-b0c9-3923b18cf9e4,2024-09-28,Office Supplies,Pens,South,371.64,161.33
+5ad86997-d342-4fba-aaeb-d9c0b2fcd95e,2025-03-08,Furniture,Bookcases,Central,382.57,262.9
+d20d24fd-acf0-4324-929d-5d87c466cc82,2024-09-04,Technology,Laptops,Central,819.06,38.01
+404df8ab-664c-444c-8987-34f5eebb1b2c,2024-08-23,Office Supplies,Pens,East,506.82,-44.41
+4e294a5f-9f0c-491a-8e14-a4ec870d42a5,2025-03-19,Furniture,Chairs,East,519.4,12.32
+90bb5b17-d74c-4f6d-b993-1324aabdb658,2024-08-26,Furniture,Chairs,West,368.6,186.92
+eb0b0e8b-68df-445f-bf57-ed27db4c1c52,2024-11-05,Furniture,Bookcases,West,420.47,32.09
+385d9655-aa17-448e-8684-3821d352bde4,2025-03-17,Furniture,Tables,South,484.23,136.32
+baf46273-ddb0-4e68-8714-8603640e8b16,2025-05-22,Technology,Laptops,East,251.23,-48.85
+162140cf-1f29-47fd-bf61-e643d9ae2d24,2025-01-03,Technology,Phones,West,633.25,-84.32
+c206ec8c-fd7e-40ff-a149-ef253cafc032,2024-07-27,Technology,Phones,East,174.68,268.98
+36937161-f1c4-4ad0-b422-5dfb0d25245c,2024-12-25,Technology,Laptops,East,879.72,191.19
+0e0de0d1-8126-469d-8690-8317836bb532,2024-08-29,Office Supplies,Binders,West,454.71,297.11
+d6399b9b-5576-4739-a954-842d8221d955,2024-10-09,Office Supplies,Binders,West,832.06,140.34
+800af958-10ef-42f9-ae79-7f5a925ebc77,2024-12-06,Technology,Phones,Central,176.04,174.24
+54aac4e2-48c3-4cfb-bb92-01640b47c94b,2024-09-16,Office Supplies,Pens,East,237.52,54.18
+86de2aa5-8dfa-4464-b9dd-ca3ac6dfdde8,2025-02-23,Furniture,Chairs,West,527.48,263.74
+a3607c32-5b05-4288-95c8-ff4f49fcf92d,2025-06-11,Technology,Laptops,West,609.46,-29.03
+c7eed9e8-70f6-4c3b-b082-2c1803623fd1,2025-07-10,Technology,Accessories,East,878.98,112.57
+dcb53563-bd9b-437f-82bc-ba715ff15ef1,2024-10-15,Furniture,Chairs,South,662.8,260.79
+f8b99156-514e-4de3-96bb-321f821796a9,2025-06-19,Technology,Phones,South,526.82,48.15
+904a5ce2-c177-4e08-af81-caccb2a2c71f,2025-06-16,Furniture,Bookcases,South,237.19,220.92
+b5170785-f21f-4e8c-a5f7-b08783a3bfc6,2025-07-21,Office Supplies,Paper,East,431.23,1.81
+c2eb548e-ae7a-4d8d-b03c-599a3190cedb,2024-08-22,Furniture,Chairs,Central,602.31,117.49
+ce81f595-3555-4979-ba74-75497fdca29e,2024-10-12,Office Supplies,Binders,East,712.06,215.77
+6e20bd6d-8698-453f-a6f3-a991776fee3c,2024-11-07,Technology,Accessories,East,524.56,50.01
+d9b4044b-1ba3-4fae-a1f8-d70b1013195d,2025-04-14,Furniture,Bookcases,Central,414.76,-57.37
+fe72275c-8a98-4b23-9ca8-c60061243a2f,2024-10-01,Office Supplies,Pens,Central,268.69,114.44
+b8c1e5cb-1669-44ee-a739-3562ee9f7bff,2025-06-13,Technology,Laptops,Central,991.88,58.98
+290bd996-2ece-471e-b41a-76523d15a581,2025-05-21,Furniture,Tables,South,186.93,123.64
+4dd078c0-17d9-4757-a9fd-dd10f4b943ab,2025-07-22,Office Supplies,Paper,Central,581.87,209.68
+680c5efd-2b57-4fb7-8f1c-45775705f80f,2025-04-23,Office Supplies,Pens,West,856.45,163.71
+a65f7d1e-0550-4b36-ac78-335fd80f06d3,2024-08-02,Technology,Phones,South,785.28,279.7
+9ab8030b-b1ad-4ea5-bb9e-9a16f64596cb,2024-07-27,Furniture,Chairs,South,788.22,220.34
+8a0c7738-aaae-41a8-8bd8-80de558ec322,2024-12-24,Technology,Accessories,East,169.13,285.83
+906b5c29-5072-4138-b7b6-0f5512056c6e,2025-03-19,Furniture,Chairs,West,476.95,140.1
+c09d88fb-d08c-4548-9bec-d27d06e40947,2024-12-17,Furniture,Chairs,Central,229.55,-67.98
+2dc900c3-c48f-4a04-b9ce-24c38ba43554,2025-03-06,Furniture,Bookcases,South,931.38,60.26
+112d77f5-6a4c-4136-aa04-80642bd9cbfb,2025-06-12,Technology,Accessories,Central,714.49,138.99
+a9142fad-7d4d-4f11-a2ca-8ab1c3461eb1,2025-05-01,Furniture,Bookcases,South,444.58,-19.32
+ab5fc033-cb1e-4acf-be79-8f646d3c72c4,2025-07-10,Technology,Accessories,Central,202.8,213.58
+19e23d70-9912-41f4-811a-493fe83b4aef,2024-07-24,Technology,Accessories,West,619.04,169.61
+41c9b7c3-3604-4f4a-ab6a-f86d3ea08502,2025-05-21,Office Supplies,Binders,East,975.89,-65.26
+495963fe-15a7-48c0-a0bc-0cc5f6b43a86,2025-01-17,Office Supplies,Paper,Central,672.97,62.18
+95de167b-13f4-4a0c-b7f3-aec23761c5cf,2025-06-06,Furniture,Bookcases,East,739.56,-72.55
+f6963ff0-58c5-4fb8-82aa-fabf4bd3d3d9,2025-04-10,Furniture,Bookcases,Central,728.88,123.65
+fd5541fc-fb72-44bf-8f8c-5c83ea31519b,2024-12-14,Technology,Laptops,Central,963.65,10.6
+0bc456fe-ba18-46d3-9491-27bfdbf61ced,2024-09-03,Technology,Phones,South,930.42,129.96
+6ba7e7a5-c31a-45b9-9630-50f1a4cb2e90,2025-06-05,Office Supplies,Binders,South,511.18,123.45
+bc32bddd-c522-4233-b266-af0cf644ccc7,2025-05-15,Technology,Laptops,Central,947.55,221.18
+9c8d2669-2fb0-430c-be65-9ba7493281b6,2024-11-02,Office Supplies,Pens,Central,697.25,286.42
+368ced9d-3fd8-4f88-aafe-b8db2b098162,2024-07-29,Technology,Laptops,West,759.9,284.5
+0173ba88-b1bc-49bd-b4a8-bd9859815f44,2025-05-11,Office Supplies,Pens,South,897.56,244.81
+03d421dd-5c30-4749-94cb-17221945b93e,2024-12-30,Office Supplies,Binders,Central,76.88,153.46
+55d5a32a-ebdb-469a-9c65-dee7945491aa,2025-05-22,Furniture,Bookcases,West,802.16,64.97
+6ad46904-0515-43d3-ab24-b2d3c6547ba1,2025-02-23,Office Supplies,Pens,East,703.81,5.34
+0557b2b6-b5e3-4691-88de-e60e0c3f73fd,2025-06-09,Office Supplies,Binders,South,676.96,228.43
+c9454e78-3346-432c-96ca-046187f0eccc,2024-11-03,Furniture,Bookcases,West,481.79,41.42
+801c912b-abd4-4627-b3b8-80c111e79c1b,2025-03-28,Technology,Laptops,West,947.65,173.24
+f496cdc0-2290-4aa4-9110-13f318254b27,2025-02-12,Furniture,Tables,West,242.51,-3.18
+0616f3ce-ca53-4538-a7ab-321229c3c78e,2024-07-25,Office Supplies,Binders,West,210.74,-0.12
+adda8459-f0d9-4640-a605-fbf4f139dd46,2025-06-16,Technology,Laptops,West,781.15,-52.05
+f7bae6c8-1f2c-4343-9231-a40f32aecd5a,2024-10-28,Furniture,Bookcases,South,617.69,205.7
+7bc0872f-8194-4107-9e57-8baeef7a589a,2025-03-03,Technology,Phones,South,377.48,26.17
+ed110523-6ae3-4368-b892-14b2a58a6316,2025-06-05,Technology,Laptops,South,191.04,205.7
+c16a86a1-1bbc-4cf1-b92c-cfa1aaed58f4,2024-07-25,Technology,Laptops,South,229.87,130.67
+712b77aa-86d1-4530-879a-facc827c2593,2025-01-24,Furniture,Bookcases,South,483.54,116.31
+545ab7b0-9e62-43f0-abed-44e12f422cd6,2024-08-20,Technology,Laptops,South,861.8,210.36
+aba6de61-5726-45d1-9465-7c130c4cfd0c,2025-06-19,Office Supplies,Binders,South,322.49,-96.63
+869c3801-bc12-4c5c-9c2f-6089068eee54,2025-07-03,Technology,Phones,South,585.2,30.17
+10b61d77-aca7-446a-b2e4-8c77be392e36,2025-04-30,Technology,Laptops,West,553.08,-5.14
+98b3843e-70b4-4562-9eca-3d20d58db4ce,2025-07-08,Office Supplies,Pens,Central,372.26,99.51
+6486fa92-1590-4aff-8584-8a53912598c0,2024-11-27,Furniture,Tables,Central,371.43,60.24
+2e5cf6d3-7f85-442c-bf12-a182c6f8227f,2024-10-13,Office Supplies,Binders,West,979.48,174.4
+8ea1c372-34b7-4a92-b043-2cac61874771,2024-09-04,Furniture,Bookcases,Central,806.05,122.14
+04c620d2-8396-47b6-9099-3ebba8af9116,2024-12-15,Office Supplies,Binders,West,802.04,195.42
+d7cf5e20-e9be-437f-a484-7e0a862acc80,2025-03-29,Office Supplies,Binders,West,427.31,-46.21
+15381c18-d397-4294-a7cb-5d2f6ba01aa6,2025-07-06,Technology,Accessories,Central,787.48,20.01
+53b6a086-91c7-48c0-9379-24dacb8cec3e,2024-12-18,Technology,Accessories,East,404.42,176.22
+20a65d33-f833-4702-a9db-2cd6ddd5e05d,2025-01-18,Furniture,Chairs,Central,481.77,151.94
+ad07cb9c-4668-4b41-a93b-7b4b063109f7,2025-07-13,Office Supplies,Pens,Central,267.17,44.12
+d124a0f4-82ae-4df4-ba4c-61cf9f1dabfe,2025-04-25,Technology,Laptops,Central,29.64,-51.51
+b3192850-51e1-4d49-969a-1d9106d75222,2024-08-04,Technology,Accessories,West,581.09,159.95
+c0ef4fbf-88a4-4062-b1b8-aaf8dcdb7686,2024-08-23,Technology,Phones,Central,361.56,169.28
+bc81d10b-e93b-438b-a374-9ab1389e14ef,2024-09-06,Office Supplies,Pens,South,890.74,52.43
+fb0428da-dd2b-48b4-8f08-72805bc7eab7,2024-11-24,Office Supplies,Paper,West,869.58,156.23
+942ce8c5-e729-4439-b321-012bc3040133,2025-05-15,Office Supplies,Paper,South,850.41,-71.46
+fb6469ba-d5e1-458a-8ae4-bd7cabbf7978,2025-05-25,Furniture,Tables,West,320.35,161.21
+5f93e684-0664-4a78-a9fa-a16cfad03873,2024-12-07,Technology,Laptops,South,278.54,77.96
+d6d0580d-5883-4639-9025-41f9d462e71e,2024-09-06,Office Supplies,Pens,South,419.85,-26.45
+2965ab50-8512-4317-ad9b-bd22c93b041f,2024-09-28,Furniture,Chairs,West,665.4,276.17
+dcd8a01d-679e-4e01-bfdf-67daec442b51,2024-07-25,Technology,Accessories,East,218.47,58.82
+92963875-9149-4cdc-b5a1-58870ef11b77,2025-02-09,Furniture,Chairs,South,552.95,-89.45
+525ef6b0-eb9d-4622-8f6e-060d142b26c3,2025-04-09,Office Supplies,Pens,East,112.89,147.24
+f95966e0-38bb-4123-8239-9ab172f08847,2024-11-21,Furniture,Bookcases,South,316.28,-1.04
+9154471f-752e-4784-937a-8311441ce336,2024-08-01,Office Supplies,Paper,West,139.96,235.41
+3d51e35b-82eb-4fcd-8a7c-10a0b010e94a,2024-11-28,Furniture,Chairs,Central,861.77,30.08
+4f968dfc-5cb7-42c3-9a39-bcaedd206e85,2025-07-24,Office Supplies,Paper,Central,553.06,-45.95
+c43c2e65-8050-42df-b19c-c8b935a9a5f4,2025-05-30,Technology,Accessories,West,594.92,82.62
+80c7b941-9e76-4910-a190-7df221d7cd38,2024-12-12,Technology,Accessories,South,528.23,155.81
