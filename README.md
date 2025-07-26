@@ -33,12 +33,12 @@
 
 ## ⚖️ Why Plotly?
 
-| Feature                  | Matplotlib       | Seaborn         | Plotly              |
-|-------------------------|------------------|------------------|----------------------|
-| Interactivity           | ❌ Static         | ❌ Static         | ✅ Fully interactive  |
-| Dashboards/Animations   | ❌ Minimal        | ❌ Minimal        | ✅ Native support     |
-| Hover/Zoom Features     | ❌                | ❌                | ✅ Built-in           |
-| Publication Quality     | ✅                | ✅                | ✅                    |
+| Feature               | Matplotlib | Seaborn    | Plotly               |
+| --------------------- | ---------- | ---------- | -------------------- |
+| Interactivity         | ❌ Static  | ❌ Static  | ✅ Fully interactive |
+| Dashboards/Animations | ❌ Minimal | ❌ Minimal | ✅ Native support    |
+| Hover/Zoom Features   | ❌         | ❌         | ✅ Built-in          |
+| Publication Quality   | ✅         | ✅         | ✅                   |
 
 PlotlyVizPro builds on this by organizing all core concepts in modular, theme-consistent notebooks.
 
@@ -50,7 +50,7 @@ PlotlyVizPro was built to:
 
 - 🧩 Encourage modular design using utilities and thematic structuring
 - 📦 Package core visualization skills into reusable functions
-- 💡 Help learners *think like developers* by designing reusable pipelines
+- 💡 Help learners _think like developers_ by designing reusable pipelines
 - 🧱 Promote reproducibility with Docker + synthetic datasets
 - 🚀 Act as a launchpad for portfolio enhancement and tech interviews
 
@@ -73,13 +73,15 @@ PlotlyVizPro was built to:
 
 ### 📉 Sample: Line & Scatter
 
-![Line Plot](exports/images/readme/line_chart.png)
+![Line Plot](exports/images/01_line_scatter/regional_sales_dark.png)
+
+![Scatter Plot](exports/images/01_line_scatter/profit_vs_sales_scatter.png)
 
 ---
 
-### 🗺️ Sample: Choropleth Map
+### 🗺️ Sample: Statistical Overlays
 
-![Choropleth Map](exports/images/readme/choropleth_map.png)
+![Trend Plot](exports/images/10_statistical_overlays/sales_trend_ma.png)
 
 ---
 
