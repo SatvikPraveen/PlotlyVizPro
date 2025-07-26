@@ -60,24 +60,33 @@ pip install -r requirements.txt
 
 ```bash
 docker build -t plotlyvizpro-jupyter .
-docker run -d -p 8888:8888 -v $(pwd):/app --name plotlyvizpro plotlyvizpro-jupyter
+docker run -d -p 8890:8888 -v $(pwd):/app --name plotlyvizpro plotlyvizpro-jupyter
 ```
 
-Access JupyterLab at: `http://localhost:8888`
+Access JupyterLab at: `http://localhost:8890`
 
 ---
 
 ## 📑 Project Structure
 
-```
+```bash
 PlotlyVizPro/
-├── pages/                 # Streamlit app pages
-├── notebooks/             # Jupyter notebooks (modular)
+├── exports/               # Saved figures (html/png)   
+├── notebooks/             # Jupyter notebooks (modular)   
+├── pages/                 # Streamlit app pages   
 ├── utils/                 # Reusable plotting & data functions
-├── exports/               # Saved figures (html/png)
 ├── cheatsheets/           # Quick reference guides
-├── requirements.txt
-└── Dockerfile
+├── .dockerignore             
+├── .gitignore                
+├── app.py                    
+├── CODE_OF_CONDUCT.md        
+├── CONTRIBUTING.md           
+├── Dockerfile                
+├── generate_datasets.py      
+├── LICENSE                   
+├── README.md                 
+└── requirements.txt
+
 ```
 
 ---
