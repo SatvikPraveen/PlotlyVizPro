@@ -98,7 +98,8 @@ PlotlyVizPro/
 ├── Dockerfile                # Docker environment for reproducibility
 ├── app.py                    # Main Streamlit app entry point
 ├── generate_datasets.py      # Generates synthetic datasets using Faker
-├── requirements.txt          # Python dependencies
+├── requirements.txt         # Minimal dependencies to run the project
+├── requirements_dev.txt     # Full dev environment
 ├── README.md                 # You’re here!
 ```
 
