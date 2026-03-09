@@ -32,7 +32,7 @@
 - **CONTRIBUTING.md** with contribution guidelines
 - **CODE_OF_CONDUCT.md** for community standards
 - **LICENSE** (GPL v3)
-- **Plotly Cheatsheet** in `cheatsheets/plotly_cheatsheet.md`
+- **Plotly Cheatsheet** in `docs/plotly_cheatsheet.md`
 
 ### Configuration ✓
 - **requirements.txt** - Production dependencies
@@ -154,7 +154,7 @@ docker-run:
 **Recommended Actions:**
 
 **Files to Create:**
-- `CHANGELOG.md` - Track version history and changes
+- `docs/CHANGELOG.md` - Track version history and changes
 - `docs/` directory with:
   - `docs/API.md` - Utility function reference
   - `docs/TUTORIALS.md` - Step-by-step tutorials
@@ -212,7 +212,7 @@ EXPORT_IMAGES_DIR=exports/images
 ### Phase 2: Developer Experience (Week 2)
 1. ✅ Add pre-commit hooks
 2. ✅ Create pyproject.toml
-3. ✅ Add CHANGELOG.md
+3. ✅ Add docs/CHANGELOG.md
 4. ✅ Create issue/PR templates
 
 ### Phase 3: Documentation (Week 3)
@@ -250,7 +250,7 @@ For immediate improvement, focus on:
 1. **Create `tests/` directory** with basic tests
 2. **Add GitHub Actions** for automated testing
 3. **Create `Makefile`** for common commands
-4. **Add `CHANGELOG.md`** to track changes
+4. **Add `docs/CHANGELOG.md`** to track changes
 5. **Create `.env.example`** for configuration
 
 ---

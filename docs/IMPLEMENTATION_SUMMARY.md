@@ -81,7 +81,7 @@
 ### 4. ✅ Documentation (COMPLETE)
 
 **New Documentation Files:**
-- `CHANGELOG.md` - Version history and release notes
+- `docs/CHANGELOG.md` - Version history and release notes
 - `docs/API.md` - Complete API reference (400+ lines)
   - All utility functions documented
   - Examples for each function
@@ -169,7 +169,7 @@
 Testing:         6 files (tests/ + pytest.ini)
 CI/CD:           6 files (.github/workflows + templates)
 Dev Tools:       4 files (Makefile, .pre-commit-config.yaml, etc.)
-Documentation:   5 files (CHANGELOG.md, docs/*.md)
+Documentation:   8 files (docs/*.md including CHANGELOG, cheatsheet, etc.)
 Configuration:   4 files (.env.example, config.py, etc.)
 ```
 

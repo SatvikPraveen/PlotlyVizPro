@@ -111,13 +111,11 @@ PlotlyVizPro was built to:
 ├── notebooks/                # 10 structured Jupyter notebooks
 ├── pages/                    # Streamlit pages for app mode
 ├── utils/                    # Reusable plotting utilities
-├── cheatsheets/             # Markdown-based syntax guides
 ├── datasets/                # Synthetic datasets
 ├── .editorconfig            # Editor configuration
 ├── .env.example             # Environment variables template
 ├── .gitignore               # Git ignore patterns
 ├── .pre-commit-config.yaml  # Pre-commit hooks
-├── CHANGELOG.md             # Version history
 ├── config.py                # Configuration management
 ├── Dockerfile               # Docker environment for reproducibility
 ├── Makefile                 # Common development commands
@@ -327,7 +325,7 @@ exports/
 A compact markdown cheatsheet available at:
 
 ```bash
-cheatsheets/plotly_cheatsheet.md
+docs/plotly_cheatsheet.md
 ```
 
 Includes:

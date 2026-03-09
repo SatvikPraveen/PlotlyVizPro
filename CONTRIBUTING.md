@@ -75,7 +75,6 @@ PlotlyVizPro/
 ├── notebooks/             # Jupyter notebooks (modular)   
 ├── pages/                 # Streamlit app pages   
 ├── utils/                 # Reusable plotting & data functions
-├── cheatsheets/           # Quick reference guides
 ├── .dockerignore             
 ├── .gitignore                
 ├── app.py                    
