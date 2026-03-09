@@ -1,10 +1,12 @@
 # 📊 PlotlyVizPro – Mastering Interactive Visualizations with Plotly
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-darkgreen.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-darkgreen.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-100%25-brightgreen.svg)](https://plotly.com/python/)
 [![Docker Ready](https://img.shields.io/badge/Docker-Ready-blueviolet.svg)](https://www.docker.com/)
+[![Tests](https://img.shields.io/badge/tests-passing-success.svg)](https://github.com/SatvikPraveen/PlotlyVizPro/actions)
+[![Code Quality](https://img.shields.io/badge/code%20quality-A-success.svg)](https://github.com/SatvikPraveen/PlotlyVizPro)
 
 ---
 
@@ -28,6 +30,9 @@
 - 🧼 **Clean Output**: HTML for interactivity, PNG for documentation
 - 🧰 **Modular Design**: Plotting utilities, reusable layout functions
 - 🐳 **Docker Support**: Containerized Jupyter environment for reproducibility
+- ✅ **Full Test Suite**: Comprehensive testing with pytest
+- 🔄 **CI/CD Pipeline**: Automated testing and quality checks
+- 📚 **Complete Documentation**: API reference, tutorials, deployment guides
 
 ---
 
@@ -86,32 +91,86 @@ PlotlyVizPro was built to:
 ---
 
 ## 🗂️ Project Structure
-
-```bash
-PlotlyVizPro/
+├── .github/                  # GitHub workflows and templates
+│   ├── workflows/           # CI/CD pipelines
+│   │   ├── test.yml         # Automated testing
+│   │   ├── lint.yml         # Code quality checks
+│   │   └── docker.yml       # Docker build tests
+│   └── ISSUE_TEMPLATE/      # Issue and PR templates
+├── docs/                     # Extended documentation
+│   ├── API.md               # Complete API reference
+│   ├── TUTORIALS.md         # Step-by-step tutorials
+│   ├── DEPLOYMENT.md        # Deployment guides
+│   └── TROUBLESHOOTING.md   # Common issues & solutions
+├── tests/                    # Test suite
+│   ├── test_plot_utils.py   # Utility function tests
+│   ├── test_data_generation.py
+│   ├── test_notebooks.py
+│   └── test_streamlit_app.py
 ├── exports/                  # HTML and PNG exports by notebook
 ├── notebooks/                # 10 structured Jupyter notebooks
 ├── pages/                    # Streamlit pages for app mode
 ├── utils/                    # Reusable plotting utilities
 ├── cheatsheets/             # Markdown-based syntax guides
-├── .gitignore                # Ignores env folders, checkpoints, etc.
-├── Dockerfile                # Docker environment for reproducibility
-├── app.py                    # Main Streamlit app entry point
-├── generate_datasets.py      # Generates synthetic datasets using Faker
+├── datasets/                # Synthetic datasets
+├── .editorconfig            # Editor configuration
+├── .env.example             # Environment variables template
+├── .gitignore               # Git ignore patterns
+├── .pre-commit-config.yaml  # Pre-commit hooks
+├── CHANGELOG.md             # Version history
+├── config.py                # Configuration management
+├── Dockerfile               # Docker environment for reproducibility
+├── Makefile                 # Common development commands
+├── pyproject.toml           # Modern Python project config
+├── pytest.ini               # Test configuration
+├── app.py                   # Main Streamlit app entry point
+├── generate_datasets.py     # Generates synthetic datasets using Faker
 ├── requirements.txt         # Minimal dependencies to run the project
 ├── requirements_dev.txt     # Full dev environment
-├── README.md                 # You’re here!
+└── README.md                # You're here!nthetic datasets using Faker
+├── requirements.txt         # Minimal dependencies to run the project
+├── reqQuick Start with Makefile
+
+```bash
+# Clone the repo
+git clone https://github.com/SatvikPraveen/PlotlyVizPro.git
+cd PlotlyVizPro
+
+# Install dependencies (creates venv automatically)
+make install
+
+# Or for development (includes testing tools)
+make install-dev
+
+# Run tests
+make test
+
+# Launch JupyterLab
+make run-jupyter
+
+# Launch Streamlit app
+make run-app
+
+# See all available commands
+make help
 ```
 
----
+### ▶️ Manual Setup
 
-## 📓 Notebooks Overview
+```bash
+# Clone the repo
+git clone https://github.com/SatvikPraveen/PlotlyVizPro.git
+cd PlotlyVizPro
 
-| #   | Notebook Title                 | Concepts & Charts                            |
-| --- | ------------------------------ | -------------------------------------------- |
-| 01  | Line & Scatter Charts          | Line, scatter, bubble, tooltips, color maps  |
-| 02  | Bar, Pie & Box Charts          | Categorical visualizations                   |
-| 03  | Histogram, KDE & Heatmaps      | Distribution plots, hexbin overlays          |
+# Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# For development (includes testing tools)
+pip install -r requirements_devatmaps      | Distribution plots, hexbin overlays          |
 | 04  | Choropleth & GeoJSON Maps      | Choropleth, projections, custom shape tuning |
 | 05  | Animation & Interactivity      | Sliders, dropdowns, animation_frame          |
 | 06  | Dashboards & Subplots          | Grid layouts, spacing, multi-panel views     |
@@ -186,6 +245,55 @@ All datasets are **synthetically generated** via `generate_datasets.py` using th
 | Stats Add-ons | `add_trendline()`, `add_moving_average()`, `add_zscore_band()` |
 | Layout Tools  | `make_subplots_custom()`, `add_annotations()`, `apply_theme()` |
 | Export Tools  | `save_fig_as_html()`, `save_fig_as_png()`                      |
+
+📚 **Full API Reference**: See [docs/API.md](docs/API.md) for complete function documentation.
+
+---
+
+## 🧪 Testing & Quality Assurance
+
+PlotlyVizPro includes a comprehensive test suite and CI/CD pipeline:
+
+```bash
+# Run all tests
+make test
+
+# Run with coverage report
+make test-cov
+
+# Run code quality checks
+make lint
+
+# Auto-format code
+make format
+```
+
+### Test Coverage
+
+- ✅ Unit tests for plotting utilities
+- ✅ Data generation validation
+- ✅ Notebook structure verification
+- ✅ Streamlit app testing
+- ✅ CI/CD with GitHub Actions
+
+### Code Quality
+
+- **Black** for code formatting
+- **Flake8** for linting
+- **isort** for import sorting
+- **MyPy** for type checking
+- **Pre-commit hooks** for automated checks
+
+---
+
+## 📚 Documentation
+
+Comprehensive documentation is available in the `docs/` directory:
+
+- **[API Reference](docs/API.md)** - Complete function documentation
+- **[Tutorials](docs/TUTORIALS.md)** - Step-by-step guides
+- **[Deployment Guide](docs/DEPLOYMENT.md)** - Deploy to various platforms
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
 
 ---
 

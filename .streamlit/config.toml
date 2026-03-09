@@ -1,0 +1,22 @@
+# PlotlyVizPro Streamlit Configuration
+
+[theme]
+primaryColor = "#56B4E9"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[client]
+showErrorDetails = true
+toolbarMode = "auto"

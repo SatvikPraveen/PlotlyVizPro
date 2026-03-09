@@ -1,3 +1,70 @@
+# ===============================================
+# Production Dependencies (from requirements.txt)
+# ===============================================
+pandas
+numpy
+faker
+plotly
+kaleido
+jupyterlab
+scikit-learn>=1.0
+streamlit
+
+# ===============================================
+# Development Tools - Testing
+# ===============================================
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-xdist>=3.3.0  # Parallel test execution
+pytest-mock>=3.11.0
+coverage>=7.3.0
+
+# ===============================================
+# Development Tools - Code Quality
+# ===============================================
+black>=23.7.0
+flake8>=6.1.0
+isort>=5.12.0
+mypy>=1.5.0
+pylint>=2.17.0
+autopep8>=2.0.0
+
+# ===============================================
+# Development Tools - Pre-commit
+# ===============================================
+pre-commit>=3.3.0
+
+# ===============================================
+# Development Tools - Type Stubs
+# ===============================================
+types-requests
+types-setuptools
+pandas-stubs
+
+# ===============================================
+# Development Tools - Documentation
+# ===============================================
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0
+myst-parser>=2.0.0
+
+# ===============================================
+# Development Tools - Notebook Testing
+# ===============================================
+nbformat>=5.9.0
+nbconvert>=7.7.0
+
+# ===============================================
+# Development Tools - Utilities
+# ===============================================
+python-dotenv>=1.0.0  # Environment variable management
+ipython>=8.14.0
+ipdb>=0.13.0  # IPython debugger
+watchdog>=3.0.0  # File system monitoring
+
+# ===============================================
+# JupyterLab Extensions & Dependencies
+# ===============================================
 altair==5.5.0
 anyio==4.9.0
 appnope==0.1.4
@@ -32,7 +99,6 @@ httpcore==1.0.9
 httpx==0.28.1
 idna==3.10
 ipykernel==6.30.0
-ipython==9.4.0
 ipython_pygments_lexers==1.1.1
 isoduration==20.11.0
 jedi==0.19.2
@@ -48,10 +114,8 @@ jupyter_client==8.6.3
 jupyter_core==5.8.1
 jupyter_server==2.16.0
 jupyter_server_terminals==0.5.3
-jupyterlab==4.4.5
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
-kaleido==1.0.0
 lark==1.2.2
 logistro==1.1.0
 MarkupSafe==3.0.2
@@ -59,15 +123,11 @@ matplotlib-inline==0.1.7
 mistune==3.1.3
 narwhals==1.48.1
 nbclient==0.10.2
-nbconvert==7.16.6
-nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook_shim==0.2.4
-numpy==2.3.2
 orjson==3.11.0
 overrides==7.7.0
 packaging==25.0
-pandas==2.3.1
 pandocfilters==1.5.1
 parso==0.8.4
 pexpect==4.9.0

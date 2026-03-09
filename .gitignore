@@ -9,16 +9,31 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# � Environment Variables (NEVER commit!)
+.env
+.env.local
+.env.*.local
+secrets.toml
+*.key
+*.pem
+
 # 🔄 Ignore Jupyter cache
 .ipynb_checkpoints/
 
 # 💻 IDE/editor-specific
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
 # 🧪 Pytest and MyPy cache
 .pytest_cache/
 .mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
 
 # 📦 Package manager artifacts
 *.egg-info/
@@ -30,6 +45,7 @@ build/
 *.log
 *.tmp
 *.bak
+logs/
 
 # 🐳 Docker runtime artifacts (if any)
 *.pid
@@ -38,6 +54,11 @@ build/
 # 💻 System-specific
 .DS_Store
 Thumbs.db
+
+# 📊 Generated documentation
+docs/_build/
+docs/_static/
+docs/_templates/
 
 # ⚠️ Optional: Uncomment below lines if datasets/exports shouldn't be tracked
 # datasets/
