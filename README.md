@@ -89,7 +89,7 @@ PlotlyVizPro was built to:
 ![Trend Plot](exports/images/10_statistical_overlays/sales_trend_ma.png)
 
 ---
-
+```
 ## 🗂️ Project Structure
 ├── .github/                  # GitHub workflows and templates
 │   ├── workflows/           # CI/CD pipelines
@@ -125,9 +125,9 @@ PlotlyVizPro was built to:
 ├── generate_datasets.py     # Generates synthetic datasets using Faker
 ├── requirements.txt         # Minimal dependencies to run the project
 ├── requirements_dev.txt     # Full dev environment
-└── README.md                # You're here!nthetic datasets using Faker
 ├── requirements.txt         # Minimal dependencies to run the project
-├── reqQuick Start with Makefile
+└── README.md                # You're here!
+```
 
 ```bash
 # Clone the repo
