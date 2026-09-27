@@ -1,501 +1,501 @@
 CustomerID,Gender,Age,Income,Segment,Region
-9af73de4-181e-44af-8433-973d2a04961f,Female,27,113842,Mid-range,Georgia
-e2f41fc7-b163-4f34-ae18-3a63a95c4e5f,Female,42,68867,Budget,Kentucky
-ed354d26-b027-4e7d-9bcb-d9865a0fd915,Female,40,66052,Mid-range,Texas
-4d08348b-74c0-42f1-bd7f-b5cfa9a3ed32,Female,53,31481,Budget,Utah
-e1671ccc-151c-46ce-b445-fc41a9db44b0,Other,46,117193,Mid-range,Alabama
-84da011e-3b26-4ead-b8b8-1de3cf6048a3,Female,36,41468,Premium,Kansas
-ea667d0b-4c7d-4e82-a5a9-654310b6573a,Female,64,137496,Mid-range,New Jersey
-0abac817-c285-47f1-b796-0990e85f578b,Male,55,98372,Budget,Louisiana
-a6b36d20-ad6b-46e3-9df7-ce47622ed2ec,Male,31,59745,Mid-range,Washington
-ba6dc4e1-ec66-4209-a825-b8f33c3f3f93,Other,39,28665,Premium,Massachusetts
-84b864b1-dc47-4c64-845d-da469ac06381,Female,23,20867,Mid-range,Mississippi
-19a9fb0c-c1ec-43fa-9c53-478dbe66d03f,Other,35,74331,Budget,Nevada
-7236b182-54b9-435e-bd22-bf0d11275c9e,Other,47,113093,Premium,Nebraska
-7b010f6d-eea3-4761-80c2-609cfc404fed,Male,30,44380,Mid-range,Nevada
-8aaec14f-d2e5-470b-8bd7-b2141d1f81fb,Female,53,84302,Budget,Ohio
-c215e2d2-0f4b-4713-b4c1-be0bdbaf4689,Female,55,59834,Mid-range,Montana
-de673e6c-9878-444c-8d6a-948b8c1d0d54,Other,65,80745,Budget,Tennessee
-91aa706a-8904-452c-8840-c436257d5cc6,Male,68,20320,Budget,North Dakota
-cb72850c-c50e-4339-89ff-bce60c8ef308,Female,37,145308,Premium,Nevada
-941116e3-7f78-4a32-bd7d-eed779f2b71e,Other,48,36276,Premium,Alabama
-9ebd4295-7655-4dda-87a9-ec2e609fa23d,Other,36,74677,Budget,Montana
-960a6e4b-d03e-4060-b9c9-d36b3dfece95,Female,62,104513,Budget,New Hampshire
-1d646fd8-3305-4082-97fc-8d1b32e5aee5,Male,25,120233,Mid-range,Hawaii
-98422d1e-397d-4a51-9242-3153e3f01386,Female,22,98497,Premium,New Hampshire
-ab25bd37-c39e-4d8e-9d2b-379d012eb4ae,Female,55,82978,Premium,Kentucky
-c0770a31-8a8d-44f0-b083-f9666b2b3058,Female,34,102312,Premium,South Carolina
-3de0a17d-7050-4b82-acf3-821315cb2f9b,Female,62,127253,Budget,Illinois
-fc6abab3-148c-47b8-9801-679cf1b0a742,Female,50,116070,Premium,Delaware
-75b20d82-cb62-4677-967b-2708c20c48b2,Male,34,41344,Premium,California
-fd3c5f68-d19a-4b1c-8025-0dfe7485cc9e,Male,27,61901,Mid-range,Louisiana
-75badf8c-e84e-4930-8bd3-095aa99b6e06,Other,26,66843,Budget,West Virginia
-b67590fb-97cc-4627-8e3f-9b557adc3585,Male,35,67338,Mid-range,South Dakota
-cb7e12e0-4efc-43bc-89f6-bc1c463860e3,Other,40,26385,Mid-range,Kentucky
-c8961cf8-bfd1-4699-8308-57c998d3bb9c,Female,51,103747,Budget,Maryland
-83139db1-bb1d-45a1-9d4f-119fe7073af3,Other,30,120459,Premium,Louisiana
-b527b16d-4739-40e0-b951-6bb58d0bf8f1,Male,66,32387,Premium,North Dakota
-365cb466-b2a2-475d-a2db-5745abf43bf7,Male,52,62284,Mid-range,Idaho
-ff8da0a4-6919-4e01-b9f2-23abcab49a31,Other,69,59462,Mid-range,Delaware
-ead39647-ccf6-4eef-8e67-83e3990812ab,Other,62,110222,Mid-range,Illinois
-2bf1a5e9-8189-4e40-9a78-8615e76b9d6b,Male,52,96027,Mid-range,New Hampshire
-71505848-2f7f-432b-824b-1b34d592d968,Male,18,37950,Premium,Florida
-e653baf1-9e83-40c7-8a97-e6c3b525a2eb,Female,41,122079,Mid-range,Kentucky
-83ab7aa3-f34d-411c-8110-cbf6c40ee7ed,Female,39,140705,Budget,Idaho
-4bb0a180-2df9-4c93-8cca-28cc63f8cf58,Male,31,40257,Premium,New York
-dcf30bed-bb22-4c87-a750-ecb53bae22a9,Male,30,124216,Premium,Wyoming
-0ea5c2d6-76c3-4f7c-be88-4a2f14581acb,Other,62,128975,Premium,Montana
-492364eb-25e4-4335-8e02-b81814454965,Other,63,92235,Premium,Wyoming
-759ed459-02d0-4ab5-9c65-248f049f4f23,Male,44,80357,Budget,New Jersey
-dfee9ffd-c451-4589-b5fb-c3d486956ace,Male,70,37200,Budget,Connecticut
-97641a86-fb99-4500-b93e-037d95ae602f,Female,40,60838,Premium,Idaho
-0b89b5c4-3693-4a02-a5d7-807b0cc1c37c,Female,26,127090,Mid-range,Mississippi
-f85e888e-c360-4072-876a-f366b5a28383,Other,51,120085,Mid-range,Maine
-c65bfb2d-ff79-4c7c-bf48-9f25f6dea14d,Male,63,59935,Budget,Delaware
-7aa5772e-7d18-4ef4-b696-a4fcbb184961,Other,70,35544,Budget,Washington
-e2d9032d-1628-465c-9d8b-734053788dba,Male,62,38659,Premium,Virginia
-584fd716-6309-4f13-9b93-cb08f367402a,Male,37,36429,Budget,Colorado
-2f237d46-a1bc-4cea-834c-aecc5efdecec,Male,23,75680,Premium,Nebraska
-d8e0f5c4-7f23-4bca-9246-48435dcf2c46,Male,22,22464,Mid-range,Nebraska
-0bda4e6d-0e08-4c37-b2c1-0a7ac377a194,Female,20,45736,Budget,Maryland
-958fdca9-4dc3-477d-899e-49fa59a19d5d,Male,68,106479,Premium,South Dakota
-1ef18fac-c581-4eea-9cee-df8aa1b540aa,Other,21,81483,Budget,Minnesota
-bfc90dd2-52cd-42e3-85bd-a7678322be1e,Female,20,28683,Mid-range,Wisconsin
-bea594cd-297b-4822-b2b4-dbfc31caaa91,Other,18,118900,Budget,Wyoming
-351011da-c986-4776-b66e-f116e2d237eb,Male,56,46922,Premium,Idaho
-1e6bd2b2-5dbc-4911-9ca4-13b9b6bbbc8c,Male,29,107896,Mid-range,Colorado
-b842b63f-8120-4f67-9c5c-c591b61d300a,Male,23,39078,Premium,Wyoming
-4375bdf9-e6d4-439e-bfa0-11736abfd4dd,Female,55,65591,Mid-range,Wyoming
-8e36982b-87e7-4a46-ad80-149add69fb01,Male,50,122341,Premium,Hawaii
-53b74b9c-64ed-436b-b21c-dbe51e1e054e,Other,33,86179,Premium,Maryland
-d2302676-8e0f-427f-add5-86e1617a560a,Male,24,127424,Premium,California
-714831c4-3b3e-435f-98d0-511fed3d3c81,Male,51,48442,Premium,New Hampshire
-24d77036-af13-475a-9903-9103071f32b2,Male,36,42514,Premium,Georgia
-e6b10f31-1292-40c6-a95f-0d1b8eebb108,Male,64,32934,Budget,Alaska
-3c4238b3-5514-477d-aa43-79c0885ee68a,Other,63,82221,Mid-range,North Carolina
-fac32629-1f3e-4724-96bc-3c3822a82bcc,Other,55,44264,Mid-range,Utah
-fe0dd992-888a-44b2-99a7-7a1d1fc111fa,Other,24,43704,Mid-range,Arizona
-63dd649e-0534-40aa-b015-54ac749de160,Female,45,48085,Premium,South Dakota
-01c88652-27c4-4e99-85b9-cc4337fbca1c,Male,44,34790,Mid-range,Illinois
-a645e108-85b3-48ff-8833-f64dca0e3b76,Male,47,34459,Premium,Maine
-4a3580bf-dd61-484e-aec3-703aded455d7,Male,49,119912,Mid-range,Iowa
-c335777d-f625-44b2-a89f-3eb820ed691a,Other,36,93024,Premium,Texas
-8d46b8df-0dcc-4676-9456-ab51e4c92a17,Male,23,63006,Mid-range,Florida
-d35567dc-43ad-44c4-b967-351682938f6e,Male,42,57173,Mid-range,Ohio
-bbe9c871-070a-4729-9b8c-f1b8d9dc2305,Other,65,60895,Premium,Texas
-a13b42c2-ba43-44d1-abdb-7261a0313805,Female,32,92602,Mid-range,South Carolina
-ae8e8622-db97-4e58-aeeb-52833704d2fe,Female,45,44744,Budget,Minnesota
-e162de25-70cf-4c88-82f1-82e0e7f27bb2,Female,61,68161,Budget,West Virginia
-a367c843-d480-4d9d-b5af-c4bb1a9793ca,Male,61,84441,Premium,Hawaii
-dd9b8533-422e-4787-beb0-08f649972486,Male,43,77417,Premium,Pennsylvania
-59205f82-47bf-49dd-b30c-fd578dc744c2,Other,61,31141,Budget,Iowa
-c3d68475-e9ec-47ea-baf7-203f4afcf750,Male,43,72510,Premium,Iowa
-66c035ab-ade5-4ea2-99ff-6e71cc93afb3,Other,24,117180,Budget,Virginia
-d8f0a2e1-45d6-44de-9cd9-12d63c8cd754,Male,41,147822,Budget,Minnesota
-d42d2930-da38-4420-a0fa-efdfef05099b,Female,30,97982,Mid-range,Virginia
-b3800824-cc64-4810-b5b4-6bad8c15bcea,Male,32,129852,Mid-range,Colorado
-0144139e-75b7-4011-9baf-0ab110e39a1b,Other,49,56505,Premium,Georgia
-50ee31a1-9a54-4aab-b7d0-a4fb6e3a6735,Other,55,55779,Premium,Mississippi
-6f8aa1ee-1d89-47ff-be23-82ac11e603ab,Female,40,82367,Premium,Nebraska
-77089428-ae4f-420d-b0bf-d7c922c79a9b,Other,43,149436,Mid-range,Florida
-56d9ea31-9d25-4cd1-a877-931b2cc91b65,Other,35,39316,Mid-range,Washington
-a02f5ecb-d25e-4c30-9c47-413ca1d2c8c8,Male,25,52858,Mid-range,Wisconsin
-d3f3e83f-e1eb-481f-bb95-68b5387f2c03,Female,32,102361,Budget,Alabama
-6b79264c-2eee-4977-b4b9-5a539f5ad2c1,Male,24,116704,Budget,Alaska
-9e35561e-5337-4fda-b1f5-a5c63561a73d,Male,49,108880,Budget,Iowa
-5101938c-dade-4a14-ba93-8d599b90401d,Male,42,99244,Premium,Alabama
-fefbffe5-2106-4c6d-b66a-4f7e073605bd,Female,27,59682,Premium,Alaska
-44683ac6-2dcb-4708-9686-60f2c9800765,Other,24,119637,Budget,Texas
-b390adc0-a40b-497b-a08d-656e74c98ba1,Other,66,88150,Mid-range,North Dakota
-4dd4b5bc-0ce7-4be1-a684-2e80ac4947e6,Female,30,58477,Premium,Alaska
-d6346b38-3548-48e0-92db-cd8d40bb04bd,Female,49,86164,Mid-range,Arizona
-d058deee-3835-4f91-9c18-8301e64d472c,Other,39,126100,Premium,Wisconsin
-a02de75c-3a11-421e-978f-ddcbe97e8cd3,Other,19,144856,Budget,South Dakota
-c744f132-e588-41bb-b076-f12668921b0f,Female,25,70283,Mid-range,Nebraska
-e862b8d3-b499-4c61-86a7-0c05f1dc57f0,Female,42,78006,Mid-range,Hawaii
-58c7fde6-b8a2-4194-8d4f-1dadd759a1ac,Male,20,43182,Premium,Delaware
-cb3722aa-ea8a-4054-8ebe-fc15b1f2df58,Other,67,59720,Premium,Ohio
-bc8e74ee-c6f1-41b6-8876-0bd88c155419,Male,49,76450,Budget,North Dakota
-7eb919a4-a7f1-43fd-9ec5-2351cb17751b,Female,63,70997,Mid-range,Oregon
-59fa31c5-3535-4799-a441-d783c1026914,Male,54,108476,Mid-range,Louisiana
-50b40f27-1c4e-4c30-b0c7-9c42d6253785,Other,53,109833,Premium,New Hampshire
-3e334a25-4455-4536-987c-c002c283f4b8,Other,48,82378,Premium,Indiana
-a1239690-b815-4767-9985-c6fd3a5a85c4,Male,50,27305,Mid-range,Alabama
-f3bf08d4-56bc-4577-b7e1-96c554d10307,Female,49,97469,Mid-range,Ohio
-d3692c39-a83a-4291-a483-f2967ee0f14f,Other,61,66237,Mid-range,Colorado
-afa49362-b762-4223-849b-6a0d0337764f,Female,21,23689,Premium,Iowa
-e613f5c3-085a-4431-804c-e890de44082e,Male,26,129698,Mid-range,Alaska
-0564201a-554d-403b-aec3-3845a8546864,Female,69,117262,Premium,Tennessee
-334ea68f-0227-44ed-a6cd-58d23ba529a3,Male,66,136830,Premium,Alabama
-65aa29d0-ba20-43a6-acf5-1dbcf43f1b0f,Female,42,32759,Mid-range,Pennsylvania
-5da3a90b-6223-4613-b9b2-a59f6d2acf6e,Female,40,73992,Mid-range,New Mexico
-09efd9dc-c733-4650-bdb6-ed0dc5b072b0,Male,60,52011,Budget,Delaware
-e79b507d-ee21-462a-8caf-67b22a07c0ab,Male,59,60907,Premium,Oklahoma
-6251a0fa-a3ec-4e28-a5bf-a1e4ddc2d3b2,Male,62,28585,Mid-range,Georgia
-6399e267-f256-4381-83a0-d66a299ab4ef,Male,39,42253,Budget,Arkansas
-58c79a9b-1fe9-4fdc-83be-b55a06bd3861,Other,38,24899,Mid-range,Montana
-c38616a3-241a-478d-be7c-ee4a30294dcb,Other,45,94455,Premium,Washington
-802d9960-e1fa-45d9-ac91-e0c45c729588,Female,35,22674,Premium,Louisiana
-ea5ce402-fb70-4107-9058-91f9ca853b48,Female,55,22914,Mid-range,Hawaii
-fea4bee4-5a1b-44e0-95c6-94ba8b791b74,Female,54,71157,Mid-range,Washington
-df621722-ff53-4c94-905b-989e994b372f,Other,24,125948,Mid-range,Maine
-6fdffe7e-fbbe-4607-9bcf-d2e360e4e1f6,Male,62,108488,Budget,Mississippi
-e47a00cf-5b87-4e18-aa65-b9acbde71dbe,Female,49,85898,Premium,Nevada
-b6a1a4e1-aa7b-466e-a9c9-fa49583e1881,Female,28,100586,Mid-range,Texas
-20721028-e82e-4707-8f51-26cb39f19d1e,Female,45,46444,Mid-range,Washington
-2376bebe-0f5b-4890-97fe-c266748b5a72,Other,68,29872,Premium,Michigan
-962dba12-3e9b-4321-a2ac-17c851156c66,Male,36,54754,Budget,Nebraska
-3f1fa189-4535-4fd7-a84f-a32f574d6ee8,Female,54,72694,Budget,Hawaii
-0769d9c7-f444-4832-be58-d5a4fca1cc7b,Other,65,145559,Budget,Maryland
-784e56a5-9ee6-4b29-a7d4-2bf79ef3bdfd,Other,55,32416,Premium,Iowa
-b8043b2a-4303-4c8d-85d5-be405a3e5287,Female,35,28817,Premium,Michigan
-541aff7f-bc3f-499f-a954-7bf6d9339b5e,Other,48,75981,Budget,Maryland
-aabb0066-5009-4583-9d1a-02ddad0df7d4,Female,68,30048,Premium,Ohio
-c0dd4088-cb8f-4a26-9a8b-6de77a4e347e,Female,50,125398,Mid-range,Colorado
-469e3169-847b-42b2-8fda-621ad1eac4b9,Female,60,90772,Mid-range,Arizona
-b970d423-9845-48a3-82ab-e02aba2e2976,Male,44,72730,Mid-range,Florida
-3261887a-a92f-48ff-9ab6-d86c096a6365,Other,50,79405,Premium,Pennsylvania
-c927577d-8773-4159-9aa8-5ecba6372945,Other,29,135460,Budget,South Dakota
-c6571251-2969-44a7-9112-978b39be5342,Other,63,87662,Budget,Vermont
-b8074961-b9e0-4a3f-bd5b-0c0cba3fd7b6,Other,49,47912,Premium,Missouri
-b103db45-5eee-4f82-86c3-c84cd771dda1,Other,47,55118,Premium,Minnesota
-6cdf6e82-8d5c-48d5-a3a2-63c7bf1cafb9,Other,69,100533,Mid-range,Wisconsin
-fafc6577-535d-48c5-9830-2ee8e9cd08de,Other,64,102150,Budget,Massachusetts
-f6c00fd8-791e-4db0-87ff-ff8c4db52eba,Other,30,67746,Mid-range,Nebraska
-3156bb97-743e-4dca-8b57-6f26c2bd6118,Male,33,39722,Premium,South Carolina
-5a9eb399-b7ab-41df-aa74-532b06b01a47,Other,66,59357,Mid-range,New Jersey
-0e337194-dc25-4fa3-92b2-7798b79e39f6,Female,38,132746,Budget,Delaware
-3e2d906d-5b80-4e4c-9f20-25ddbb12f748,Other,31,130882,Mid-range,South Dakota
-2b5e80e0-2b69-4f4c-a5a2-5266972c222b,Female,70,57623,Premium,Colorado
-42348f3e-1c6b-42df-9a91-ab3dcb1a81b0,Male,34,110027,Premium,Kentucky
-a753b804-ba9c-4e93-8c94-3a52f502a661,Male,43,51258,Budget,Arizona
-e910f289-9c43-4149-9445-bd7e9f05105b,Male,30,23631,Budget,Oregon
-591c3c12-8f96-496c-9c1f-773dd049ef8f,Female,47,83620,Premium,Maine
-0da46fc1-ae76-4276-9756-e80960d3b901,Female,45,104793,Budget,Nebraska
-f243ae06-afe4-4c8a-b0de-0a40cc4fe2f3,Male,28,55744,Budget,Georgia
-f50d2e64-15a3-4595-bffa-7ec8d1acd645,Male,34,123503,Mid-range,Pennsylvania
-d2445191-62c0-41af-84d1-d759016c5f40,Other,53,43066,Premium,South Dakota
-cb75c3da-0155-4aea-ae17-0c6dd4638feb,Male,64,83680,Budget,South Dakota
-b77250db-542a-401c-accb-2e135ab1ec2b,Male,23,61144,Premium,Pennsylvania
-2ca17535-527b-47e7-a1f9-3bbd5cbd0a7e,Female,22,138040,Mid-range,Missouri
-ad5be90f-36f6-40b9-bff5-14b1739365eb,Female,60,106170,Budget,Alaska
-f0bd5fc6-58b7-4003-9113-61fb02a79ba3,Female,64,130460,Budget,Kansas
-c166b045-8582-42f1-a4a9-85de5d86c3be,Male,25,94838,Premium,Oklahoma
-5508b82b-8a14-4875-9f13-fffec8f2dafb,Other,25,88414,Premium,New Hampshire
-602bdf8d-face-4704-a0eb-a2c2d3ff20b9,Other,67,142100,Premium,Florida
-4e0be921-3dc5-4d25-ba80-01be7e36209c,Female,49,135941,Budget,Connecticut
-fd3281a2-a8ed-4ba8-9637-8cc2295c1cf9,Male,56,36027,Mid-range,Mississippi
-61b48cab-2303-48a1-bf57-ba8571e21f1a,Female,55,116631,Mid-range,New York
-61244e3d-1f3e-41eb-9bb2-0a8b5a024393,Other,65,50924,Mid-range,Oklahoma
-d0766689-0b48-47d2-b42b-58917d331522,Male,27,34000,Budget,Rhode Island
-b26504f7-d912-450a-9cad-97787660b1ab,Male,35,77602,Mid-range,Vermont
-024f95e8-5013-460e-855e-9f5aaa799206,Female,55,27330,Mid-range,Arkansas
-a842bfbe-3c72-4b23-af9f-1464b67a51b5,Other,41,111700,Budget,New Jersey
-341bfb49-0646-4b31-9e6c-0c47309b6eb8,Female,52,75545,Mid-range,Nebraska
-a826cf28-caab-4605-b45a-8e6521ad093a,Other,33,146263,Mid-range,Idaho
-0b328097-e524-4a2c-add5-6900ad600d7d,Male,41,82288,Premium,Oklahoma
-feae91ff-ba2a-4c4a-b206-3448ea5fc917,Female,70,60392,Budget,California
-ea1cec9c-81bb-40a7-a316-59496c284292,Other,56,24562,Premium,Vermont
-f2d0d38b-5a6b-4f01-a79c-65948dee6d2d,Other,69,143318,Budget,Maine
-2db60584-3e3b-4536-8c13-313d843d2e76,Other,68,108027,Budget,Michigan
-1d4bd23b-05d1-4e7e-a3de-9846fa4dae35,Female,53,70422,Mid-range,Alaska
-b7882de4-95e1-45a7-9567-464483b46632,Other,62,67560,Premium,Arizona
-b52f5cb5-2017-456c-88c0-860fc428df22,Male,52,133633,Budget,West Virginia
-3fe99b1e-674e-4563-93d3-66e9a9fe50f3,Female,42,21031,Mid-range,Connecticut
-4aa439c3-0a78-4244-92f3-31204f4e51da,Female,37,31829,Budget,Arkansas
-0be5c878-7fb2-4d91-ae17-041ab4318c8b,Female,31,132645,Budget,Virginia
-40bfcf6f-2f53-4042-a8e4-3985bfd46565,Female,58,61573,Premium,Kentucky
-ef74c6ce-3e49-43bd-b7ae-6e7ee46f2136,Female,68,24440,Mid-range,Pennsylvania
-7716bde0-c8d7-4411-8538-86f6a9bf0977,Male,70,122164,Mid-range,Rhode Island
-39610cb2-e7ec-487c-979d-522f58315625,Female,65,74127,Mid-range,Massachusetts
-a451ae76-738f-41d3-a2f5-e5d31e964581,Other,45,134918,Budget,Vermont
-da09445a-b8c8-4c20-b39b-348cf20886e5,Male,62,54205,Premium,Minnesota
-48305bf3-417b-47a0-b5ae-7141c1680db4,Male,40,75164,Premium,New Jersey
-09285d9c-67dc-425d-b3d8-3a49ddfcade4,Other,70,91791,Premium,Virginia
-47012452-6723-478c-a4a2-b63ff46daa2d,Female,47,111122,Budget,Montana
-e38b87ee-cc43-4e44-bdaa-ba00133aee83,Male,59,104094,Budget,Arizona
-fe80af40-53d5-4f64-b0b6-8687f3da5aa6,Other,46,123680,Premium,Mississippi
-46dea43e-752f-4273-9f8e-030dcd926a8f,Male,18,72515,Budget,Nevada
-12135a17-5272-4ac7-8c09-4939ee21ea0f,Other,37,61120,Premium,Arizona
-52ee5cd5-7cc8-41e5-afeb-23f8393ca083,Male,25,40686,Budget,Wyoming
-1604c6df-c537-488c-a3b7-878d46fba083,Other,63,147095,Premium,Rhode Island
-bc44cff8-dae8-4d3a-b2dd-4f42f1c0b346,Male,56,109883,Mid-range,Indiana
-e0e0e707-9626-4970-a627-022ce37b2e38,Female,46,82700,Premium,Louisiana
-969cf365-9498-442b-a4a9-f22d0a27f39b,Male,34,42738,Premium,Indiana
-4e15b34b-5fbb-43a8-bb32-2e73f5d7d474,Other,70,62936,Mid-range,Maine
-5f5827dc-b31b-4bba-b28b-fb40fc1afbab,Male,23,74328,Mid-range,Alabama
-448fd2d8-b280-43f7-9530-6fcbecea48dd,Male,43,134870,Mid-range,Wisconsin
-57359b7f-bb83-48b1-a65c-b9af8a3d48b7,Other,32,22717,Budget,Missouri
-e2c6748b-8651-4df3-8e49-408175d5afb8,Other,59,100216,Premium,Montana
-5fd2bf43-1bf1-427b-a48e-1ee57590b3ca,Male,23,147680,Mid-range,Alaska
-a10120b3-3bb3-4e0a-85b5-22b79fbb9613,Male,34,111915,Budget,Arkansas
-4d5dd748-0270-4c75-b950-036ea62406dc,Male,43,101003,Mid-range,South Carolina
-9213dbe8-cf2d-43ae-b169-aed51435b27f,Other,34,39562,Budget,New Jersey
-cba8f58e-e045-4794-b0fd-f40fbdc691d9,Female,28,144157,Premium,North Carolina
-07d41c49-0909-4fbb-8bc8-a605b75854ef,Male,18,114186,Premium,Vermont
-0af8bfeb-f0eb-4358-a548-d30a980324b3,Female,67,140584,Mid-range,Hawaii
-28a489aa-08de-4535-a07b-ed4c8016c729,Other,49,35533,Budget,New Mexico
-f0e64a5d-8c43-4638-a8f9-5ce181abb03f,Other,31,44975,Mid-range,Vermont
-ea47cb2d-cb9f-40d6-a652-61788e5ced01,Female,65,84771,Mid-range,Kansas
-41291ca0-bacc-48ff-9fbd-59d61915ae8a,Male,45,132241,Budget,South Carolina
-54460518-457e-4595-85a8-f7ed91e393f8,Other,31,128014,Mid-range,Nebraska
-e39b9ff9-5729-4ae4-9f34-be56b1209352,Other,61,44820,Mid-range,Michigan
-0787504c-dbd0-40a8-a615-356b0eec4b5d,Male,44,123869,Budget,Maine
-85082542-0428-456a-b9f9-b1ae879945b4,Male,36,147943,Mid-range,Hawaii
-360845a2-793b-45c4-bcc7-a969fdf4d39a,Male,57,79110,Budget,Pennsylvania
-b6c3a20a-d6b4-4513-8465-bd2e3ad90a32,Female,55,109688,Premium,Washington
-f5e26898-aaa5-41d6-863c-1221162c8632,Female,23,21352,Mid-range,Rhode Island
-41dcc94c-905b-4ac4-a0b8-83c135d0017f,Male,38,147716,Premium,Massachusetts
-ebed3922-bd18-43b4-bb33-b6a60ac43663,Female,61,47815,Premium,Mississippi
-87c7d5bc-eabc-46fb-94c0-c2ddebc19363,Female,63,75481,Premium,Vermont
-6ead47e2-4182-47e6-94e4-56933b117439,Other,34,29575,Budget,Indiana
-483856b1-e09c-4adb-b7ed-98b29db46b66,Other,21,26830,Mid-range,California
-a2a1bdf8-f6d6-4fca-a60c-cb4a24b06184,Male,48,139043,Mid-range,Arizona
-f3ee5725-e4e9-4601-a0bc-cd08070a696c,Other,60,146774,Premium,Arizona
-c17a48ce-69e6-43f7-a90c-ffbae8529fe9,Other,65,126149,Budget,Hawaii
-80b0bfc2-249c-4492-a3cf-3513d5a55ae2,Male,34,86131,Premium,Kansas
-b777290d-69d7-4c5e-adbe-ec3c14b487e7,Female,37,148126,Mid-range,Maine
-bcf645c3-1cb8-4017-9250-101a35c21999,Other,41,37332,Premium,North Carolina
-107c5ea6-a248-4e1e-92bb-7e5c21d72d2d,Male,55,43510,Mid-range,Michigan
-9f564d7f-ad8a-4d84-8904-7e996ee15d15,Male,50,84597,Mid-range,Rhode Island
-8c265654-aada-4116-8c81-8a8c06cff946,Female,26,31750,Mid-range,New Jersey
-82d8a8bd-16eb-4f47-8981-e52f87e9b709,Other,51,76744,Budget,Colorado
-d80e7871-4527-4d6f-987c-3cc3e584c5eb,Female,25,61060,Budget,Mississippi
-f83c53fc-7381-4b08-bd3f-1ca28681797b,Male,49,134252,Mid-range,California
-33f5b79d-4cf4-466c-8e9f-193a1eabafdb,Other,41,141403,Mid-range,Wisconsin
-2daf73e7-0a91-4921-9962-7e1e50a13614,Female,34,100338,Mid-range,Alabama
-9009f1ad-4d93-49bc-926f-afc5766b7f79,Other,38,77117,Budget,Oregon
-7a3c1b7b-e449-41f5-a88f-8f1604360db5,Female,65,84392,Budget,Florida
-d3e0d879-2b70-44f7-a0d7-3a3b1c1a4738,Other,60,103447,Mid-range,Montana
-6511397d-90e8-4758-b967-aae29ccf879f,Male,30,39480,Budget,Colorado
-33e14eb5-7bd1-40b5-bd73-8f2cb91608ab,Male,29,24700,Mid-range,Minnesota
-4c8c1ed3-46c1-407f-9a4a-469e009bd95d,Female,28,112531,Mid-range,Oklahoma
-d701a20f-ad96-4a24-9d4b-2e3d9e6f3ca7,Female,25,137332,Mid-range,Indiana
-ddea1919-82f9-4551-a20f-65e70610a392,Male,46,66729,Premium,Alaska
-fae09bb4-1d26-49c9-9620-55edd3a9ae45,Other,49,79999,Mid-range,West Virginia
-b984ad46-3b73-42c9-8455-f6b762dc8305,Male,64,133623,Budget,Georgia
-812b5d10-9705-4263-9ba1-890e0afc203e,Male,40,32265,Budget,Connecticut
-174d4b8c-54ff-48a2-af71-2ff705bdfe81,Female,29,129439,Budget,New Jersey
-524fe64d-32b5-4eda-8e31-8d634d0b0dc6,Other,50,127816,Mid-range,Minnesota
-5de1b628-8aad-45a1-8769-98df95f59fee,Other,60,96765,Budget,Washington
-f6881027-9d31-431a-b888-ab05b12c1803,Other,18,88945,Premium,California
-9b60c094-3528-499d-91d2-e452d61b6f4f,Male,44,140640,Budget,Montana
-85b71c40-3a2b-4191-8a40-6866993c4ad4,Male,67,85288,Premium,Alaska
-02d45b60-85fa-4ca3-a229-33182fd26b14,Male,39,23402,Mid-range,Vermont
-f173347b-0da4-414b-a474-445368e4c9b9,Other,61,35989,Mid-range,Indiana
-3afef5e3-3e9d-4f88-97ee-0c43fdfe869a,Female,55,141785,Budget,Vermont
-20f98b75-b0b5-4903-b1c8-3d1bd6e4e314,Female,27,23784,Budget,Missouri
-f76871c1-eedc-4632-97d1-b7256e41ca1a,Female,63,106447,Mid-range,Utah
-4987e70f-d272-4a1a-9312-f610b61939e1,Female,58,145200,Mid-range,Florida
-67c4488a-0562-42f0-ad11-24159196af62,Other,60,20760,Mid-range,Kansas
-9f0f5a65-0e60-45c4-b96e-8f2073d4b091,Male,59,101574,Mid-range,Alaska
-9940cc6e-4f5e-4ea9-b1cc-fd5baa2a1106,Female,64,116248,Premium,South Dakota
-fd719468-0f06-496e-896f-6546a5039402,Male,31,133151,Budget,Kansas
-2a3d655b-a04b-432f-862e-bc61a4a8ac37,Other,36,62358,Budget,Minnesota
-a7dd597d-ea8a-41ef-ab93-e02f345afdc3,Other,22,91716,Premium,Nevada
-e5f2b5be-4ffb-408e-81c4-81acb79268e9,Female,23,72279,Mid-range,Vermont
-ac493ce5-9b96-4781-89dd-7d1b816a31be,Male,33,146490,Mid-range,Hawaii
-050fd0d2-6c1a-4413-987f-7fb93d0bee96,Male,19,131718,Budget,New York
-77c97e76-4db4-4433-bd88-d099cf25d117,Male,42,122169,Mid-range,New York
-cb9e1070-189e-4185-84a3-6faeb8ced6bf,Female,59,118639,Premium,Washington
-a8d01c53-47a5-425d-bf58-c8cd6844f443,Male,25,59131,Mid-range,Indiana
-99be7a7e-8d5c-4c0a-a7cb-b0dbded1b37d,Female,65,125690,Mid-range,Oklahoma
-f14973e4-dc87-4543-9add-32e42e995c34,Other,56,37208,Mid-range,Minnesota
-3f9ffe71-345b-4aca-8cdb-0254abd20034,Other,24,129058,Mid-range,Mississippi
-25012ad4-0234-4d14-8b68-5ffc857e6efb,Other,30,84175,Mid-range,Delaware
-665a0c08-6d33-4200-aeab-7304b8a11222,Female,48,55190,Premium,Pennsylvania
-33def258-9423-4ccb-9433-e7802de25c9d,Other,45,31825,Mid-range,Rhode Island
-0d425d2c-4856-4c3d-b5f2-0edb580e67d1,Female,57,44426,Mid-range,New Jersey
-9cd7d1ca-4c80-485d-a063-c9613162c543,Other,45,32182,Budget,Oklahoma
-e1be3ab4-17e0-4c14-b2f8-4171db9d4a91,Other,39,147568,Mid-range,Alaska
-51b1bfdc-3d73-4db6-b38c-02130dd57bb9,Other,32,104883,Premium,Ohio
-95a428c9-a314-40e2-904a-92c53a4704bb,Other,27,141984,Mid-range,Maine
-6c4b5030-fc4b-4429-9124-dcab54b5d80d,Other,58,104833,Premium,Florida
-098112b4-da22-4ddd-8918-67786db80105,Male,36,81370,Mid-range,Mississippi
-9f2df0a4-b381-49b2-9f90-00fe3b4ed55e,Male,69,82601,Mid-range,Iowa
-c4b682c6-033a-43d6-bea1-4d5f1cb64211,Male,26,109694,Mid-range,Illinois
-e82775c6-ccb3-4cf4-8d89-84af31038d32,Male,51,76063,Mid-range,Wyoming
-6a24141c-bf20-4451-9a0f-48d0d31a5ed3,Other,21,92219,Budget,Rhode Island
-5d163b67-9587-4825-be22-19f94b0d5674,Male,50,34107,Premium,Oregon
-be291236-d53b-4e22-900e-9d4a896bc0b3,Female,44,32384,Mid-range,Iowa
-70ecdc90-4de2-413a-abc0-8486755cd969,Other,64,94511,Mid-range,Nebraska
-bcd1790d-b9fa-499e-9f79-23b1c1c0e444,Female,34,96751,Budget,Mississippi
-ab82bcae-4b37-4859-b98e-a8156fbf00c9,Other,19,34933,Premium,California
-3f603a8d-6d8c-4fd9-89ab-9e5e876e6c43,Other,47,43534,Budget,New Hampshire
-0673c14a-9255-443d-87f3-be357c488d9b,Female,20,30917,Mid-range,Georgia
-a1184742-ecd6-4d65-bf46-19a355050b0b,Other,37,61149,Premium,Nebraska
-7da19739-19fe-4c67-8e91-9c4486980323,Other,47,119267,Premium,Indiana
-e1fb282d-4871-4967-bd7e-6f7dfb740fcc,Female,57,125884,Mid-range,Idaho
-8094ef3d-0f34-4267-b1dc-f367a3dfcd7f,Female,69,44535,Budget,Arizona
-7f25b31b-cbbf-4775-ba63-d52b30326b60,Male,23,117914,Premium,Massachusetts
-6afabd79-128c-4b18-92a7-66ccadff8c7b,Female,61,33936,Mid-range,Washington
-18f518e0-4191-4edc-bfca-f8f924bd023d,Other,19,20766,Mid-range,North Carolina
-00b9061b-fa62-4da8-b0ae-fcd1a48503ee,Male,18,42509,Premium,Washington
-5fd481c5-1491-4328-bb5d-5abe2258ed8b,Female,47,110676,Mid-range,Montana
-84876e26-c4b2-4dda-9045-a0ecedccf29e,Other,65,98890,Premium,Kansas
-be94427a-8c09-47fb-aaa8-56d024cea090,Female,37,101067,Premium,Oregon
-3fd79946-a5cd-4f3d-985d-1703bb0b8b5b,Female,62,108316,Premium,Delaware
-06de985c-348e-465c-8379-4de3d7a1540e,Other,43,125465,Mid-range,Arizona
-717190d1-1a3b-4f6e-934c-91f80a1d7b0e,Male,26,37709,Budget,South Carolina
-89db0e65-8e8c-4eee-88a0-e55607526943,Male,25,126950,Budget,Kentucky
-23ad3d23-4b7d-49d8-9228-dcc0575ef831,Other,30,132592,Budget,New York
-44576731-b3af-486d-bafe-d978315bf701,Male,48,105016,Budget,Minnesota
-50cc9977-5452-48d6-a340-4bceddcdf203,Other,33,77119,Premium,Pennsylvania
-92aa6daf-e19f-4fb8-a5ca-492df831e6ae,Other,30,31284,Mid-range,Ohio
-d49eec1c-04dc-477c-82c2-856b374fb7f4,Female,27,82126,Mid-range,Maryland
-60041d03-889b-4fb1-871a-1af1fe4a4794,Male,25,41771,Budget,New York
-d9febe0d-ee7c-4876-8d43-e87cdf3b155b,Other,62,78361,Mid-range,Arkansas
-5a877330-e712-4101-9220-803666a74ae7,Female,19,132695,Mid-range,West Virginia
-4c4d184c-5525-4a06-9c0a-a72272466aad,Other,33,46389,Mid-range,Wisconsin
-2c037ccb-0265-45ac-82d3-acf1287c338f,Other,43,26674,Mid-range,Missouri
-0b84938e-0228-4338-a128-315b2d6fee6e,Male,24,102629,Premium,Iowa
-a30dd5dd-c09f-46c0-a16e-313be2059f1b,Female,44,131229,Mid-range,Virginia
-5df58964-c3c6-47cc-92a8-dd4945b3119f,Other,55,98097,Premium,Kentucky
-091e7d9b-9138-411b-8db8-4b5dba0578b6,Other,36,24851,Mid-range,Washington
-121cd130-84f5-4181-ab32-91e51d6d5248,Female,49,87286,Premium,Missouri
-65d3c9b5-a746-49ba-a90a-795eb4be218e,Other,57,142589,Premium,Kansas
-a0e6fa85-33dc-4c09-99ef-459bef5d3f28,Female,32,113623,Budget,Alabama
-8b59ccd8-78ce-49c7-8557-4e18b52e9669,Other,19,75312,Premium,Rhode Island
-67b7b876-5cc8-4e05-b708-adb08b36ab6d,Female,53,28324,Mid-range,Tennessee
-857745cc-e6f0-4320-87e8-587333085a2c,Other,44,136541,Mid-range,New Mexico
-a3623026-f676-4c39-b290-ae0b5beb4489,Male,49,101618,Premium,Nevada
-642e154a-2878-4808-80dc-caa40be8f8b7,Female,46,111424,Mid-range,Oklahoma
-5849121e-7b33-4e40-953f-cac60e4fbb5a,Male,28,57750,Premium,Colorado
-491a8aa2-aa01-4dfc-b9a6-7fcc47b7d951,Male,48,65068,Mid-range,Tennessee
-b289b5d3-3cd2-469c-8e3c-a9e271cca2cc,Male,50,48796,Premium,South Carolina
-a84b2626-410e-474b-9f9a-ef4c0b3ef861,Other,39,140813,Premium,West Virginia
-b066025a-6a47-4759-8370-43adecb0b3eb,Other,60,81402,Budget,Michigan
-3fbb78b9-dd55-4895-b594-55b6494dff55,Female,64,113242,Mid-range,Delaware
-49f6715a-fcd7-4ff4-a75c-ed282c6542ed,Female,61,105524,Premium,Louisiana
-c26e0c46-aec9-4775-acc4-87d00d429dfd,Female,68,81908,Budget,Rhode Island
-100b732d-c4ff-4436-981d-388935071536,Other,31,57022,Premium,California
-f0eb6a9b-2fd7-46a7-b01f-36c2514bbc22,Other,23,107432,Mid-range,Massachusetts
-199d5fb9-06bd-43e5-a5b5-83f4173c04cd,Male,29,46146,Budget,North Dakota
-04cc55a0-be8d-45c3-b7d9-f673a1bfba01,Other,49,33225,Mid-range,South Dakota
-12173247-c6bd-4abf-97c5-907ae6742d37,Female,37,50765,Budget,Virginia
-8e4e712a-a351-4c29-ad0c-a157e83be7c1,Other,21,22376,Mid-range,Minnesota
-6a2b71f0-ad67-4a11-b095-2d9292952692,Female,40,108726,Budget,New Jersey
-7d671090-8c69-46f3-9e5c-df1593531c7f,Male,70,132651,Premium,New Mexico
-6f2b46a1-9a64-4530-87cd-5be5b0c4c4c0,Male,69,28344,Mid-range,Vermont
-3452d43b-7d50-4214-83cf-0d9d3b71da7e,Female,25,100945,Budget,Virginia
-b1636262-0a2c-45e2-a8de-d827fde889c3,Male,53,49372,Mid-range,Florida
-fef92c46-2c13-4ad8-82d3-5418565632aa,Female,39,122876,Mid-range,New Hampshire
-a2e5e076-6e22-4916-974a-cf214209ebb3,Male,67,135043,Premium,Maine
-84430e16-f249-4727-a4a5-d32e9906a471,Female,27,131857,Premium,Mississippi
-2fe886c7-d092-40c9-948c-e7e404853bda,Other,56,107750,Budget,Tennessee
-6d307c6e-2a2f-4c9a-8ea1-9e1042c710da,Other,21,141455,Mid-range,Texas
-eaaf0554-b690-4bc3-b1ff-13a0da87c8aa,Female,66,34539,Budget,Missouri
-de3176b1-b7d5-45c3-9aef-01f433a9e33d,Other,57,122518,Budget,Louisiana
-07a5cdce-ec18-4926-aa9f-1e6cbc4fe553,Other,20,86493,Budget,Nevada
-7f490ec1-a711-4cfa-b27e-de704622de95,Male,58,35474,Budget,Washington
-1a5e9afc-5dfa-4eb1-b28e-18d0bc7edd36,Female,28,115466,Mid-range,Alaska
-245df4c4-6d48-474e-9e5f-7031f5e05629,Other,46,119872,Premium,West Virginia
-53b7dce1-077b-41e6-a7f3-a907ec987f06,Female,64,134097,Budget,South Carolina
-e2fa5d7a-04df-4c16-a826-87bdd56ff1f0,Male,59,67675,Mid-range,Mississippi
-4d5051cb-040b-41d0-aa3a-7a0589e3db76,Male,25,131227,Budget,Louisiana
-d5a7e840-4322-4afc-b36b-7b24ef05bcad,Female,44,120823,Budget,Virginia
-f73d425b-ddfa-4cf4-8f3b-66793378e7d8,Male,69,82084,Mid-range,Michigan
-b612f8fd-8e0f-46fe-838a-c308dc053296,Female,50,42447,Budget,Tennessee
-b1acd668-a28f-415f-9874-6a744cd26f16,Female,41,113742,Mid-range,Georgia
-9a1a0c60-52fd-49ff-9902-8b2ab8048b3d,Female,58,107162,Budget,North Carolina
-0f4d906c-91a5-425d-8928-f53c8d711587,Male,66,118763,Premium,New Mexico
-0dc6e5f7-e953-4dfe-a5ce-35b272697afc,Female,68,49908,Budget,Utah
-d4c6b05c-0b9d-4d31-b49a-08659a16ecc3,Female,44,140326,Mid-range,West Virginia
-50d45dce-ef08-4025-85b4-e8c9dffdedca,Female,51,124150,Premium,Virginia
-da6bf797-f82b-4a80-92dd-31b79d990add,Female,19,78009,Budget,Wisconsin
-06992a61-379e-4a4a-98fa-4a5e0aa04699,Male,63,125676,Premium,Hawaii
-d3b477cf-3a07-40a0-8605-b6d769845083,Male,23,64342,Mid-range,Wyoming
-1c6f154c-60df-4d86-872c-2a452040f8fd,Female,67,41538,Mid-range,Oregon
-80ac20fd-4e50-4277-996f-1535959acb39,Male,43,119508,Budget,Pennsylvania
-e0cb5bd4-0641-4272-95a8-adcfab441891,Other,59,39785,Premium,South Dakota
-31f19875-9ef1-48ef-af4d-70a6b05b8b8e,Male,58,148456,Premium,Connecticut
-12750212-7027-4797-87e9-f0f49262e1b5,Other,51,147488,Mid-range,Alabama
-2142cf3b-db89-477b-92a9-600263b7904e,Female,43,136101,Premium,Oklahoma
-7e492e08-b873-425b-8b2f-110df9337b1e,Other,53,134497,Mid-range,New Jersey
-b554968e-fa89-4e10-85b9-673d69ea164b,Other,65,61116,Mid-range,Delaware
-9ac27b52-90ff-4fe7-bf03-5646447ba6d6,Male,70,56671,Premium,California
-0b9d7c66-93ea-468a-b608-784d931e94d0,Other,27,111789,Mid-range,Alabama
-0f8012dc-00ac-4ecd-a106-fde6bfd66e31,Female,59,46887,Premium,Wisconsin
-7d62dbde-e3b1-4c84-a8c1-773600c1a2d7,Other,68,101027,Premium,Montana
-1b8cad99-5011-4d40-8fae-c096bfa587e8,Female,62,65252,Premium,Iowa
-823a1d36-74ac-4e6f-b4c5-7e95204a8bf8,Female,67,45859,Mid-range,New Mexico
-4e30afc6-b79a-4e1f-840d-d3c9527d8b93,Male,20,90442,Mid-range,Wisconsin
-14993be0-2f38-4775-ac66-a0bee6fe6fa7,Female,64,114225,Premium,Iowa
-46155110-77c5-48b3-aa6f-b91b1d4bd688,Male,51,90882,Mid-range,Mississippi
-c293c910-1c06-41eb-a875-7fc83507c4eb,Male,23,87065,Premium,Nevada
-d201000d-3ccb-41a1-b666-09da8be09010,Female,51,64657,Premium,Delaware
-f9380515-2c1e-4f0e-8016-a39ed10ed27d,Male,19,23655,Premium,Minnesota
-8f0c0c63-0c75-4e25-85c8-45d3ee227cd5,Other,34,51632,Mid-range,Texas
-ec99d4f1-0dc1-4dbb-90ed-20286919447d,Other,45,149362,Premium,Alaska
-a9917aa5-c637-4188-a921-0aabba3621e5,Male,64,27857,Mid-range,Oklahoma
-040f1de5-81f9-47ae-bd31-a1635cc87fff,Female,58,86518,Mid-range,New Hampshire
-a5b696fe-5cdd-4532-94d0-f99c9249361b,Male,21,119163,Premium,Maine
-519097d7-a581-469e-a056-cb1cf0ba6f09,Male,46,59054,Premium,Montana
-92897713-14e4-4969-aec0-f973330ffd49,Other,18,79394,Mid-range,Alabama
-86b98358-d13f-44d7-9a74-abe5b01eca2d,Male,69,117748,Premium,Virginia
-4abc57db-e7d2-4dc1-a106-3057f1609d96,Other,63,137222,Premium,South Carolina
-90ea11f1-f01a-4a74-9458-dbc46e93bcd7,Other,52,130689,Premium,Ohio
-92580644-2c7c-4985-83a0-78ea9eb91c1d,Male,40,59216,Mid-range,New Jersey
-9ba1a298-fe15-4ed1-9305-b26869b5964b,Other,68,126834,Premium,South Dakota
-07a906b9-3571-481e-bc1d-dff52818ac6f,Other,61,38346,Premium,Ohio
-bcebdfda-2e50-4cbe-95ad-238e55335b7a,Female,51,116667,Budget,Ohio
-7f6bb054-de27-4cd0-ae99-8c344510da71,Male,38,87692,Premium,Hawaii
-2e3d9f93-d294-49c6-ad00-c4cf4722c605,Male,70,122046,Mid-range,Maine
-0b8f55d4-8efe-4c4d-843a-129be28da03f,Female,24,39209,Premium,Rhode Island
-a2d07acd-1699-49cc-b48b-da08383ad724,Female,44,30740,Budget,West Virginia
-e61b0e74-8da3-4607-a008-1ac7a5928fec,Male,45,136458,Budget,Arizona
-3d24ab6a-2fa6-4cc6-a7f7-74f9ee1311d9,Female,31,78479,Budget,Missouri
-310c5f8a-6f2f-4c37-857d-029177b08cbe,Female,61,88977,Mid-range,New York
-ad116a35-eb82-4702-9119-bee343d5e1d8,Other,53,88019,Mid-range,Rhode Island
-829e20a0-1097-49be-9d4b-6d3f6bc94f4d,Female,55,85382,Premium,Delaware
-31bd1671-5ee7-48b3-89fc-40a4479b943c,Female,46,110310,Mid-range,Idaho
-6f9cd136-85f1-4b84-b4ae-6f94676a31f1,Other,44,127978,Budget,Connecticut
-f2c1bde6-8205-4faf-9815-1ef0ed73506f,Male,50,36662,Mid-range,Delaware
-2ec48ec9-8137-4cad-ae80-6daf89575f72,Other,47,36958,Premium,Massachusetts
-43847406-3f1a-4c1c-bbc3-3b848697e04c,Other,51,35474,Premium,Maine
-9a07e808-6eca-44e0-bcdf-17a82524a4c1,Male,47,82043,Budget,Florida
-c6591fe2-b9cf-4af7-ab2e-af816f54615c,Other,28,143741,Premium,Colorado
-d2f49f19-e7ad-47ce-b697-57ccff64104d,Female,25,98852,Mid-range,New York
-f075a50f-c129-41c7-a9a8-7a21fa3e66cf,Male,25,68442,Premium,New York
-fbd80791-eacf-46fc-aa56-6ed151f2e310,Female,20,88521,Budget,New York
-a4fa0108-2b55-4ddf-80f5-0fa0a83135b3,Male,41,59967,Mid-range,Missouri
-6ce3ef7c-d5e3-4774-b588-26602d141b61,Female,36,83691,Budget,New Jersey
-45840fca-4997-4510-8f50-dd7582dd41d9,Male,27,122733,Premium,Tennessee
-fe3f0621-29b6-44fb-b969-9c024c0a3ad7,Female,21,142790,Mid-range,Massachusetts
-2034ebf1-1000-4f9b-b3e1-3fa595919973,Female,31,43996,Premium,Florida
-995701df-5f83-417c-ba7e-ef2c85db5db1,Female,18,36033,Premium,Missouri
-a5ffa48d-71f6-4bcb-987e-487b6fbc8787,Female,22,134088,Budget,Iowa
-7b47d9c5-ae9b-489b-9875-8d29d00645de,Female,48,95112,Mid-range,New Mexico
-a8537436-c081-4e3a-9804-d2817c29ab8f,Other,46,138002,Mid-range,Oregon
-944a217b-5330-4c4b-af21-ee9690946220,Female,48,129374,Premium,Alaska
-bed84f15-9cd0-4b0b-a36e-d61f1c20cc96,Other,26,119870,Budget,Massachusetts
-79b8fff5-4003-43d1-bedc-5b4cbcffaeae,Other,58,80415,Mid-range,Vermont
-c6a3bf5e-2c10-405b-83f8-6537e8ca54f6,Other,46,39527,Premium,Ohio
-a76a1e87-a6d3-496a-a3d0-6cfbe7276fc1,Female,23,124832,Premium,Kentucky
-d98ccd40-221d-49c5-8f62-53f5b086b93f,Other,57,73690,Mid-range,Minnesota
-82c772f2-e6d5-4cbd-9e06-8cefa65457db,Male,43,64433,Premium,Nevada
-d863a5f1-f2e4-4c82-b697-1e5335f9b8aa,Male,60,136659,Mid-range,Delaware
-b1b8a248-d75b-494e-95a3-7e9727c49121,Other,35,104661,Budget,Ohio
-a43ac95d-8aea-473a-95a6-d0c89035a19f,Male,63,23251,Premium,Hawaii
-0fa23162-ae55-46b7-acc1-f6ab1668a7da,Other,68,121134,Premium,Virginia
-61f9bae2-a746-4c11-b533-fc3170a01388,Female,53,104562,Budget,Massachusetts
-6b105ac6-ee47-4dfd-aed5-3f075c9a8c7e,Other,53,31161,Budget,Delaware
-8a4c4da4-7f1e-4c2d-9a13-d4bbf692d0ff,Other,52,95609,Budget,Louisiana
-6492058d-5903-4b55-b8bf-7c0ed56c1ea7,Other,51,44824,Mid-range,Louisiana
-20c5eb74-457c-484e-9926-52dd0c91433c,Other,19,35765,Premium,Iowa
-7328ec51-3c8c-4046-973c-272fce8ab5ce,Other,29,146140,Budget,Missouri
-2ed5f9a7-4ae7-462f-ad34-9040692a35ad,Female,68,46975,Budget,Kentucky
-4ffd0d63-a009-439b-89c9-554228dc9727,Other,55,78226,Budget,Iowa
-3bc3ddaf-e22a-4c59-ab8d-8f0344544961,Other,56,61999,Mid-range,Tennessee
-72db855e-f3a3-4017-9012-470a034b028e,Other,20,84418,Budget,New Mexico
-bf14e952-3e7e-4469-861a-b4e6332867a9,Female,45,43659,Mid-range,New Hampshire
-36c97c15-b9c7-44d5-a7f4-16e74c6ef9d7,Male,51,61599,Mid-range,Wisconsin
-bfbcc900-71ff-4977-ab51-75c40c6626a3,Female,23,35026,Budget,Iowa
-38c12ba7-30d1-4b3b-b12f-0900a913d183,Other,28,57401,Budget,Florida
-fe98e05a-4533-4309-95dd-a89a55d971c0,Male,34,120703,Budget,Montana
-2a54b4bd-af24-434a-85eb-c00e86901b20,Male,37,144802,Mid-range,Virginia
-c6accd04-520f-4cad-b137-6bdf3b511d8e,Other,28,27721,Premium,Connecticut
-832e49a9-4060-4498-8e21-4e06d6269ecd,Female,29,23561,Premium,Idaho
-ea9f95eb-7b55-40ea-b700-777f68d6fa9a,Male,37,71110,Budget,Maine
-a5a8c673-7497-46d2-8e10-c14c18f955a2,Female,27,74109,Mid-range,Kansas
-75e576a0-e59c-43a9-89ac-96a929a04243,Female,42,143414,Budget,New Hampshire
+6215137a-7c0f-419b-8a36-2c8751d660cf,Other,53,112179,Budget,New Mexico
+cfd910e0-b259-4473-8d36-7e6ea0825547,Male,36,22981,Budget,Ohio
+220b9971-9a01-4ed6-b353-6c804a2fe5b0,Male,45,134843,Budget,Idaho
+96bd1c6b-4be4-4ab4-b2e1-61b6eb8c3087,Other,30,143214,Premium,New York
+444e3bef-6e22-40e0-821c-8e281b05503a,Female,23,130470,Budget,Alabama
+e6926df4-df49-4566-8afd-754fd7e5d5cb,Male,21,77967,Mid-range,Oregon
+705f269a-c5b9-4922-b312-7f178443e0ce,Male,20,47909,Mid-range,South Carolina
+c0e5cdc3-2dae-435a-83bd-c9dcaa022120,Female,64,137686,Mid-range,South Carolina
+7b0379de-0324-4314-ae83-d5a2e8bad0d7,Female,32,44074,Mid-range,Alaska
+46828a9e-3059-43c7-a42f-0458de13bd49,Female,34,122463,Premium,Virginia
+5e211444-95e9-491d-a51e-ff465ec14a3f,Male,48,145508,Premium,Michigan
+5e12b7c1-915b-4636-9441-7c2a0289a9bb,Female,23,137085,Premium,California
+c18bb089-6d24-4f37-9f7a-b5b4933b5237,Male,49,87744,Mid-range,Nebraska
+41b31bc9-6db9-4208-b600-1397e9cbcb98,Female,45,128339,Premium,New Hampshire
+4f1e725f-b3f6-40b0-9f98-3561c0264ba7,Male,59,128010,Budget,Massachusetts
+addb3a39-dcb6-4f91-934e-9ac116b050f7,Male,24,146620,Premium,Pennsylvania
+8e173c5c-2164-4579-b888-f179fce731dc,Other,18,66847,Budget,Nevada
+e7686af6-cde7-40a5-9241-78d20ea38b15,Female,58,101783,Budget,Hawaii
+94e45fc2-16f5-41cf-bdd6-03b7ca7c9a95,Female,37,126231,Premium,New York
+2ed54ae6-2575-4da7-95fe-acd89d62232e,Male,21,49543,Premium,Indiana
+24c156aa-ce59-4f6f-b37e-49de60da6de1,Male,47,49322,Budget,Colorado
+c6730fd8-a87f-4637-8a9f-077e952f0800,Other,42,70643,Premium,Indiana
+1750c9fa-4817-4c41-bdc4-da9ffa94cf7c,Other,68,66801,Budget,Virginia
+fb7795e7-2047-4fd2-b4e5-e4c663b6aea4,Female,68,117745,Budget,New Hampshire
+ffca8f1e-56be-47eb-8497-0810dfde9f74,Male,46,141662,Premium,Kansas
+65eb2161-6977-4c64-b1f5-2bfa67393e3b,Female,26,40406,Budget,Maine
+56277894-67f1-4237-8335-5be9bdb271bc,Male,57,62266,Budget,Texas
+3127336a-5d6a-4214-baf1-16273d7a223e,Male,28,140880,Premium,North Dakota
+65960268-1f08-4ae2-9a69-9c1e2e15b193,Male,62,97307,Mid-range,Rhode Island
+5bfde958-612a-4d0b-964b-8c9e100f4ab4,Female,49,46686,Mid-range,New Mexico
+287fa0f5-86ef-4581-9079-4d5399efc1da,Female,36,98467,Premium,Wyoming
+dacd523f-7cfc-43ae-a1f2-81f15d692301,Female,69,133877,Budget,North Carolina
+9168d8ec-1a51-4b34-bf8c-487bb9e80942,Other,45,68599,Premium,Massachusetts
+3219fe24-cc7e-45b3-91b5-707bf8696282,Male,38,82884,Budget,Illinois
+c745cd7b-1bb8-48bf-a585-52f7c5434b83,Male,28,99765,Mid-range,Arizona
+11f3d427-547a-4f53-84e3-fb7e0f81891a,Other,52,129281,Budget,Rhode Island
+50cba63a-b70a-4f33-bc9f-13f9f9859966,Male,32,93394,Budget,Washington
+e11009e1-0a1c-4c8d-8c26-8f81758a4af0,Male,26,144579,Budget,North Dakota
+35c723b1-304d-4e3d-860d-1a48e78a84aa,Other,24,118146,Mid-range,Missouri
+d4e59200-b53f-4d27-8600-07134c86b8b6,Male,51,74879,Premium,Connecticut
+8aecfb70-583c-4702-843c-ddbdad5eeaa7,Male,66,83374,Budget,North Carolina
+9f98f8b7-e1a1-4829-a431-fcdf2fbe292e,Other,31,110559,Mid-range,Hawaii
+f6862492-1692-448f-8a31-fe3798f81a60,Female,29,29186,Premium,New York
+42d95c0d-5074-4778-8843-57ad8057134f,Male,50,49473,Premium,Kansas
+b938ab89-a36a-46f4-9ec1-0f3c2c70684a,Other,25,50972,Premium,Utah
+f4eab71e-ba9e-438a-99fd-2e34b20bb7da,Male,22,124102,Budget,Washington
+e33f7b4a-f3c0-47aa-857e-70308f82a152,Other,51,126927,Mid-range,Idaho
+c68dd32b-907d-4c8d-9416-1c070de83e15,Female,45,126591,Mid-range,Kentucky
+2f505d80-a51a-428b-b65b-6854ea836f6e,Other,19,33696,Mid-range,Washington
+44df9e6a-84f1-47c2-95a5-4a72252910d9,Other,30,58382,Budget,Alabama
+0d148f37-8011-4a33-b68e-5a677f89df14,Other,28,60575,Budget,Montana
+f83bcaab-d58a-4b63-b862-cc5dc614be88,Male,54,23138,Premium,Delaware
+97cc0415-ad17-4660-a242-e3f88862e9a0,Other,53,53513,Budget,Michigan
+ff13f092-bd5c-4281-9d3d-fe774bb9c6ef,Male,57,76057,Premium,Alaska
+51c22bee-4ddb-4d68-8617-bbec8e561e15,Male,23,135143,Budget,Delaware
+cfb7d851-119d-4b4d-8eac-7fb233dc1b9b,Female,62,42100,Mid-range,Massachusetts
+c3f8fc78-61dc-4a41-bb33-c2815b6ddc44,Male,29,131837,Mid-range,Arkansas
+aed65a7f-e938-4e56-b1bd-7ce3ce2503bf,Female,70,126412,Premium,South Carolina
+e386de2c-5792-4cf0-80ed-a5a87748b259,Male,64,40579,Premium,New Hampshire
+0444cc87-1181-4b32-8ba9-fc0b01ddae6b,Female,42,53942,Budget,Minnesota
+45a53cc8-862a-425a-b02a-5e62d44572fd,Female,59,79572,Premium,Mississippi
+ec80bcfc-f711-4076-89c3-4f0b8983e5ad,Female,53,142681,Budget,Tennessee
+3e76f7b6-c503-4ee9-9fa0-b3f2f52d0aa1,Female,59,122047,Premium,Texas
+9dce6c1b-8a44-473f-a469-78b75e3a7f9b,Other,18,146336,Premium,Arizona
+9f569c6f-185e-4166-b4d3-a4b5fc1e1f6c,Male,22,60634,Budget,Ohio
+f4b19f27-0904-45fa-8631-71599cbd5147,Other,65,138149,Mid-range,Mississippi
+e49abe11-3e22-4c78-9dc9-77fcf40bed28,Female,59,144299,Premium,South Carolina
+abb4a43e-9612-452d-b3c0-131889f47d9a,Female,50,97950,Premium,South Carolina
+8437564c-c190-42c0-9f90-9066c608efa2,Female,34,40028,Mid-range,Oklahoma
+f069e216-c2f4-4b54-bbd5-fe69f522430f,Male,40,54765,Budget,North Dakota
+4d42566b-6436-4378-a218-6267e4d01781,Other,38,36729,Mid-range,Hawaii
+d38e17cc-7c6c-49c5-bf18-9c034a04eaa3,Male,41,124944,Premium,Texas
+d6e271e7-2fce-4adf-8e53-c752e19071c8,Other,51,60700,Mid-range,Oklahoma
+9cb60ccd-9b2a-4a5d-9a3a-80de6143d9a1,Male,58,111208,Budget,Indiana
+9cbe48c0-842b-4ebf-ae49-06c8a31cf6f4,Other,38,54743,Budget,Idaho
+08dc7fdb-7545-4f6c-89b3-e28f03cff5a5,Female,62,147032,Budget,Montana
+32da46db-fa9d-4564-a50c-1f50ba4ee2bc,Female,22,120568,Mid-range,Louisiana
+5a6c44f4-6c62-48e9-be84-e0256b6552eb,Other,60,69043,Mid-range,North Dakota
+ec2f08ca-35e3-4628-9d07-ad01b4ac3f34,Male,53,81973,Mid-range,Massachusetts
+05e8eeed-750e-43c1-9e4d-479327dd89a1,Female,45,27639,Premium,Florida
+1b77cf69-741c-45e7-afaf-fe27c43b5550,Other,37,37781,Mid-range,Maryland
+7ffe5933-52e4-47d9-9bd3-408a3fef0baf,Male,37,149791,Mid-range,South Dakota
+e89c5feb-bb6c-4932-bcb0-e4f659ef6120,Male,37,126068,Mid-range,Tennessee
+392219c1-a8b1-45b3-86a8-4ed306ef9028,Female,68,128975,Mid-range,Kansas
+db65bcf5-df25-49cb-9e9a-521cd2c79d8e,Male,19,103655,Premium,South Carolina
+deb638d1-b5f5-437a-931c-836126128946,Other,51,48793,Budget,California
+38681484-0e4e-4dfb-a72e-869b9bf1dfb8,Other,70,33687,Mid-range,Wyoming
+67d495c7-de2d-4fc7-95de-8366463dcac4,Male,46,114332,Budget,Rhode Island
+1fdefa53-7c0b-4295-b790-6d4d721a90f0,Male,51,63126,Budget,Arizona
+bf25ebba-7753-4595-81f4-95731cb52185,Other,49,20089,Budget,Oklahoma
+30eba7c7-36e3-4146-814b-16d461d81f48,Female,44,22931,Mid-range,Missouri
+73f04024-756c-44bc-be57-56b55751b355,Other,51,92515,Premium,Vermont
+95f515a6-92c9-4cba-9a72-afc91397e4f3,Other,65,129221,Premium,Idaho
+f227b7da-c173-4670-a5dd-f03a5555ea18,Female,55,67169,Budget,Vermont
+f1c2e492-4aca-42aa-86ac-ddb0f5197002,Male,63,149978,Premium,Utah
+89048cb3-1110-49c9-8d03-c5b8e2339186,Female,47,69573,Budget,Indiana
+7c67e203-f816-4f7d-8b2b-0ea520f6c691,Female,58,115332,Budget,Michigan
+c5f51793-af59-4384-8d3f-518d3911e352,Female,64,51787,Mid-range,North Carolina
+51ccde9a-c8f7-4048-b17d-d17d33ef506a,Male,29,98947,Premium,Illinois
+490cd6b6-52c6-48e5-aeee-1da271a3a722,Male,63,55730,Mid-range,Wyoming
+11a4e1aa-c9c5-4353-abcc-ab0cd1993a31,Female,54,121165,Budget,Georgia
+209bd6ff-51d9-486d-b002-a433d0f32c22,Female,41,79107,Mid-range,Illinois
+f1087ca6-5880-43c2-b779-675acbd67c1a,Female,59,25434,Budget,Montana
+be88cb5a-d79d-4eaa-bb8e-2e1df2a98844,Male,26,52259,Budget,Mississippi
+175a8300-9271-4178-8c8f-a82b3b693233,Other,55,65788,Budget,Arizona
+0493ed1c-66f0-4fba-ade1-4f7d1937c2f2,Other,48,80637,Mid-range,Virginia
+2f402165-954c-4438-956d-3f343fd901f4,Other,65,55133,Budget,Illinois
+81f3f796-d124-4553-8874-77a76a12cf8e,Other,50,95055,Premium,Colorado
+37d5621d-2766-4bb3-840b-831e9d440333,Female,45,145263,Budget,Montana
+8d889cb6-a50c-4c71-9ef8-df384b245d11,Male,45,112445,Budget,Washington
+56c6f997-c31d-42b2-a970-fb33a15aa76a,Female,47,60474,Premium,Alabama
+9d9f2058-ebd0-42e4-bcab-78ca18552446,Female,65,108029,Premium,Missouri
+93637883-ea22-41ec-9e58-8258f02f1b24,Other,59,145677,Mid-range,Virginia
+0ffd5e4c-8127-429b-acf9-06fe5184cc4e,Male,22,51458,Budget,Vermont
+6018fe0e-5a3d-492e-8602-9d6938440c18,Male,46,50209,Budget,Florida
+8d6cf408-d430-48a7-85e8-09d3c7e4b03b,Male,33,25094,Premium,New York
+5041ca85-1ef7-4392-914b-e8aa772fbbfa,Male,26,129493,Premium,Tennessee
+65a49de2-b4df-4250-b2f1-c6f9b11bf208,Female,63,128249,Premium,North Dakota
+b47b3bf6-d905-4024-acfd-2d1d20e38b1e,Male,63,73782,Premium,North Carolina
+59533c1f-cebf-4976-85cf-e1a3736ba1be,Male,67,133401,Budget,Rhode Island
+4a551104-7ec7-434b-9e57-e021abf35525,Female,38,104701,Premium,Minnesota
+161215bf-714a-49a4-b908-bf356b251a4d,Other,40,147256,Mid-range,Arkansas
+4492c8ec-2f5d-4e93-be77-233dcfa20cef,Female,59,139946,Premium,New York
+aa84d832-cbb6-454a-83f4-58b183a63283,Male,28,144763,Mid-range,New York
+016dba11-bf39-4bce-bbd2-683a2f7014b1,Male,20,71017,Premium,Texas
+b49f9955-a8df-40c0-85e0-eae5461bc7c5,Other,40,102396,Premium,Washington
+ced9d2eb-b1ef-478a-903b-a710c65d3b89,Female,51,41745,Premium,Kentucky
+86001476-c525-49b8-9089-aa3fb81399b2,Female,42,136256,Mid-range,West Virginia
+f5351071-29e6-48ab-bef7-756b4594d361,Other,29,61342,Budget,Alabama
+a501da36-ee5e-4bd4-b6b9-9411e5ca773c,Female,45,78241,Mid-range,Wisconsin
+6c593a6d-d60c-4e27-b276-aeea1a8d5c58,Female,67,97259,Mid-range,Connecticut
+57e90d3e-8c15-4b40-8dce-11314154c6a9,Other,32,122354,Budget,North Carolina
+e70f357b-63fc-433b-9d2e-91dfd1b70fa8,Male,39,115126,Premium,Ohio
+26bc2467-af91-4283-b9a5-fda7b8f70627,Female,34,144194,Budget,New York
+ef74f1ce-ef41-4642-b11a-9307f4e28f85,Female,33,112688,Mid-range,Wyoming
+52575de0-08ca-4cbb-a364-f74edbd1f365,Male,52,123517,Premium,Nevada
+6a509098-87eb-4a3b-904d-f0d1d93e8a4b,Male,37,94419,Premium,Connecticut
+46737837-a199-4918-a6f9-79b19c327006,Other,50,74049,Mid-range,New Mexico
+3f3a33ce-a900-4ff9-88ef-711c4b52ae18,Male,19,138735,Premium,Iowa
+6de33bef-f69d-481f-ae3e-5a689580f7de,Female,53,69109,Premium,New Mexico
+af7e9423-a87a-4ba9-aa09-f3610c73a26f,Female,23,100641,Budget,Maryland
+57225aee-dd65-46a6-8b0b-c751572a5bef,Male,37,57900,Premium,Arizona
+16f5ac94-9eca-4019-8ab2-82648bd8633e,Male,64,82711,Mid-range,New York
+89c376a4-b1a5-4cdc-bbde-020aeafad7c7,Female,35,67718,Mid-range,California
+a77a93ea-c69b-47fe-a306-43a9fe535c50,Other,54,53587,Budget,Kentucky
+dfaf3325-2e13-44f1-99e1-9969c2fdfb57,Female,36,126675,Mid-range,New Mexico
+3967e5bb-ed58-40b7-a9e4-31cf1a71fbe1,Female,65,119747,Premium,Vermont
+0f6c84e0-1960-482b-baa5-6b2b22bca434,Female,68,111195,Premium,Kansas
+64fd96a0-b9b4-4994-be07-75db6ee604d8,Other,66,30792,Premium,Iowa
+020739d0-6709-4614-a416-13b22253d3d9,Other,38,52484,Premium,Kansas
+56037efb-3cbf-4657-809d-d6c6a577fe67,Male,34,48348,Mid-range,New Hampshire
+86e32829-0323-4157-8fc8-4f403dbf56e9,Female,50,112500,Premium,Georgia
+2795f62c-abbc-4b21-bc4b-6b9403a70393,Female,61,136018,Budget,Nebraska
+b9b3a48f-4269-4a25-abb7-a17faf60b8ed,Male,45,69321,Premium,South Dakota
+1ba4fd16-003a-45cc-ba64-33207894db3b,Other,57,62942,Budget,California
+7284ece5-5232-4b4c-a3f5-bc8510fdaa61,Male,64,92510,Mid-range,Wisconsin
+f14b3f9d-e873-4967-a6b9-9e71af613dd1,Other,57,148394,Premium,Nebraska
+6fdcda8d-0a42-4590-8a5a-3ace17168e6d,Male,37,68148,Premium,New York
+0fd7d5d2-6886-4db8-a958-3ce2eda13675,Female,31,56182,Premium,New Mexico
+1f88048f-7656-4420-a8e8-801c4369841b,Other,41,87812,Premium,West Virginia
+08ba0ca2-9fe5-4153-813f-f64932b4559a,Female,48,139067,Mid-range,North Dakota
+bdb9fc65-14f6-4422-9fcb-b48ecf97d58c,Male,62,114875,Budget,Vermont
+2b81c223-3f23-4545-baac-bd3c159d06b2,Male,33,87372,Premium,Iowa
+d52fc73f-7139-4c07-8d40-4a446beb1178,Female,26,115047,Mid-range,Hawaii
+eb65f7c4-ea2e-410d-9092-97e155289c54,Other,34,21966,Premium,North Carolina
+e76eb657-8fbb-4c03-89d1-be463bdb1678,Female,49,117914,Mid-range,Delaware
+90ed47a0-e626-4bc4-89d0-d0853805a819,Male,30,32691,Premium,Colorado
+709d3464-e98d-47bc-8865-b9a32ed28d95,Other,39,70835,Mid-range,Hawaii
+b07f2382-a9cf-4d81-af1e-37fe2dbc7799,Female,31,65486,Budget,Indiana
+317bdb98-bb5a-4d55-970e-737d20d0d8b5,Male,70,109765,Budget,California
+4066a7db-3c2e-48c7-ac03-8fa9e3ad39c7,Female,45,51203,Premium,Oregon
+38b86e08-1751-4b44-b6f1-393e257366a7,Male,56,51032,Premium,New Jersey
+b665dbc0-fa99-4925-9b7f-6331ded1d37e,Other,45,134954,Budget,Hawaii
+49f9e2f7-a94f-4c00-8f32-24e1dee68e31,Other,18,82066,Premium,Iowa
+3c8ebd44-b753-49a1-80fa-90bad527d6df,Male,31,116391,Premium,Washington
+da4c6801-5b1e-4d0c-9474-6d7ad750fd8e,Female,62,95804,Mid-range,Virginia
+10fdc642-0eb0-43a3-a735-e743e32cb1ee,Male,45,100587,Premium,Connecticut
+bff76b2d-f480-47a7-a309-c387e759601a,Female,55,109243,Budget,New Mexico
+8087d69a-da07-4125-9734-228a1d70c1a2,Male,58,106787,Mid-range,Kentucky
+de1e7a12-e4d9-4237-942c-b34b776da5ed,Other,47,138560,Mid-range,Louisiana
+de5f9e38-0928-42eb-a3ff-b288461cdbf2,Male,48,122039,Mid-range,New Jersey
+0e17cfd4-2df1-4e4a-810c-4d8f77078ab7,Other,30,59620,Budget,Wyoming
+17d70f14-8747-4ba9-b2b0-ac7554541d09,Male,31,42041,Mid-range,New Jersey
+74a9f4dd-a512-4c43-80e2-cadf15aaee34,Male,25,129888,Mid-range,West Virginia
+912faa8a-0150-4d5e-aa5e-9be40f54fbf3,Other,33,68430,Budget,Tennessee
+74d122c5-5859-49d8-9880-d7c4bfdf1d4b,Other,51,60446,Mid-range,Rhode Island
+45559feb-7b25-4087-81d3-ed57405a3831,Male,67,34441,Mid-range,South Carolina
+e28db3b5-03ea-4547-879d-15a78c0da410,Male,41,91748,Premium,South Carolina
+a7ba82a2-11dc-41a4-a44a-5486baf52ba8,Other,49,86573,Mid-range,Illinois
+7a9268fe-ce0a-48d6-b35a-867007051edf,Other,63,127653,Mid-range,Wisconsin
+4cbe56f4-1ca7-4928-a7a6-e25b73ee37be,Female,53,117322,Mid-range,Virginia
+4efad483-0d33-4c22-bfa8-f67879c9ab5f,Male,31,114010,Mid-range,New Mexico
+fe3a23bd-6a34-4a83-aae3-d1236f0faa0c,Male,32,90002,Budget,Oklahoma
+16c28c49-a6aa-4128-b8e0-53e05edd6745,Male,51,132173,Premium,Vermont
+87416ea2-369d-4620-a534-1471ecee20ef,Other,33,147830,Mid-range,Delaware
+f452b8a4-4b49-4f49-a637-67bf44c94c80,Male,31,125935,Mid-range,Arkansas
+f9db2f3c-29de-4cff-bbae-05f0957e0f91,Female,49,65238,Budget,Wyoming
+36657e08-80c9-4769-affd-928307e006ee,Other,51,55925,Premium,Nevada
+7267a5bb-e69c-4538-9bd7-9082b3c2f32d,Male,31,20171,Mid-range,Oregon
+bc9b4d79-a8a3-4d89-a061-81828da5636d,Other,20,149082,Budget,Montana
+a799ef6f-9147-47cc-867e-8081892bc10a,Other,58,115245,Budget,Montana
+cdeaa6bd-9547-439e-8ec4-18b27c11efb5,Male,38,141810,Mid-range,Alaska
+7352562c-6e89-4ff8-9765-8afdb1bc5025,Male,51,122394,Premium,Iowa
+09610c38-abcb-493f-824b-69f78099b4ee,Male,27,75923,Budget,California
+dbeed743-5be4-40a1-ac26-533ed794bd09,Male,34,38854,Budget,Michigan
+3c57f63a-08d1-4c13-bb89-05d9f0a112c9,Male,50,26137,Mid-range,Alaska
+87d62e2f-3c02-4691-86e2-8434aa11bf90,Other,24,122975,Mid-range,South Dakota
+9c6a5ee5-f2df-4ee1-9b19-44d5de97b83d,Male,34,59454,Premium,Iowa
+39c3d430-3c01-4229-8745-8b20f762229d,Male,56,69308,Premium,Pennsylvania
+58c48fa8-e97a-46e1-8752-20175c77e743,Other,58,128700,Mid-range,Arizona
+0eff5aba-b74e-49ae-8108-6c6dee4f0227,Male,36,82568,Mid-range,Alaska
+42f4f47b-5235-422c-9028-1889f75cc9e6,Male,24,143614,Mid-range,Michigan
+59ab1832-33f4-421e-9d5d-d5bc53823b06,Male,19,91059,Mid-range,South Carolina
+c354c0fb-487f-42c6-9f96-4367ff6ccd5c,Other,47,128118,Budget,South Dakota
+85530963-356a-4b65-a9d2-ecd6cc76c3cc,Other,54,36371,Mid-range,Nevada
+bd8e5f34-a445-402e-b0ad-618a91d37ba6,Other,49,71577,Premium,New Mexico
+d61028ba-7e64-4350-b268-827b7c56b11a,Other,39,43804,Mid-range,Ohio
+f286ab74-b6bd-4faf-a11c-ee4d04f99351,Male,19,27349,Mid-range,North Dakota
+e8d65776-3ec4-49dd-9ee7-a69a9deb45eb,Female,29,148915,Premium,Pennsylvania
+efa6c90f-ce74-4bd9-a1ee-330be5a48552,Female,19,87286,Budget,Alaska
+7b18346d-caad-403c-952f-42fd38958ee4,Male,42,65980,Budget,Michigan
+65d43c92-6255-4473-8d98-02c3366e2eb5,Other,34,68930,Premium,Tennessee
+a0ab0a7b-7908-41d3-9853-6431fd781647,Female,21,51320,Premium,Michigan
+d51d8404-462b-4d1e-8055-e332feb2f49f,Other,50,35986,Mid-range,Delaware
+675003db-f4d6-4697-8137-0672fbd42b45,Male,37,138738,Premium,North Dakota
+4f3bf719-f656-4f95-939b-0d2460da54ca,Other,69,33761,Mid-range,Kansas
+ff1eab68-da51-4a59-a9ba-d206b688083e,Male,40,70009,Premium,Montana
+a52d6b03-f6ad-49b9-b674-687d92e82ec9,Male,22,39894,Budget,Montana
+5758b390-0650-4cf4-ae35-a6c83a2fc825,Female,55,140850,Premium,Ohio
+840eda1d-ebcf-46e3-9866-e4440484ddc3,Male,55,46757,Budget,Washington
+d047eaa0-5db6-4fb3-820d-4c445b482450,Male,67,71216,Budget,Ohio
+306c0a8e-ef6f-4e05-90fe-c74f45d4ee81,Other,54,117992,Premium,Wyoming
+e5af5734-8e2e-4849-a601-c9fbd5b5314a,Female,37,94131,Budget,Alabama
+01e104e7-2bf4-48ed-84e9-83ac24f82827,Female,53,69621,Mid-range,South Carolina
+aee0a734-6dda-49ef-a745-6100ff79f980,Male,60,93279,Premium,Massachusetts
+d9c4a598-7b78-49d6-ab39-23e5f0319948,Other,45,76802,Premium,Oregon
+f06ea680-e89f-48a2-9c23-16f7bc937c8e,Other,60,57610,Mid-range,California
+7ad42e1f-1a26-46ec-a5bd-2f836f80e62d,Other,69,97790,Budget,Nebraska
+f9e8b530-3ab1-4e34-b523-a4b8b454eff2,Female,58,67484,Budget,Alaska
+d02cfd70-9a35-4419-898a-74e3df8c7aa2,Female,44,144818,Mid-range,North Dakota
+46e81c92-3521-410f-8e6e-79f86aabb513,Male,44,80213,Mid-range,Hawaii
+41ae439c-71bd-4e98-a289-8b836573268d,Male,62,118341,Premium,Delaware
+3746db65-4fd8-4192-9e96-245d88434179,Male,64,50476,Premium,Arkansas
+2d2d99ad-0143-4bbe-96b2-4127631100fe,Female,31,103943,Mid-range,Indiana
+ae0cc118-8a99-4946-9871-c95829f1cc52,Other,18,92733,Mid-range,West Virginia
+7f75145a-f35f-4352-88c3-9e6ffa9765c3,Other,60,116698,Mid-range,Wyoming
+e6afd4d3-3b8b-4759-b43d-2842f5a33ead,Male,30,80024,Budget,California
+07ff3f0f-dbaf-4572-957d-52382f16999b,Male,70,113508,Mid-range,Wisconsin
+4cd00a14-fa59-4ad4-b771-1e45a3599983,Male,19,27616,Premium,New Jersey
+1d537e92-6df3-4479-a0c5-af7241725844,Male,66,109733,Premium,Kentucky
+f362c4c5-9a52-4284-9812-3d3762732d43,Female,53,117949,Premium,West Virginia
+2cbd4970-8d37-44d7-853a-1cf6c5978c63,Other,34,84533,Premium,Illinois
+819d2765-a032-4d21-94e3-b18b0c836e3d,Male,19,24458,Mid-range,Georgia
+3945ced1-bf54-4a88-9f6a-cc3892d191ea,Other,62,93690,Mid-range,Idaho
+6efcbfd0-2e99-414c-bd7f-c01e74d0ae43,Female,24,121570,Premium,Delaware
+ef026f60-2a4e-4468-a0fd-82d2eac1bef7,Female,23,79994,Mid-range,Missouri
+55df4dbf-0b51-40d8-996d-08208ba35026,Other,59,32242,Premium,Delaware
+906c7be8-77ef-4e9d-8856-583cc89cb7ca,Other,53,71344,Mid-range,Idaho
+b399ca2c-6353-4cc4-97ae-13e267fa247d,Other,24,149232,Budget,Maine
+032108a8-3b4d-49bb-bfc2-5ee19eee6595,Female,36,55200,Budget,North Carolina
+ff40224b-fde5-4133-86c7-045b0988590e,Male,53,88826,Budget,Texas
+3b85dbb2-f187-475e-8313-29b6033cdb0f,Other,52,66178,Budget,Arkansas
+83116652-3399-4f65-9a71-69160c6a31d4,Other,37,112607,Premium,New York
+fe3cf998-4ba9-43d8-8a44-46cd8911b908,Other,39,75709,Premium,Colorado
+217087dd-8e13-4d11-9b97-04dfd1687cab,Female,22,69960,Premium,Wyoming
+ab1cc6d1-1aea-4f7f-b6cf-ff28045a3c26,Male,18,95319,Budget,Indiana
+5d91641e-6430-47ce-ac84-9888e24a6c37,Male,69,94330,Mid-range,Texas
+ef55f61f-ed96-4114-875d-124226b3dfbf,Female,30,84984,Budget,Rhode Island
+781775e4-d424-4e9b-88b5-e6fe0633fa64,Female,67,53569,Budget,Kentucky
+e68e1f55-2681-46b1-9bf1-7922ac3e50e9,Male,20,34033,Mid-range,Kentucky
+7e86b7c7-392e-4008-9cb6-ee2f8199afa0,Other,70,109766,Premium,Kansas
+9d7811bd-ddcf-4937-bda5-37bf9c176179,Female,40,64196,Budget,Mississippi
+af1cdcac-fa06-4a6c-92a1-49741fb5d563,Male,60,99665,Mid-range,Minnesota
+a1ae2d28-692d-4b30-b7e7-ec2a5b777acd,Female,62,68905,Budget,North Carolina
+13fe5a6c-d442-4861-bac5-0cdb4d4b1fe3,Other,36,131016,Premium,Mississippi
+4e19e63b-398a-4b5a-a3c3-67692974f7d6,Female,57,111901,Budget,South Carolina
+8ed3efab-3f25-428b-bf40-313cdc55b862,Other,35,72513,Mid-range,Mississippi
+4e816207-8974-4bb4-8427-3aeb8d3262c9,Other,59,63276,Budget,Kansas
+d0eb2d4f-a69f-417b-aa57-25f56a5ae86c,Female,68,117374,Mid-range,Kentucky
+9158d0d6-c9ba-4193-b8d6-b97f6544cd95,Female,60,21034,Mid-range,Oregon
+01553e39-b534-4c6c-ad0e-ea4dc431f6c1,Male,56,27488,Mid-range,Delaware
+53cac49c-1125-4466-a16b-8fd20bb3f773,Other,37,30963,Premium,Iowa
+b56e0bf4-9822-469a-9a4a-bee22f21a2fc,Other,23,64964,Premium,Kansas
+b524b653-3153-4c42-b9e8-ebd53942613b,Female,44,84610,Mid-range,North Carolina
+8f6989c0-e07b-482d-a26f-aede806a7fb0,Male,24,58072,Premium,Connecticut
+4ed36285-bcdd-4772-bfc3-23a381b47b63,Female,44,44504,Mid-range,Minnesota
+ffe6d565-4a44-4f34-8f77-68280ba521e4,Other,64,60685,Budget,North Dakota
+86c9cbbf-bcc9-4371-b9e3-ebd4f2c9919b,Male,24,84301,Mid-range,Washington
+58645d99-0abd-4e1c-8876-cc893311a41b,Female,65,58663,Premium,Michigan
+282116af-b125-4e11-bd71-a5838b640a5e,Female,49,94647,Budget,Wyoming
+72937d21-ab18-4f79-a54a-5f3371ac9c3e,Female,20,69688,Mid-range,New Mexico
+2406d0e3-0b77-4459-9e82-6867f1419a01,Female,56,141347,Mid-range,Rhode Island
+da12ef4c-04ef-4059-839a-1ab83903821e,Other,18,149004,Budget,Illinois
+614d0cee-1fce-4d20-88e1-1da7c54f2701,Male,50,105226,Mid-range,Virginia
+3669d1d1-2cff-45b2-9033-6ad6089d68ee,Female,44,92124,Mid-range,Illinois
+7f9180d5-209c-4d9f-b6b3-a5d69ab2a018,Other,57,24035,Mid-range,Connecticut
+afa32ca5-93aa-49fd-a4f2-8f6023f3bff9,Other,37,100930,Premium,Arkansas
+c77db481-f137-4e77-96d0-d44c2d519d1b,Female,24,69495,Mid-range,North Carolina
+2e2b59e0-135f-42b8-a7b8-7366bec722f6,Other,38,57691,Mid-range,New York
+88930f2f-75db-48c7-86e7-c3731ec2cb9f,Male,58,123150,Budget,Georgia
+73a48809-c47a-4f9c-9800-dead6ed758fa,Female,68,25483,Budget,Utah
+823d9b58-e8f2-4712-96e9-c90fa54d4926,Other,29,53873,Premium,Indiana
+6c39a84c-100f-40d4-99b9-f7317e212625,Female,36,120647,Premium,New Mexico
+8de42808-f4b7-4f62-abd9-7d9ad2551048,Female,64,140247,Premium,Nebraska
+b4f1d77e-9764-423e-b40f-cdccbab69506,Female,34,86900,Budget,New Jersey
+61866033-c2d7-4590-b337-a9d71ba2b766,Female,30,88771,Premium,Pennsylvania
+1d8bd411-2404-458d-8b7d-3845f43ff44d,Other,62,145718,Budget,Washington
+47df18ec-1e94-43f1-b5c6-3f4293876297,Female,44,32018,Budget,Oregon
+9145748a-3daa-41f6-a8e6-3af27efd9959,Male,48,82525,Budget,Virginia
+ea308206-100c-4600-b17c-3001230501c8,Male,43,51417,Premium,Utah
+4c016abd-c119-4fd3-99fb-b823932f070f,Other,49,81984,Mid-range,Louisiana
+b629a02b-a032-48a0-a65d-4d02897738a9,Female,32,137819,Mid-range,Nevada
+bd4c8fe3-90d0-4e25-bfe8-25bdc43f728d,Male,56,97494,Premium,Georgia
+d9c0b4f1-2648-423e-89d6-153ac72d3604,Male,37,148890,Budget,Washington
+c22d83b4-9de2-4ddd-9506-cf0418bcdf7d,Male,45,85654,Budget,Wisconsin
+1e2f5fb9-a96e-4dc8-aae4-27ee8b840fb9,Male,27,132192,Premium,Vermont
+82eaa8eb-cd77-43fe-b4e7-70eddab61d70,Other,18,42062,Mid-range,Pennsylvania
+9a6a3368-e1f4-436d-9cd3-61f301222148,Female,48,61688,Premium,Texas
+d85a99c0-d4a5-49a0-9a66-cd0f6cde717c,Female,25,55605,Mid-range,South Carolina
+63c0d931-c216-40ba-ba2e-8572c559445b,Male,66,119947,Budget,Idaho
+8ad6cc10-7e0a-4f21-b274-97c3dd91c8dc,Other,68,86698,Mid-range,Indiana
+0d89874a-67e2-4ad3-bc03-508df425db59,Other,34,48889,Premium,Nebraska
+f05b9373-e1e3-4ab0-852c-bbe8ea1d0e7e,Other,33,42466,Budget,Michigan
+257bbb58-3e11-4fc2-9fb0-6c8604b7df63,Female,44,69988,Budget,Oregon
+b2f3b375-26a7-4f89-b19b-e5234409cd0e,Female,28,39957,Mid-range,Oregon
+ba7b2eaa-8ae6-462c-acf0-188876ca21c8,Male,63,110632,Mid-range,Wisconsin
+ace90837-8346-4e61-829c-71fa48abfc08,Other,23,130279,Mid-range,South Carolina
+331677c1-2c36-4a2a-b433-dae7167d5e69,Other,41,145958,Budget,Alabama
+b995bc01-4427-49b7-982f-b2250f5b0d5d,Male,28,50641,Premium,Louisiana
+fbce9880-5c7e-44be-996e-3f6bd0dba9db,Female,62,77096,Budget,Kentucky
+aa06517b-a9ba-4457-9467-4b56d569e5cc,Male,25,85503,Budget,New York
+10a634aa-5640-4b20-a881-18c06605506a,Female,41,84459,Premium,Louisiana
+95134d59-65d9-4918-ac19-8bff6979720d,Male,62,78917,Mid-range,Wisconsin
+eae223ff-bfdd-4410-b4a2-5d816207d11a,Other,41,48622,Mid-range,Iowa
+6e572a7e-5522-42d5-a85b-0d97896c2e8b,Other,27,34552,Mid-range,Michigan
+5cb0741e-4308-48f2-afad-19604363ba89,Other,26,72419,Budget,South Dakota
+efa0cfe5-d239-43a0-a2da-25bc43573a2f,Male,50,31992,Mid-range,Maine
+4fbac775-8c84-438a-bad2-fc2c1630a362,Male,24,28192,Premium,Arizona
+739ddad4-ec8b-42ee-8a77-c7d2f67515ef,Other,36,88138,Budget,Kentucky
+b5d39dff-18ce-4032-8d8d-02db73e5c09e,Male,50,131617,Premium,Louisiana
+3f3be0db-4a7d-4fa3-8e9c-fc1f894c0290,Female,38,90276,Budget,New Mexico
+6a57a9c2-5d12-441f-8bde-2781458c6da7,Other,61,23033,Premium,Oklahoma
+bd2cdb76-6dda-40cc-a1f5-8120bdbb6058,Female,54,129256,Premium,Nevada
+db1388f3-0ba9-4983-a172-552e15abc71d,Male,25,108858,Premium,Massachusetts
+5490d997-8a9d-41ee-8b0d-960c39ac0a1c,Other,61,59406,Mid-range,Montana
+32b80e60-ba33-4835-b5f3-fe1edc15694c,Other,66,55519,Premium,Delaware
+46aa8ea4-36fd-46d3-869d-6f4eb82f5eb3,Male,28,136944,Premium,Georgia
+2da5b9d2-bdb2-4b01-8717-53dab9e3fd2e,Female,37,81894,Mid-range,New Mexico
+ecb65faf-5de8-49c0-a449-65d87bb26167,Female,38,38360,Premium,Utah
+3c0fd6a8-18ee-4506-9133-6972ac41c3f6,Female,40,56602,Mid-range,Nebraska
+dc669528-3f33-4726-87a4-3bb314f1ad82,Other,42,54375,Premium,Arkansas
+8f4b7774-cea4-413f-816a-d82b14cacabc,Other,65,72009,Premium,Wyoming
+201f965b-8985-47c6-a9aa-7e71823cb065,Male,52,64954,Mid-range,Kentucky
+f544e93a-8627-40a8-8f92-de48e30bb9e8,Other,65,91081,Budget,Pennsylvania
+d5848868-9454-47d0-aab7-4e78a0bc366a,Other,36,62009,Budget,Vermont
+b77c0474-1d93-4471-9c6e-9e7a5e740ae3,Male,45,103316,Budget,Wyoming
+abeafcb3-e5a7-4c08-92be-e70eadfad605,Male,23,84049,Mid-range,Colorado
+b418e0b0-e500-4f34-89ea-a1621903dfd3,Female,32,142238,Mid-range,Georgia
+b9f9bc21-befa-4827-972d-56142f100849,Other,48,127655,Premium,North Carolina
+7fdbf016-4ba5-4aa1-8aff-9cbc6b892a2f,Other,27,63186,Budget,Rhode Island
+e51b3a86-5408-494d-b66b-8d14ad978777,Female,68,25480,Budget,Tennessee
+afd780b2-b95e-453a-890c-c1c9bcd20efe,Male,32,96032,Mid-range,Nevada
+cb59690e-2399-4729-9fa4-164a657a95d9,Male,26,63980,Budget,Delaware
+0a4c6124-6a76-4878-bc41-9289dd3f0e21,Other,59,137224,Premium,Oklahoma
+8787c00a-da1b-451e-ba92-630eff661380,Female,22,72738,Budget,North Dakota
+d814c3ef-464c-405a-a246-b84172e50e3c,Female,35,57730,Mid-range,Mississippi
+05be39fb-0809-4df5-8d3b-05a6ff0da076,Other,28,64116,Premium,New York
+d379e928-758e-46ed-b1d9-5800d4e2fb29,Male,54,132457,Mid-range,Hawaii
+f15ebbad-d6a1-472e-8aa6-b41b50459598,Male,62,34629,Premium,South Dakota
+537eb706-f391-4645-9035-8aa45916582f,Other,28,144483,Mid-range,Arizona
+c23c63c2-294d-4d18-8a17-ff9c82798613,Male,40,50348,Premium,Tennessee
+c29056bb-afa4-4fc0-a588-79cb0dd83b48,Other,43,130175,Premium,Tennessee
+394f7e3c-79ad-49fa-a7bd-bfbab506e12e,Other,54,90762,Mid-range,Ohio
+23a17807-0204-4d5a-9a02-46aae302fa5f,Male,36,94082,Budget,South Dakota
+94c0c8ce-6f03-4a80-b66c-c5fd07fee1de,Female,45,46595,Premium,Virginia
+f408a378-1f80-43d5-b260-ba72837f8c02,Other,44,113875,Budget,Florida
+31f3da4e-a8f0-4468-af7b-f8f95ea9f3d3,Female,18,104314,Mid-range,Nevada
+41728825-aaf6-4c00-82a1-5e875e9a9c88,Male,48,82539,Mid-range,North Carolina
+5a0742bc-8bfe-4c42-a788-ebcf1b33ab69,Male,48,79512,Premium,West Virginia
+43c1a655-bc16-496b-ae75-caf1de044a64,Male,70,97643,Mid-range,Oregon
+670f828f-dcd7-46e4-bf39-ae04d8ad5589,Male,45,81333,Mid-range,New Jersey
+b4ad55b5-fef1-4be7-ac5e-bf0f58ca0bba,Male,65,146682,Mid-range,Nevada
+d02374cd-4501-4359-92ba-01bf7e305a7e,Male,36,25381,Premium,Delaware
+46e078a8-e7c4-4d63-b020-5c2da3711dd4,Other,54,52645,Mid-range,Kansas
+73086937-0369-4630-b277-d6e21fb7b8ef,Female,65,130627,Premium,Michigan
+6f65fc9b-1cb3-4694-8801-5d5c552b9c9c,Male,26,123031,Budget,Vermont
+aa09f69b-b818-4d84-8afc-b6a72a7bf38d,Male,48,65233,Mid-range,Utah
+99d714e1-adc6-4caa-a81a-9d62f663b0a7,Male,66,85810,Premium,North Carolina
+fdfbe73a-f757-4236-8d45-abd362cc1a95,Male,47,23511,Premium,Colorado
+6b32c20d-65cc-485a-a267-f7fb096b14a3,Other,65,42993,Mid-range,Oregon
+ce715cde-15e3-4e8c-bb11-e80a0f81ff2d,Male,40,142785,Premium,Minnesota
+fe399517-a385-47bc-8125-b2c152d5fe74,Female,64,103660,Mid-range,North Carolina
+ea6a74b9-0846-4b8d-bfa9-64bda25232ac,Female,51,25018,Mid-range,Michigan
+c6d1a274-c59a-42a7-9d61-905195ccb9bf,Male,43,123016,Premium,Oregon
+e65fe5e9-68ae-4d34-a420-c3aa9299421c,Male,29,72462,Premium,Hawaii
+9ecca360-445a-4fab-b549-04476c82693c,Male,27,93938,Premium,Delaware
+14414662-a2be-461d-8d01-1da0c3c79821,Male,33,131391,Premium,Hawaii
+df0d4a55-3eab-4350-8c8d-c7f787c1e5fd,Other,57,128867,Budget,Washington
+0f694d14-7836-4228-b78e-70bb63e46c4c,Other,42,37739,Mid-range,Arkansas
+8ccee3a4-be3b-45eb-9494-b029735b9bf6,Female,38,67563,Mid-range,Iowa
+aecb6f0d-807a-453a-a11c-f081135965e1,Other,42,55440,Premium,Louisiana
+e17bcb8d-5c20-4023-ad37-b93fdd0cf4c2,Other,36,138790,Budget,Tennessee
+c161c38f-b880-4403-acd3-668059391868,Other,60,121495,Premium,Louisiana
+fa212600-305c-413f-aa42-72ef84de39b4,Male,38,104282,Budget,Vermont
+eada1f12-2f41-4c04-8481-8f5857cc0377,Other,43,27605,Mid-range,Wyoming
+20bc1674-57d5-4cb2-8e63-612cbfd9f40b,Female,47,124411,Premium,North Carolina
+dc6f34ac-b104-4ce5-a4cd-f02aec6e775c,Female,52,92918,Budget,Louisiana
+93686ca0-90dc-4e2a-b3c3-25dc8c0ab839,Other,35,55488,Budget,New Jersey
+81275888-f889-4256-b5b0-dbaaeeb5c832,Female,21,77553,Premium,North Dakota
+c9852519-0a4a-4582-9b4b-7fdd74d007a2,Male,54,77997,Budget,Colorado
+78e86ec1-8e46-456e-8aef-de239efa516d,Male,47,58492,Premium,Tennessee
+ab8dccfc-ae75-4dc8-99f2-1ab4696e0f4d,Male,52,138251,Premium,Michigan
+855b8399-3ec7-4d9f-817a-79a74d8296e4,Male,46,139275,Mid-range,Texas
+31cd7bae-592a-4538-a7c0-b83872d0b19e,Female,44,26616,Premium,New Mexico
+2c80bfdd-5047-4ef2-9d98-129c6da9a087,Other,68,141667,Budget,Utah
+ba99e6d0-1ef8-45fa-819d-2207742d5f4f,Female,20,72518,Premium,California
+ae8a7755-8690-4590-a199-7d4bfb09a04f,Female,22,123978,Budget,Arizona
+54a13f06-99c1-4300-9e43-32736b954fff,Male,67,121442,Premium,Colorado
+94efae4b-9d93-443d-bd2c-b24332361df9,Female,65,97856,Premium,Utah
+90f4f1a9-c928-4da7-bfb9-7a30683168e7,Other,39,116696,Budget,Wyoming
+53d95b32-6799-4af7-bdf1-d3f33e415d91,Male,46,108578,Premium,Wyoming
+9b0941de-9dc5-4bff-898d-9294a1bb6fc4,Female,41,130711,Mid-range,Kentucky
+3a303597-f3b5-4886-b12f-ae55f25caaa7,Other,70,75081,Premium,Indiana
+f3126c44-86c4-4b31-87ff-8346ac08d302,Female,42,116121,Mid-range,Louisiana
+3ee210ef-59f2-4c41-b6c9-c8cc19405a6f,Female,58,147301,Budget,South Dakota
+0615e556-82a7-413a-863a-1ad24adb9783,Male,37,143122,Premium,Illinois
+6e8d2073-fd06-4fa8-ba97-78cd0e1be2a7,Other,38,39233,Budget,Nevada
+cf12c577-e7be-4de4-85a6-49e534b060f7,Female,53,84774,Mid-range,North Carolina
+48084c17-a196-44e4-8d14-743140c9c39e,Male,39,86308,Budget,Maine
+2fe271a8-aaf5-4c34-bb92-1402e20386f1,Female,18,101158,Budget,Mississippi
+7fb927e4-9ca6-432c-b1cb-f099e7f1c326,Other,27,104116,Budget,North Dakota
+04010991-3539-4c51-ab72-6dc066d0d792,Other,64,130202,Budget,South Carolina
+9fb4817f-8bfd-44ae-8b2a-cd791e266703,Male,37,89184,Premium,Georgia
+005e9098-b477-4cc7-ad01-897dc714ce2c,Female,23,111220,Premium,Montana
+dff60102-656e-464b-a07a-9ec491467452,Other,67,136932,Premium,Delaware
+3750c6f4-542e-4b55-8c48-786d8073a7c2,Other,70,33267,Budget,Alabama
+cf2e2b9d-6854-4b0a-8413-8713e3fd4e32,Female,44,103544,Premium,North Carolina
+421823df-8fb6-4605-a1a4-541219a23ec7,Male,51,67709,Mid-range,Missouri
+7f3b739f-273a-45fb-9a86-37382715d8a8,Other,58,137770,Premium,Illinois
+9c057022-825c-4397-8c6f-2e1b010777e8,Female,21,91837,Premium,Arizona
+34387e6a-19aa-4441-a889-08fc72ac0311,Female,33,98375,Budget,West Virginia
+38e0c5cc-3f63-4d82-9ef4-06b06d36a642,Other,47,118114,Premium,Tennessee
+6405a0e1-ae15-4a73-a598-266b2711d074,Female,47,51460,Mid-range,Washington
+6ad5df4b-61f6-4e51-aa86-dd238dc47f7c,Female,35,90664,Mid-range,Colorado
+eeaf8779-36a2-4161-83fe-50fce974f11c,Male,18,120490,Mid-range,Alabama
+dbc408e9-67bc-41dd-b419-b30595ac86b3,Other,68,121082,Budget,Hawaii
+f8c58d35-c037-430a-9412-6bdcdd2da41d,Female,50,49623,Budget,Colorado
+0a47844c-1f2c-4518-b217-5724d36cce0f,Other,58,128890,Premium,Minnesota
+a69ea4d7-4858-4e0f-8cd7-5dc28b833828,Male,41,41170,Premium,North Carolina
+213237ea-34f8-4dd9-ba64-23a1e81807d4,Other,44,54466,Mid-range,Georgia
+38d05f4c-9349-4cc8-ac7c-b938d6675d9d,Female,41,131361,Premium,Maryland
+d0895deb-9ddf-46b9-a83b-0445c91a0dbd,Male,40,100093,Mid-range,Nebraska
+d44921e2-1d02-4ae3-ad62-3abd31d57abb,Male,53,90483,Budget,Kansas
+bf1aebc8-e298-48bc-b8d6-3c228443d8cd,Male,70,92424,Premium,Mississippi
+a091122e-9745-4d8e-afa9-e656060e8936,Male,59,146000,Premium,New Jersey
+52db2b48-6893-4415-935b-8d705370466b,Female,53,49551,Budget,West Virginia
+c1564767-51b6-4817-948d-579b4e82572b,Other,18,58891,Premium,Kansas
+0d2b1ddb-0661-4a06-b50c-260eca51da4c,Other,45,83684,Mid-range,California
+d02b6b68-fcc6-41f8-943a-7a86cfa30161,Other,68,129911,Premium,Utah
+4c5b6dd6-4823-4b3d-9c11-a2e505774867,Female,39,91314,Budget,New Hampshire
+70130e50-7185-444d-8e37-7b02043183ac,Female,47,114369,Mid-range,Mississippi
+f890c993-e569-4ca2-b508-dea6def1ff06,Male,35,126255,Budget,Oregon
+e2fdade0-0713-4682-9ab0-00b1fa614409,Male,28,135972,Premium,Wyoming
+c5ebd3c2-d4ad-47ad-ac72-515e7f2291ef,Female,55,79929,Mid-range,Connecticut
+1de592a6-2820-41e8-9969-55d2898ca934,Other,34,79529,Budget,Utah
+22e118ff-0dfe-4dbe-95e7-9030195f06cb,Male,49,30519,Premium,New York
+c220d36d-ce30-47dd-a0e9-5d2cf90e7542,Male,49,30440,Premium,New Jersey
+b0f7fd58-97e9-4973-8d74-9da1a683b438,Male,62,83348,Mid-range,Utah
+e2cba0b4-0325-4906-b90a-bd54340db5a8,Male,67,117382,Premium,Kansas
+638dd043-5066-446e-9dba-269b7f96843f,Male,47,128934,Premium,South Carolina
+1a09dff6-e5cd-4bd8-b334-95f829ede47e,Male,20,73104,Mid-range,New Hampshire
+4023e957-b2e2-41fe-a26d-7ebaa07f19cb,Male,48,94263,Premium,Washington
+766ac52e-0ca0-44de-a8e2-33872d1af9c5,Female,64,125641,Budget,Mississippi
+efd034d3-e8e4-4d1b-8136-5d1997bda510,Other,43,61452,Premium,Oregon
+3ecc97a4-399a-42ea-a977-b50713e46023,Male,47,40606,Mid-range,Missouri
+bb04657c-a265-4764-8e4e-5e1ac820239c,Male,58,139727,Budget,Maryland
+cfadcae7-62f8-4e36-819e-b900d747ac39,Other,41,90987,Premium,Maine
+af30422f-b597-4b77-ab13-791be79e635c,Male,39,40234,Premium,Washington
+b5f9931e-1b10-44ad-a54a-1d788c313813,Other,43,52758,Premium,Tennessee
+a183300b-c549-4f7d-bdfa-7f97474c9c2c,Female,63,62494,Budget,Idaho
+0f26d252-8754-429b-8e46-9f787f27c01d,Other,43,46146,Premium,Utah
+a5362a64-8300-4832-a29a-3eed1aabcbcd,Male,35,76827,Premium,New Jersey
+8100e14f-63e7-433c-8edc-77226550b0bc,Male,49,125663,Premium,Colorado
+e66f12eb-e46f-4745-9d33-c8a338c32a3c,Female,54,115937,Mid-range,Rhode Island
+731dc2ea-6868-454c-a221-99182fc284e1,Male,66,139217,Premium,Florida
+32da0df2-0da6-4c65-95ad-44e80f17673e,Male,65,128647,Premium,Utah
+19555945-5d34-4189-8392-b5994365b962,Other,59,60471,Budget,Minnesota
+9808b3cc-7862-4aca-a0c4-f61e13d88dfd,Male,58,27612,Budget,Virginia
+2530c028-2a95-4d86-b84b-4c6cd5d0a573,Female,41,39716,Premium,Missouri
+e395e320-f92a-4157-a57c-c40727ba2cf9,Other,36,122965,Mid-range,California
+346fd324-e973-487b-826a-4d37c433912d,Male,47,64240,Budget,Rhode Island
+ac14e563-9888-4ef8-95a3-6a7afa5efcf5,Male,55,113669,Budget,Oregon
+4608b9d3-51ad-4b6f-90ce-b3e6f2b72259,Female,45,79511,Premium,Kansas
+d9e05d80-0426-41ae-bd51-e496305f34d4,Male,28,136305,Budget,Hawaii
+2493b329-44cd-4f7f-bb0f-2baa0129b054,Other,18,86057,Budget,Utah
+59eaeddd-6b28-484d-933c-184d64f99b53,Male,21,137058,Mid-range,Rhode Island
+f5a52dad-2168-471e-9f37-93243eab53c7,Male,40,52598,Premium,Iowa
+2e901235-4da6-4e1a-9dee-7e4351f0f765,Male,59,121079,Mid-range,Oklahoma
+01607a08-b7d8-4ed5-9454-141ee67b7367,Male,59,88114,Mid-range,Illinois
+368fbe33-5a82-454b-a67d-950b8cc1c0f2,Male,60,44726,Premium,Georgia

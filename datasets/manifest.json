@@ -1,0 +1,111 @@
+{
+  "files": {
+    "animated_sales.csv": {
+      "bytes": 1190,
+      "columns": [
+        "Month",
+        "Category",
+        "Sales"
+      ],
+      "description": "Monthly category sales for one year, used for animation demos.",
+      "rows": 48,
+      "sha256": "216496d6de229b90cb6b2d2a71132dab64fa6f0fad310a19d295850df0705b2c"
+    },
+    "covid_data.csv": {
+      "bytes": 49173,
+      "columns": [
+        "Country",
+        "Date",
+        "Cases",
+        "Deaths"
+      ],
+      "description": "Daily cumulative cases/deaths for five countries over one year (random walk).",
+      "rows": 1825,
+      "sha256": "376d45908096e6669e2a38b55bbcb83d1d4fd6d93d2000a8f6d9a082a986c27a"
+    },
+    "customer_segments.csv": {
+      "bytes": 35130,
+      "columns": [
+        "CustomerID",
+        "Gender",
+        "Age",
+        "Income",
+        "Segment",
+        "Region"
+      ],
+      "description": "500 synthetic customers with demographic attributes.",
+      "rows": 500,
+      "sha256": "dc35f2880b05b1e58417617ecc610343c68e8302b50939001927977251c52b9e"
+    },
+    "map_data.csv": {
+      "bytes": 3875,
+      "columns": [
+        "City",
+        "Latitude",
+        "Longitude",
+        "Score"
+      ],
+      "description": "100 synthetic city coordinates with a score.",
+      "rows": 100,
+      "sha256": "a44d0ddaab30e84946dc252b4cfbe2ec9264ab774d2a44287e91283b82cdd362"
+    },
+    "product_launch.csv": {
+      "bytes": 1967,
+      "columns": [
+        "Product",
+        "Stage",
+        "Week",
+        "Sales",
+        "MarketingSpend"
+      ],
+      "description": "Lifecycle-stage sales and marketing spend for three products.",
+      "rows": 60,
+      "sha256": "3b28ece4185bb065c503dbf0b62b1928283930c488a10f4ab66ed3444438f8bb"
+    },
+    "stock_data.csv": {
+      "bytes": 26876,
+      "columns": [
+        "Company",
+        "Date",
+        "Open",
+        "Close",
+        "High",
+        "Low",
+        "Volume"
+      ],
+      "description": "180 days of OHLCV for three synthetic tickers.",
+      "rows": 540,
+      "sha256": "6ddf59655f6479700808752d395b1d93a8a8bc8fac47710c92353ca705b45ec1"
+    },
+    "superstore.csv": {
+      "bytes": 87633,
+      "columns": [
+        "OrderID",
+        "OrderDate",
+        "Category",
+        "SubCategory",
+        "Region",
+        "Sales",
+        "Profit"
+      ],
+      "description": "1000 synthetic retail orders across categories and regions.",
+      "rows": 1000,
+      "sha256": "4f190b4adad61c8a5fd688787d0493079fc4ccc3dc68ccef249b31152f8de505"
+    },
+    "world_population.csv": {
+      "bytes": 2504,
+      "columns": [
+        "Country",
+        "Population",
+        "GDP_per_capita",
+        "Life_Expectancy",
+        "Continent"
+      ],
+      "description": "Country-level indicators (synthetic).",
+      "rows": 60,
+      "sha256": "fb0e3ce8aea6e3decc5214e3dc57856dab948a80d34f8460ebbc636ad2eea85e"
+    }
+  },
+  "generator": "plotlyvizpro.datasets.generate_all",
+  "seed": 42
+}
