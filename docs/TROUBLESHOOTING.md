@@ -151,7 +151,7 @@ print(df.dtypes)
 print(df.isnull().sum())
 
 # Verify column names match exactly (case-sensitive!)
-fig = px.line(df, x='Date', y='Sales')  # Ensure 'Date' and 'Sales' exist
+fig = px.line(df, x="Date", y="Sales")  # Ensure 'Date' and 'Sales' exist
 ```
 
 ### Problem: `ValueError: Invalid property specified`
@@ -162,11 +162,12 @@ fig = px.line(df, x='Date', y='Sales')  # Ensure 'Date' and 'Sales' exist
 ```python
 # Common mistakes:
 # 1. Wrong parameter name
-fig = px.scatter(df, x='Sales', y='Profit', color='Category')  # ✓
+fig = px.scatter(df, x="Sales", y="Profit", color="Category")  # ✓
 # Not: fig = px.scatter(df, x='Sales', y='Profit', colour='Category')  # ✗
 
 # 2. Check Plotly documentation
 import plotly.express as px
+
 help(px.scatter)
 ```
 
@@ -175,14 +176,14 @@ help(px.scatter)
 **Solution:**
 ```python
 # Convert to datetime
-df['Date'] = pd.to_datetime(df['Date'])
+df["Date"] = pd.to_datetime(df["Date"])
 
 # Specify format if needed
-df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d')
+df["Date"] = pd.to_datetime(df["Date"], format="%Y-%m-%d")
 
 # For plots
-fig = px.line(df, x='Date', y='Sales')
-fig.update_xaxes(tickformat='%b %Y')  # Format as 'Jan 2024'
+fig = px.line(df, x="Date", y="Sales")
+fig.update_xaxes(tickformat="%b %Y")  # Format as 'Jan 2024'
 ```
 
 ### Problem: Colors not showing or all the same
@@ -190,21 +191,13 @@ fig.update_xaxes(tickformat='%b %Y')  # Format as 'Jan 2024'
 **Solution:**
 ```python
 # Ensure color column has distinct values
-print(df['Category'].unique())
+print(df["Category"].unique())
 
 # Explicitly set color scale
-fig = px.scatter(
-    df, x='Sales', y='Profit',
-    color='Category',
-    color_discrete_sequence=px.colors.qualitative.Plotly
-)
+fig = px.scatter(df, x="Sales", y="Profit", color="Category", color_discrete_sequence=px.colors.qualitative.Plotly)
 
 # For continuous colors
-fig = px.scatter(
-    df, x='Sales', y='Profit',
-    color='Profit',
-    color_continuous_scale='Viridis'
-)
+fig = px.scatter(df, x="Sales", y="Profit", color="Profit", color_continuous_scale="Viridis")
 ```
 
 ---
@@ -255,7 +248,7 @@ streamlit run app.py --server.port 8502
 # Use st.plotly_chart() not fig.show()
 import streamlit as st
 
-fig = px.line(df, x='Date', y='Sales')
+fig = px.line(df, x="Date", y="Sales")
 st.plotly_chart(fig, use_container_width=True)  # ✓
 # Not: fig.show()  # ✗ (won't work in Streamlit)
 ```
@@ -308,13 +301,13 @@ df = pd.read_csv(PROJECT_ROOT / 'datasets' / 'superstore.csv')
 **Solution:**
 ```python
 # Specify encoding
-df = pd.read_csv('datasets/superstore.csv', encoding='utf-8')
+df = pd.read_csv("datasets/superstore.csv", encoding="utf-8")
 
 # Handle different separators
-df = pd.read_csv('file.csv', sep=';')  # If semicolon-separated
+df = pd.read_csv("file.csv", sep=";")  # If semicolon-separated
 
 # Skip bad lines
-df = pd.read_csv('file.csv', error_bad_lines=False, warn_bad_lines=True)
+df = pd.read_csv("file.csv", error_bad_lines=False, warn_bad_lines=True)
 ```
 
 ### Problem: Datasets not generated
@@ -360,12 +353,12 @@ python -c "import kaleido; print(kaleido.__version__)"
 ```python
 # Include plotly.js in HTML
 fig.write_html(
-    'plot.html',
-    include_plotlyjs='cdn'  # or 'directory' or True
+    "plot.html",
+    include_plotlyjs="cdn",  # or 'directory' or True
 )
 
 # Full standalone HTML
-fig.write_html('plot.html', include_plotlyjs=True)
+fig.write_html("plot.html", include_plotlyjs=True)
 ```
 
 ### Problem: PNG export shows low quality
@@ -374,10 +367,10 @@ fig.write_html('plot.html', include_plotlyjs=True)
 ```python
 # Increase resolution
 fig.write_image(
-    'plot.png',
+    "plot.png",
     width=1920,
     height=1080,
-    scale=2  # 2x resolution
+    scale=2,  # 2x resolution
 )
 ```
 
@@ -443,7 +436,7 @@ df_sampled = df.sample(frac=0.1)  # Use 10% of data
 # Use: fig = px.scatter(df.sample(10000), ...)
 
 # Disable hover for large datasets
-fig.update_traces(hoverinfo='skip')
+fig.update_traces(hoverinfo="skip")
 ```
 
 ### Problem: Streamlit app is slow
@@ -453,14 +446,16 @@ fig.update_traces(hoverinfo='skip')
 # Use caching aggressively
 @st.cache_data
 def load_data():
-    return pd.read_csv('large_file.csv')
+    return pd.read_csv("large_file.csv")
+
 
 @st.cache_resource
 def create_expensive_plot(df):
     return px.scatter_3d(df, ...)
 
+
 # Lazy load data
-if st.button('Load Analysis'):
+if st.button("Load Analysis"):
     df = load_heavy_data()
 ```
 
@@ -469,16 +464,17 @@ if st.button('Load Analysis'):
 **Solution:**
 ```python
 # Read in chunks
-chunks = pd.read_csv('large.csv', chunksize=10000)
-df = pd.concat([chunk for chunk in chunks if chunk['Date'] > '2024-01-01'])
+chunks = pd.read_csv("large.csv", chunksize=10000)
+df = pd.concat([chunk for chunk in chunks if chunk["Date"] > "2024-01-01"])
 
 # Use more memory-efficient dtypes
-df['Category'] = df['Category'].astype('category')
-df['Date'] = pd.to_datetime(df['Date'])
+df["Category"] = df["Category"].astype("category")
+df["Date"] = pd.to_datetime(df["Date"])
 
 # Delete unused variables
 del large_df
 import gc
+
 gc.collect()
 ```
 

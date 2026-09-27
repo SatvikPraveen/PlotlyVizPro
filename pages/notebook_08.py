@@ -1,12 +1,13 @@
 # 📄 pages/notebook_08.py
 
-import streamlit as st
 import pandas as pd
+import streamlit as st
+
 from utils.plot_utils import (
-    scatter_mapbox,
     apply_theme,
     save_fig_as_html,
     save_fig_as_png,
+    scatter_mapbox,
 )
 
 # 🎨 Apply theme

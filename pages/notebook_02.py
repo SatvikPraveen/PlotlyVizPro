@@ -1,14 +1,8 @@
 # 📄 pages/notebook_02.py
-import streamlit as st
 import pandas as pd
-from utils.plot_utils import (
-    bar_plot,
-    pie_chart,
-    box_plot,
-    apply_theme,
-    save_fig_as_html,
-    save_fig_as_png
-)
+import streamlit as st
+
+from utils.plot_utils import apply_theme, bar_plot, box_plot, pie_chart, save_fig_as_html, save_fig_as_png
 
 # 🎨 Theme Setup
 apply_theme("plotly_white")
@@ -28,12 +22,16 @@ st.plotly_chart(fig1, use_container_width=True)
 
 # 📘 Grouped Bar – SubCategory vs Region (Grouped)
 group_df = df.groupby(["SubCategory", "Region"])["Sales"].sum().reset_index()
-fig2 = bar_plot(group_df, x="SubCategory", y="Sales", color="Region", barmode="group", title="SubCategory Sales by Region (Grouped)")
+fig2 = bar_plot(
+    group_df, x="SubCategory", y="Sales", color="Region", barmode="group", title="SubCategory Sales by Region (Grouped)"
+)
 st.subheader("2️⃣ Grouped Sales by SubCategory & Region")
 st.plotly_chart(fig2, use_container_width=True)
 
 # 📘 Stacked Bar – SubCategory vs Region (Stacked)
-fig3 = bar_plot(group_df, x="SubCategory", y="Sales", color="Region", barmode="stack", title="SubCategory Sales by Region (Stacked)")
+fig3 = bar_plot(
+    group_df, x="SubCategory", y="Sales", color="Region", barmode="stack", title="SubCategory Sales by Region (Stacked)"
+)
 st.subheader("3️⃣ Stacked Sales by SubCategory & Region")
 st.plotly_chart(fig3, use_container_width=True)
 

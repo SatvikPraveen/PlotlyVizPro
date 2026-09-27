@@ -1,7 +1,8 @@
 # 📄 pages/notebook_07.py
-import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import streamlit as st
+
 from utils.plot_utils import (
     apply_theme,
     save_fig_as_html,
@@ -51,7 +52,7 @@ fig.add_annotation(
     arrowhead=2,
     ax=0,
     ay=-40,
-    font=dict(color="darkred", size=12)
+    font=dict(color="darkred", size=12),
 )
 
 # 🎯 Layout + Line Shape

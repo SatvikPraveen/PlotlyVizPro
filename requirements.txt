@@ -1,8 +1,3 @@
-pandas
-numpy
-faker
-plotly
-kaleido          # for exporting figures
-jupyterlab       # for notebook execution
-scikit-learn >= 1.0
-streamlit
+# Runtime dependencies are declared in pyproject.toml. This file exists for
+# tools that expect it; prefer `pip install -e ".[all]"`.
+-e .[all]

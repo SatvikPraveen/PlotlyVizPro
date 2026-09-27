@@ -1,15 +1,16 @@
 # 📄 pages/notebook_06.py
-import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import streamlit as st
+
 from utils.plot_utils import (
+    add_trace_to_subplot,
+    apply_dashboard_margins,
     apply_theme,
     create_subplots,
-    add_trace_to_subplot,
-    update_subplot_layout,
-    apply_dashboard_margins,
     save_fig_as_html,
-    save_fig_as_png
+    save_fig_as_png,
+    update_subplot_layout,
 )
 
 # 🎨 Apply Theme
@@ -33,8 +34,8 @@ fig1 = create_subplots(
         "Sales by Category",
         "Profit Distribution (Box)",
         "GDP per Capita by Country",
-        "Life Expectancy Distribution"
-    ]
+        "Life Expectancy Distribution",
+    ],
 )
 
 # Top-left: Sales by Category
@@ -67,7 +68,7 @@ fig2 = create_subplots(
     subplot_titles=["Sales by SubCategory", "Profit by SubCategory"],
     shared_x=True,
     vertical_spacing=0.05,
-    horizontal_spacing=0.15
+    horizontal_spacing=0.15,
 )
 
 bar_data2 = store_df.groupby("SubCategory")[["Sales", "Profit"]].sum().reset_index()

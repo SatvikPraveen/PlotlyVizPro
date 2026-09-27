@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use PlotlyVizPro in research, please cite it as below."
+title: "PlotlyVizPro: a research-grade toolkit for interactive, publication-ready Plotly figures"
+type: software
+authors:
+  - family-names: Praveen
+    given-names: Satvik
+version: 2.0.0
+date-released: 2026-09-27
+license: GPL-3.0-or-later
+repository-code: https://github.com/SatvikPraveen/PlotlyVizPro
+url: https://satvikpraveen.github.io/PlotlyVizPro/
+keywords:
+  - visualization
+  - plotly
+  - statistics
+  - accessibility
+  - reproducibility
+abstract: >-
+  PlotlyVizPro packages statistical overlays (OLS with confidence and prediction
+  bands, robust LOWESS, bootstrap intervals, anomaly detectors, seasonal
+  decomposition), colour-vision-deficiency-safe palette auditing, shape-preserving
+  downsampling (LTTB, MinMax, M4) and provenance-tracked export into a typed,
+  tested Python library built on Plotly.
+references:
+  - type: article
+    authors:
+      - family-names: Cleveland
+        given-names: William S.
+    title: "Robust Locally Weighted Regression and Smoothing Scatterplots"
+    journal: Journal of the American Statistical Association
+    volume: 74
+    issue: 368
+    year: 1979
+    doi: 10.1080/01621459.1979.10481038
+  - type: thesis
+    authors:
+      - family-names: Steinarsson
+        given-names: Sveinn
+    title: "Downsampling Time Series for Visual Representation"
+    year: 2013
+    institution:
+      name: University of Iceland
+  - type: article
+    authors:
+      - family-names: Machado
+        given-names: Gustavo M.
+      - family-names: Oliveira
+        given-names: Manuel M.
+      - family-names: Fernandes
+        given-names: Leandro A. F.
+    title: "A Physiologically-based Model for Simulation of Color Vision Deficiency"
+    journal: IEEE Transactions on Visualization and Computer Graphics
+    volume: 15
+    issue: 6
+    year: 2009
+    doi: 10.1109/TVCG.2009.113
+  - type: book
+    authors:
+      - family-names: Efron
+        given-names: Bradley
+      - family-names: Tibshirani
+        given-names: Robert J.
+    title: "An Introduction to the Bootstrap"
+    publisher:
+      name: Chapman & Hall/CRC
+    year: 1993

@@ -1,33 +1,30 @@
-# Use official lightweight Python image
-FROM python:3.11-slim
+# syntax=docker/dockerfile:1.7
+FROM python:3.12-slim AS base
 
-# Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    PIP_NO_CACHE_DIR=1
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
 
-# Set working directory
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    curl \
-    git \
-    && rm -rf /var/lib/apt/lists/*
+# Build layer: install the package with runtime + notebook extras.
+FROM base AS build
+COPY pyproject.toml README.md LICENSE ./
+COPY plotlyvizpro ./plotlyvizpro
+RUN pip install --upgrade pip && pip install ".[all]"
 
-# Copy only requirements first (for layer caching)
-COPY requirements.txt .
-
-# Install Python packages
-RUN pip install --upgrade pip && pip install -r requirements.txt \
-    && pip install notebook jupyterlab
-
-# Copy rest of the app
+# Runtime layer: copy site-packages, run as a non-root user.
+FROM base AS runtime
+COPY --from=build /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
+COPY --from=build /usr/local/bin /usr/local/bin
 COPY . .
+RUN useradd --create-home --uid 1000 viz && chown -R viz:viz /app
+USER viz
 
-# Expose Jupyter port
-EXPOSE 8888
+EXPOSE 8888 8501
 
-# Launch JupyterLab with no token or password, and allow root
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--ServerApp.token=''", "--ServerApp.password=''"]
+HEALTHCHECK --interval=30s --timeout=5s CMD plotlyvizpro info > /dev/null || exit 1
+
+# Default: JupyterLab. Override with `streamlit run app.py` for the gallery.
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--ServerApp.token=", "--ServerApp.password="]

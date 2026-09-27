@@ -120,9 +120,12 @@ add_slider(fig, steps_titles=steps_titles, title="Monthly Sales")
 
 ```python
 fig = create_subplots(
-    rows=2, cols=2,
+    rows=2,
+    cols=2,
     subplot_titles=["Chart 1", "Chart 2", "Chart 3", "Chart 4"],
-    shared_x=True, vertical_spacing=0.1, horizontal_spacing=0.1
+    shared_x=True,
+    vertical_spacing=0.1,
+    horizontal_spacing=0.1,
 )
 ```
 

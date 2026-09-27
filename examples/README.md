@@ -190,11 +190,15 @@ Each example is designed to be easily customizable:
 ```python
 # Typical example structure:
 # 1. Data loading/generation (EASY to replace)
-df = pd.read_csv('data.csv')  # ← Replace with your data
+df = pd.read_csv("data.csv")  # ← Replace with your data
 
 # 2. Visualization (EASY to customize)
-fig = line_plot(df, x='Date', y='Sales',  # ← Change parameters
-                title='My Analysis')
+fig = line_plot(
+    df,
+    x="Date",
+    y="Sales",  # ← Change parameters
+    title="My Analysis",
+)
 
 # 3. Optional customization
 fig.update_layout(height=600)  # ← Add your tweaks

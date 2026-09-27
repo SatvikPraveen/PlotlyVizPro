@@ -1,18 +1,19 @@
 # 📄 pages/notebook_09.py
 
-import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import streamlit as st
+
 from utils.plot_utils import (
-    apply_theme,
-    add_trendline,
     add_moving_average,
-    add_zscore_band,
-    create_subplots,
     add_trace_to_subplot,
-    update_subplot_layout,
+    add_trendline,
+    add_zscore_band,
+    apply_theme,
+    create_subplots,
     save_fig_as_html,
     save_fig_as_png,
+    update_subplot_layout,
 )
 
 # 🎨 Apply global Plotly theme
@@ -33,43 +34,27 @@ usa_df = covid_df[covid_df["Country"] == "USA"].copy()
 usa_df["Date"] = pd.to_datetime(usa_df["Date"])
 
 fig_covid = go.Figure()
-fig_covid.add_trace(go.Scatter(
-    x=usa_df["Date"],
-    y=usa_df["Cases"],
-    name="Daily Cases",
-    mode="lines",
-    line=dict(color="orange")
-))
+fig_covid.add_trace(
+    go.Scatter(x=usa_df["Date"], y=usa_df["Cases"], name="Daily Cases", mode="lines", line=dict(color="orange"))
+)
 
 ma_trace = add_moving_average(usa_df["Date"], usa_df["Cases"], window=7, name="7-Day Avg")
 fig_covid.add_trace(ma_trace)
 upper_band, lower_band = add_zscore_band(usa_df["Date"], usa_df["Cases"], z=1)
 
-fig_covid.add_trace(go.Scatter(
-    x=usa_df["Date"],
-    y=upper_band,
-    mode="lines",
-    name="+1σ Band",
-    line=dict(color="lightgray", dash="dash")
-))
+fig_covid.add_trace(
+    go.Scatter(x=usa_df["Date"], y=upper_band, mode="lines", name="+1σ Band", line=dict(color="lightgray", dash="dash"))
+)
 
-fig_covid.add_trace(go.Scatter(
-    x=usa_df["Date"],
-    y=lower_band,
-    mode="lines",
-    name="−1σ Band",
-    line=dict(color="lightgray", dash="dash")
-))
+fig_covid.add_trace(
+    go.Scatter(x=usa_df["Date"], y=lower_band, mode="lines", name="−1σ Band", line=dict(color="lightgray", dash="dash"))
+)
 
 trend_trace = add_trendline(usa_df["Date"].map(pd.Timestamp.toordinal), usa_df["Cases"], name="Trend")
 fig_covid.add_trace(trend_trace)
 
 
-fig_covid.update_layout(
-    title="🦠 COVID-19 Case Trends – USA",
-    xaxis_title="Date",
-    yaxis_title="Daily Cases"
-)
+fig_covid.update_layout(title="🦠 COVID-19 Case Trends – USA", xaxis_title="Date", yaxis_title="Daily Cases")
 
 # --------------------------------
 # 📦 Case 2: Superstore KPI Dashboard

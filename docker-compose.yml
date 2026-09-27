@@ -1,0 +1,16 @@
+services:
+  jupyter:
+    build: .
+    ports: ["8888:8888"]
+    volumes:
+      - ./notebooks:/app/notebooks
+      - ./exports:/app/exports
+    environment:
+      PLOTLYVIZPRO_EXPORT_DIR: /app/exports
+
+  app:
+    build: .
+    command: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    ports: ["8501:8501"]
+    volumes:
+      - ./exports:/app/exports

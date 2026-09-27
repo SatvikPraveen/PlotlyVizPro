@@ -398,7 +398,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-MAPBOX_TOKEN = os.getenv('MAPBOX_TOKEN')
+MAPBOX_TOKEN = os.getenv("MAPBOX_TOKEN")
 ```
 
 3. **Use platform-specific secret managers**
@@ -416,9 +416,11 @@ MAPBOX_TOKEN = os.getenv('MAPBOX_TOKEN')
 ```python
 import streamlit as st
 
+
 @st.cache_data
 def load_data():
-    return pd.read_csv('datasets/superstore.csv')
+    return pd.read_csv("datasets/superstore.csv")
+
 
 df = load_data()  # Only loads once
 ```
@@ -427,14 +429,14 @@ df = load_data()  # Only loads once
 
 ```python
 # Use lower DPI for web
-fig.write_image('plot.png', width=800, height=600, scale=1)
+fig.write_image("plot.png", width=800, height=600, scale=1)
 ```
 
 ### 3. Lazy Loading
 
 ```python
 # Only load data when needed
-if st.button('Show Analysis'):
+if st.button("Show Analysis"):
     df = load_heavy_dataset()
     fig = create_complex_plot(df)
     st.plotly_chart(fig)
@@ -450,11 +452,13 @@ if st.button('Show Analysis'):
 # Add to app.py for monitoring
 import streamlit as st
 
+
 def health_check():
     return {"status": "healthy", "version": "1.0.0"}
 
+
 # Expose health endpoint
-if st.experimental_get_query_params().get('health'):
+if st.experimental_get_query_params().get("health"):
     st.json(health_check())
 ```
 
@@ -463,13 +467,10 @@ if st.experimental_get_query_params().get('health'):
 ```python
 import logging
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
 logger = logging.getLogger(__name__)
-logger.info('App started')
+logger.info("App started")
 ```
 
 ---
@@ -514,6 +515,7 @@ streamlit run app.py --server.port 8502
 ```python
 # Optimize memory usage
 import gc
+
 
 @st.cache_data
 def process_data():

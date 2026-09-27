@@ -1,109 +1,77 @@
-.PHONY: help install install-dev test clean lint format run-app run-jupyter docker-build docker-run
+.DEFAULT_GOAL := help
+PY ?= .venv/bin/python
+PIP ?= .venv/bin/pip
 
-# Default target
-help:
-	@echo "PlotlyVizPro - Available Commands"
-	@echo "=================================="
-	@echo "make install       - Create venv and install production dependencies"
-	@echo "make install-dev   - Install development dependencies (includes testing tools)"
-	@echo "make test          - Run test suite with pytest"
-	@echo "make test-cov      - Run tests with coverage report"
-	@echo "make lint          - Run code quality checks (flake8, black, isort)"
-	@echo "make format        - Auto-format code with black and isort"
-	@echo "make clean         - Remove cache files and build artifacts"
-	@echo "make run-app       - Launch Streamlit app"
-	@echo "make run-jupyter   - Launch JupyterLab"
-	@echo "make docker-build  - Build Docker image"
-	@echo "make docker-run    - Run Docker container"
-	@echo "make all           - Install, test, and lint"
+.PHONY: help venv install install-dev test test-fast test-notebooks coverage lint format typecheck check bench \
+        docs docs-serve run-app run-jupyter generate-data verify-data demo docker-build docker-run clean
 
-# Installation targets
-install:
-	@echo "Creating virtual environment..."
-	python3 -m venv venv
-	@echo "Installing production dependencies..."
-	./venv/bin/pip install --upgrade pip
-	./venv/bin/pip install -r requirements.txt
-	@echo "✓ Installation complete! Activate with: source venv/bin/activate"
+help: ## Show this help
+	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-16s\033[0m %s\n", $$1, $$2}'
 
-install-dev: install
-	@echo "Installing development dependencies..."
-	./venv/bin/pip install -r requirements_dev.txt
-	./venv/bin/pip install pytest pytest-cov black flake8 isort mypy pre-commit
-	@echo "✓ Development environment ready!"
+venv: ## Create a virtual environment in .venv
+	python3 -m venv .venv && $(PIP) install --upgrade pip
 
-# Testing targets
-test:
-	@echo "Running test suite..."
-	pytest tests/ -v
+install: venv ## Install the package with runtime extras
+	$(PIP) install -e ".[all]"
 
-test-cov:
-	@echo "Running tests with coverage..."
-	pytest tests/ -v --cov=utils --cov=pages --cov-report=html --cov-report=term
-	@echo "✓ Coverage report generated in htmlcov/"
+install-dev: venv ## Install the package with development and docs extras
+	$(PIP) install -e ".[dev,docs,notebooks]"
+	.venv/bin/pre-commit install
 
-# Code quality targets
-lint:
-	@echo "Running code quality checks..."
-	@echo "\n→ Checking with flake8..."
-	flake8 utils/ pages/ tests/ --max-line-length=120 --exclude=venv,env,.venv
-	@echo "\n→ Checking with black..."
-	black --check utils/ pages/ tests/
-	@echo "\n→ Checking with isort..."
-	isort --check-only utils/ pages/ tests/
-	@echo "✓ All checks passed!"
+test: ## Run the test suite (excludes notebook execution)
+	$(PY) -m pytest -m "not notebook"
 
-format:
-	@echo "Auto-formatting code..."
-	black utils/ pages/ tests/ generate_datasets.py app.py
-	isort utils/ pages/ tests/ generate_datasets.py app.py
-	@echo "✓ Code formatted!"
+test-fast: ## Run tests excluding slow, kaleido and notebook markers
+	$(PY) -m pytest -m "not notebook and not slow and not kaleido" -x -q
 
-# Cleanup targets
-clean:
-	@echo "Cleaning up cache files..."
-	find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
-	find . -type f -name "*.pyc" -delete 2>/dev/null || true
-	find . -type f -name "*.pyo" -delete 2>/dev/null || true
-	find . -type d -name ".pytest_cache" -exec rm -rf {} + 2>/dev/null || true
-	find . -type d -name ".mypy_cache" -exec rm -rf {} + 2>/dev/null || true
-	find . -type d -name "*.egg-info" -exec rm -rf {} + 2>/dev/null || true
-	find . -type d -name ".ipynb_checkpoints" -exec rm -rf {} + 2>/dev/null || true
-	rm -rf htmlcov/ .coverage coverage.xml
-	@echo "✓ Cleanup complete!"
+test-notebooks: ## Execute every notebook end-to-end
+	$(PY) -m pytest -m notebook -q
 
-# Application targets
-run-app:
-	@echo "Launching Streamlit app..."
-	streamlit run app.py
+coverage: ## Run tests with the coverage gate and an HTML report
+	$(PY) -m pytest -m "not notebook" --cov --cov-report=html --cov-report=term-missing
 
-run-jupyter:
-	@echo "Launching JupyterLab..."
-	jupyter lab
+lint: ## Ruff lint + format check
+	.venv/bin/ruff check . && .venv/bin/ruff format --check .
 
-# Docker targets
-docker-build:
-	@echo "Building Docker image..."
+format: ## Auto-fix lint findings and format
+	.venv/bin/ruff check --fix . && .venv/bin/ruff format .
+
+typecheck: ## mypy in strict mode
+	.venv/bin/mypy
+
+check: lint typecheck test ## Everything CI runs
+
+bench: ## Run micro-benchmarks
+	$(PY) -m pytest benchmarks/ --benchmark-only --benchmark-sort=mean
+
+docs: ## Build the documentation site
+	.venv/bin/mkdocs build --strict
+
+docs-serve: ## Serve docs locally with live reload
+	.venv/bin/mkdocs serve
+
+run-app: ## Launch the Streamlit gallery
+	.venv/bin/streamlit run app.py
+
+run-jupyter: ## Launch JupyterLab
+	.venv/bin/jupyter lab
+
+generate-data: ## Regenerate synthetic datasets and manifest
+	.venv/bin/plotlyvizpro generate-data
+
+verify-data: ## Verify dataset checksums against the manifest
+	.venv/bin/plotlyvizpro verify-data
+
+demo: ## Render the showcase figure into exports/
+	.venv/bin/plotlyvizpro demo --formats html,json,png
+
+docker-build: ## Build the Docker image
 	docker build -t plotlyvizpro .
-	@echo "✓ Docker image built successfully!"
 
-docker-run:
-	@echo "Running Docker container..."
-	@echo "JupyterLab will be available at http://localhost:8888"
-	docker run -p 8888:8888 plotlyvizpro
+docker-run: ## Run JupyterLab from the image on :8888
+	docker run --rm -p 8888:8888 -p 8501:8501 plotlyvizpro
 
-# Generate datasets
-generate-data:
-	@echo "Generating synthetic datasets..."
-	python generate_datasets.py
-	@echo "✓ Datasets generated in datasets/"
-
-# Combined target
-all: install-dev test lint
-	@echo "✓ All tasks completed successfully!"
-
-# Pre-commit setup
-setup-hooks:
-	@echo "Setting up pre-commit hooks..."
-	pre-commit install
-	@echo "✓ Pre-commit hooks installed!"
+clean: ## Remove caches and build artefacts
+	rm -rf build dist *.egg-info .pytest_cache .mypy_cache .ruff_cache .hypothesis htmlcov .coverage coverage.xml site
+	find . -type d -name __pycache__ -prune -exec rm -rf {} +
+	find . -type d -name .ipynb_checkpoints -prune -exec rm -rf {} +

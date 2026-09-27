@@ -41,12 +41,11 @@ Create an interactive line plot using Plotly Express.
 import pandas as pd
 from utils.plot_utils import line_plot
 
-df = pd.DataFrame({
-    'Date': pd.date_range('2024-01-01', periods=10),
-    'Sales': [100, 150, 120, 180, 200, 210, 190, 220, 240, 250]
-})
+df = pd.DataFrame(
+    {"Date": pd.date_range("2024-01-01", periods=10), "Sales": [100, 150, 120, 180, 200, 210, 190, 220, 240, 250]}
+)
 
-fig = line_plot(df, x='Date', y='Sales', title='Sales Trend')
+fig = line_plot(df, x="Date", y="Sales", title="Sales Trend")
 fig.show()
 ```
 
@@ -71,14 +70,7 @@ Create an interactive scatter plot.
 
 **Example:**
 ```python
-fig = scatter_plot(
-    df,
-    x='Sales',
-    y='Profit',
-    color='Category',
-    hover_name='Product',
-    title='Sales vs Profit'
-)
+fig = scatter_plot(df, x="Sales", y="Profit", color="Category", hover_name="Product", title="Sales vs Profit")
 ```
 
 ---
@@ -118,7 +110,7 @@ Apply a dark theme to any Plotly figure.
 
 **Example:**
 ```python
-fig = line_plot(df, x='Date', y='Sales')
+fig = line_plot(df, x="Date", y="Sales")
 fig = apply_dark_theme(fig)
 fig.show()
 ```
@@ -157,8 +149,8 @@ Save a Plotly figure as an interactive HTML file.
 
 **Example:**
 ```python
-fig = line_plot(df, x='Date', y='Sales')
-save_fig_as_html(fig, 'sales_trend.html', notebook_name='01_line_scatter')
+fig = line_plot(df, x="Date", y="Sales")
+save_fig_as_html(fig, "sales_trend.html", notebook_name="01_line_scatter")
 ```
 
 ---
@@ -179,8 +171,8 @@ Save a Plotly figure as a static PNG image.
 
 **Example:**
 ```python
-fig = scatter_plot(df, x='Sales', y='Profit')
-save_fig_as_png(fig, 'sales_vs_profit.png', notebook_name='01_line_scatter')
+fig = scatter_plot(df, x="Sales", y="Profit")
+save_fig_as_png(fig, "sales_vs_profit.png", notebook_name="01_line_scatter")
 ```
 
 ---
@@ -267,11 +259,13 @@ Add confidence bands based on z-score.
 Many utility functions return Figure objects, allowing for method chaining:
 
 ```python
-fig = (line_plot(df, x='Date', y='Sales', title='Sales Trend')
-       .pipe(apply_dark_theme)
-       .pipe(add_moving_average, df=df, y='Sales', window=7))
+fig = (
+    line_plot(df, x="Date", y="Sales", title="Sales Trend")
+    .pipe(apply_dark_theme)
+    .pipe(add_moving_average, df=df, y="Sales", window=7)
+)
 
-save_fig_as_html(fig, 'sales_with_ma.html')
+save_fig_as_html(fig, "sales_with_ma.html")
 ```
 
 ### Quick Preview
@@ -279,7 +273,7 @@ save_fig_as_html(fig, 'sales_with_ma.html')
 ```python
 from utils.plot_utils import quick_preview
 
-quick_preview(df, chart_type='scatter', x='Sales', y='Profit', color='Category')
+quick_preview(df, chart_type="scatter", x="Sales", y="Profit", color="Category")
 ```
 
 ---
@@ -293,6 +287,7 @@ from typing import Optional
 import pandas as pd
 import plotly.graph_objects as go
 
+
 def line_plot(
     df: pd.DataFrame,
     x: str,
@@ -300,9 +295,8 @@ def line_plot(
     color: Optional[str] = None,
     title: str = "",
     markers: bool = True,
-    template: str = "plotly_white"
-) -> go.Figure:
-    ...
+    template: str = "plotly_white",
+) -> go.Figure: ...
 ```
 
 ---
@@ -318,7 +312,7 @@ All utility functions include basic error handling:
 **Example:**
 ```python
 try:
-    fig = line_plot(df, x='NonExistentColumn', y='Sales')
+    fig = line_plot(df, x="NonExistentColumn", y="Sales")
 except KeyError as e:
     print(f"Column not found: {e}")
 ```

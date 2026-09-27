@@ -1,15 +1,16 @@
 # 📄 pages/notebook_01.py
-import streamlit as st
 import pandas as pd
+import streamlit as st
+
 from utils.plot_utils import (
-    line_plot,
-    scatter_plot,
-    bubble_plot,
     apply_custom_layout,
     apply_dark_theme,
     apply_theme,
+    bubble_plot,
+    line_plot,
     save_fig_as_html,
     save_fig_as_png,
+    scatter_plot,
 )
 
 # 🎨 Apply default theme
@@ -21,7 +22,7 @@ st.title("📈 Notebook 01: Line, Scatter & Bubble Visualizations")
 
 # 📊 Load Dataset
 df = pd.read_csv("datasets/superstore.csv", parse_dates=["OrderDate"])
-df.sort_values("OrderDate", inplace=True)
+df = df.sort_values("OrderDate")
 
 # 📌 Aggregated for Line Plot
 line_df = df.groupby("OrderDate")["Sales"].sum().reset_index()
@@ -39,24 +40,25 @@ st.plotly_chart(fig2, use_container_width=True)
 
 # 📍 Scatter Plot – Profit vs Sales by SubCategory
 agg_df = df.groupby("SubCategory")[["Sales", "Profit"]].sum().reset_index()
-fig3 = scatter_plot(
-    agg_df, x="Sales", y="Profit",
-    hover_name="SubCategory",
-    title="Profit vs Sales by SubCategory"
-)
+fig3 = scatter_plot(agg_df, x="Sales", y="Profit", hover_name="SubCategory", title="Profit vs Sales by SubCategory")
 st.subheader("3️⃣ Profit vs Sales (Scatter)")
 st.plotly_chart(fig3, use_container_width=True)
 
 # 🔵 Bubble Plot
-df_count = df.groupby("SubCategory").agg({
-    "Sales": "sum", "Profit": "sum", "OrderID": "count"
-}).reset_index().rename(columns={"OrderID": "Orders"})
+df_count = (
+    df.groupby("SubCategory")
+    .agg({"Sales": "sum", "Profit": "sum", "OrderID": "count"})
+    .reset_index()
+    .rename(columns={"OrderID": "Orders"})
+)
 
 fig4 = bubble_plot(
     df_count,
-    x="Sales", y="Profit",
-    size="Orders", color="SubCategory",
-    title="Sales vs Profit by SubCategory with Order Volume"
+    x="Sales",
+    y="Profit",
+    size="Orders",
+    color="SubCategory",
+    title="Sales vs Profit by SubCategory with Order Volume",
 )
 st.subheader("4️⃣ Bubble Plot with Order Volume")
 st.plotly_chart(fig4, use_container_width=True)
@@ -66,8 +68,9 @@ fig5 = line_plot(region_df, x="OrderDate", y="Sales", color="Region")
 fig5 = apply_custom_layout(
     fig5,
     title="💰 Regional Sales Trend Over Time (Dark)",
-    xaxis_title="Date", yaxis_title="Sales in USD",
-    legend_title="Region"
+    xaxis_title="Date",
+    yaxis_title="Sales in USD",
+    legend_title="Region",
 )
 fig5 = apply_dark_theme(fig5)
 st.subheader("5️⃣ Dark Theme Regional Sales")

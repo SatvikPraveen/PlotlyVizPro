@@ -1,14 +1,15 @@
 # 📄 pages/notebook_10.py
-import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import streamlit as st
+
 from utils.plot_utils import (
-    apply_theme,
-    add_trendline,
     add_moving_average,
+    add_trendline,
     add_zscore_band,
+    apply_theme,
     save_fig_as_html,
-    save_fig_as_png
+    save_fig_as_png,
 )
 
 # 🎨 Apply global Plotly theme
@@ -38,7 +39,7 @@ fig1.update_layout(
     title="📈 Sales Over Time with Trendline & Moving Average",
     xaxis_title="Order Date",
     yaxis_title="Sales",
-    height=500
+    height=500,
 )
 
 # ----------------------------
@@ -50,11 +51,9 @@ band_lower = go.Scatter(x=x, y=lower, name="-2σ", mode="lines", line=dict(color
 
 fig2 = go.Figure([scatter, band_upper, band_lower])
 fig2.update_layout(
-    title="📊 Z-Score Confidence Bands (±2σ) on Sales",
-    xaxis_title="Order Date",
-    yaxis_title="Sales",
-    height=500
+    title="📊 Z-Score Confidence Bands (±2σ) on Sales", xaxis_title="Order Date", yaxis_title="Sales", height=500
 )
+
 
 # ----------------------------
 # 🧩 Modular Chart (.pipe()-style)
@@ -62,16 +61,14 @@ fig2.update_layout(
 def base_scatter(x, y, label="Sales"):
     return go.Scatter(x=x, y=y, mode="markers", name=label, marker=dict(size=4, color="navy"))
 
+
 chart = go.Figure()
 chart.add_trace(base_scatter(x, y))
 chart.add_trace(add_moving_average(x, y, window=30))
 chart.add_trace(add_trendline(x, y))
 
 chart.update_layout(
-    title="🧩 Modular Workflow: .pipe()-style Assembly",
-    xaxis_title="Order Date",
-    yaxis_title="Sales",
-    height=500
+    title="🧩 Modular Workflow: .pipe()-style Assembly", xaxis_title="Order Date", yaxis_title="Sales", height=500
 )
 
 # ----------------------------

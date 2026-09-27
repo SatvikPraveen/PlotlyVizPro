@@ -1,45 +1,37 @@
 repos:
-  # Black - Code Formatter
-  - repo: https://github.com/psf/black
-    rev: 24.2.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
     hooks:
-      - id: black
-        language_version: python3
-        args: ['--line-length=120']
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
 
-  # isort - Import Sorter
-  - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
     hooks:
-      - id: isort
-        args: ['--profile', 'black', '--line-length=120']
+      - id: mypy
+        files: ^plotlyvizpro/
+        additional_dependencies: [numpy, pandas-stubs, scipy-stubs, plotly]
+        args: [--config-file=pyproject.toml]
 
-  # Flake8 - Linter
-  - repo: https://github.com/pycqa/flake8
-    rev: 7.0.0
-    hooks:
-      - id: flake8
-        args: ['--max-line-length=120', '--extend-ignore=E203,W503']
-
-  # Trailing whitespace
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: trailing-whitespace
+        exclude: ^(exports/|datasets/)
       - id: end-of-file-fixer
+        exclude: ^(exports/|datasets/)
       - id: check-yaml
-      - id: check-added-large-files
-        args: ['--maxkb=1000']
-      - id: check-json
       - id: check-toml
+      - id: check-json
+      - id: check-added-large-files
+        args: ["--maxkb=1500"]
       - id: check-merge-conflict
       - id: debug-statements
       - id: mixed-line-ending
 
-  # MyPy - Type Checker (optional, can be slow)
-  # - repo: https://github.com/pre-commit/mirrors-mypy
-  #   rev: v1.8.0
-  #   hooks:
-  #     - id: mypy
-  #       args: [--ignore-missing-imports]
-  #       additional_dependencies: [types-all]
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+        args: [--keep-count, --keep-output]

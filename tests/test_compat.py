@@ -49,7 +49,7 @@ def test_scatter_mapbox_deprecated(sample_df):
 def test_save_fig_as_html_targets_project_exports(tmp_path, monkeypatch):
     import utils.plot_utils as pu
 
-    monkeypatch.setattr(pu, "_project_root", lambda: tmp_path)
+    monkeypatch.setenv("PLOTLYVIZPRO_EXPORT_DIR", str(tmp_path))
     p = pu.save_fig_as_html(go.Figure(), "x.html", notebook_name="nb")
-    assert p == tmp_path / "exports" / "html" / "nb" / "x.html"
+    assert p == tmp_path / "html" / "nb" / "x.html"
     assert p.exists()

@@ -1,15 +1,9 @@
 # 📄 pages/notebook_05.py
-import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-from utils.plot_utils import (
-    animated_plot,
-    add_dropdown,
-    add_slider,
-    apply_theme,
-    save_fig_as_html,
-    save_fig_as_png
-)
+import streamlit as st
+
+from utils.plot_utils import add_dropdown, add_slider, animated_plot, apply_theme, save_fig_as_html, save_fig_as_png
 
 # 🎨 Apply Theme
 apply_theme("plotly_white")
@@ -31,7 +25,7 @@ fig1 = animated_plot(
     animation_frame="Month",
     color="Category",
     title="Monthly Sales by Category (Animated)",
-    plot_type="bar"
+    plot_type="bar",
 )
 st.plotly_chart(fig1, use_container_width=True)
 
@@ -43,12 +37,7 @@ fig2 = go.Figure()
 frames = []
 for i, cat in enumerate(categories):
     cat_df = df[df["Category"] == cat]
-    fig2.add_trace(go.Scatter(
-        x=cat_df["Month"],
-        y=cat_df["Sales"],
-        name=cat,
-        visible=(i == 0)
-    ))
+    fig2.add_trace(go.Scatter(x=cat_df["Month"], y=cat_df["Sales"], name=cat, visible=(i == 0)))
 
 label_map = {cat: [i] for i, cat in enumerate(categories)}
 fig2 = add_dropdown(fig2, label_map, title="Toggle Category Sales Over Time")
@@ -62,12 +51,7 @@ fig3 = go.Figure()
 step_titles = []
 for i, cat in enumerate(categories):
     cat_df = df[df["Category"] == cat]
-    fig3.add_trace(go.Bar(
-        x=[cat],
-        y=[cat_df["Sales"].sum()],
-        name=cat,
-        visible=(i == 0)
-    ))
+    fig3.add_trace(go.Bar(x=[cat], y=[cat_df["Sales"].sum()], name=cat, visible=(i == 0)))
     step_titles.append(cat)
 
 fig3 = add_slider(fig3, step_titles, title="Slider: Sales by Category")

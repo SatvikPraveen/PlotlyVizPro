@@ -1,13 +1,8 @@
 # 📄 pages/notebook_04.py
-import streamlit as st
 import pandas as pd
-from utils.plot_utils import (
-    choropleth_map,
-    scatter_geo,
-    apply_theme,
-    save_fig_as_html,
-    save_fig_as_png
-)
+import streamlit as st
+
+from utils.plot_utils import apply_theme, choropleth_map, save_fig_as_html, save_fig_as_png, scatter_geo
 
 # 🎨 Apply Plotly theme
 apply_theme("plotly_white")
@@ -25,17 +20,13 @@ st.sidebar.header("Controls")
 selected_metric = st.sidebar.selectbox("Choropleth Color Metric", ["GDP_per_capita", "Life_Expectancy"])
 metric_title = {
     "GDP_per_capita": "World GDP per Capita (Synthetic Data)",
-    "Life_Expectancy": "Life Expectancy by Country"
+    "Life_Expectancy": "Life Expectancy by Country",
 }[selected_metric]
 
 # 🌍 Choropleth Map – Selected Metric
 st.subheader(f"1️⃣ Choropleth Map – {selected_metric.replace('_', ' ').title()}")
 fig1 = choropleth_map(
-    world_df,
-    locations="Country",
-    color=selected_metric,
-    locationmode="country names",
-    title=metric_title
+    world_df, locations="Country", color=selected_metric, locationmode="country names", title=metric_title
 )
 st.plotly_chart(fig1, use_container_width=True)
 
@@ -48,7 +39,7 @@ fig2 = scatter_geo(
     color="Score",
     hover_name="City",
     size="Score",
-    title="City-wise Synthetic Score (100 cities)"
+    title="City-wise Synthetic Score (100 cities)",
 )
 st.plotly_chart(fig2, use_container_width=True)
 

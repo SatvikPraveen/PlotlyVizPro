@@ -10,13 +10,22 @@ delegates to the typed, tested package; new code should import from
 
 from __future__ import annotations
 
+import os
 import warnings
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.io as pio
+
+try:
+    import plotlyvizpro  # noqa: F401
+except ImportError:  # notebooks put utils/ on sys.path without installing the package
+    import sys
+
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from plotlyvizpro import export as _export
 from plotlyvizpro import theme as _theme
@@ -58,12 +67,16 @@ add_trace_go = add_trace
 add_trace_to_subplot = add_trace
 add_annotation_go = add_annotation
 add_shape_go = add_shape
-apply_dashboard_margins = set_margins
 
 
 def apply_theme(template: str = "plotly_white", font_family: str = "Arial", font_size: int = 14) -> None:
     """Legacy signature: set the global default template with a font override."""
     _theme.apply_theme(template, font_family=font_family, font_size=font_size)
+
+
+def apply_dashboard_margins(fig: go.Figure, l: int = 40, r: int = 40, t: int = 60, b: int = 40) -> go.Figure:
+    """Legacy margin helper with single-letter keywords."""
+    return set_margins(fig, left=l, right=r, top=t, bottom=b)
 
 
 def update_subplot_layout(
@@ -110,19 +123,20 @@ def scatter_mapbox(
     )
 
 
-def _project_root() -> Path:
-    here = Path(__file__).resolve().parent.parent
-    return here
+def _export_root() -> Path:
+    """Export root: ``PLOTLYVIZPRO_EXPORT_DIR`` if set, else ``<project>/exports``."""
+    env = os.environ.get("PLOTLYVIZPRO_EXPORT_DIR")
+    return Path(env) if env else Path(__file__).resolve().parent.parent / "exports"
 
 
 def save_fig_as_html(fig: go.Figure, filename: str, notebook_name: str = "general") -> Path:
     """Save to ``<project>/exports/html/<notebook_name>/<filename>`` and return the path."""
-    return _export.save_html(fig, _project_root() / "exports" / "html" / notebook_name / filename)
+    return _export.save_html(fig, _export_root() / "html" / notebook_name / filename)
 
 
 def save_fig_as_png(fig: go.Figure, filename: str, notebook_name: str = "general") -> Path:
     """Save to ``<project>/exports/images/<notebook_name>/<filename>`` and return the path."""
-    return _export.save_image(fig, _project_root() / "exports" / "images" / notebook_name / filename)
+    return _export.save_image(fig, _export_root() / "images" / notebook_name / filename)
 
 
 def quick_preview(df: pd.DataFrame, chart_type: str = "line", **kwargs: object) -> go.Figure:
@@ -135,27 +149,61 @@ def quick_preview(df: pd.DataFrame, chart_type: str = "line", **kwargs: object) 
     return fig
 
 
-# --- legacy statistical overlays (trace-returning forms used by notebook 10) ---
+# --- legacy statistical overlays ---------------------------------------------
+#
+# The original module defined each of these twice: a figure-first form that
+# added a trace in place (used by notebook 09) and a trace-returning form (used
+# by notebook 10). Both call styles are supported here by dispatching on the
+# first argument.
 
 
-def add_trendline(x: pd.Series, y: pd.Series, name: str = "Trendline", color: str = "crimson") -> go.Scatter:
-    """Return an OLS trendline trace for ``x``/``y`` (datetime ``x`` supported)."""
+def add_trendline(*args: Any, name: str = "Trendline", color: str = "crimson", **kwargs: Any) -> go.Scatter | go.Figure:
+    """OLS trendline.
+
+    ``add_trendline(x, y)`` returns a trace; ``add_trendline(fig, x, y)`` adds the
+    fit (via :func:`plotlyvizpro.overlays.add_trendline`) and returns the figure.
+    """
+    from plotlyvizpro.overlays import add_trendline as _overlay
     from plotlyvizpro.stats.regression import ols_fit
 
+    if args and isinstance(args[0], go.Figure):
+        fig, x, y = args[0], args[1], args[2]
+        return _overlay(fig, x, y, name=name, color=color, show_ci=False, annotate=False, **kwargs)
+    x, y = args[0], args[1]
     fit = ols_fit(x, y)
     return go.Scatter(x=fit.x, y=fit.y_hat, mode="lines", name=name, line={"color": color, "dash": "dash"})
 
 
 def add_moving_average(
-    x: pd.Series, y: pd.Series, window: int = 5, name: str = "Moving Avg", color: str = "royalblue"
-) -> go.Scatter:
-    """Return a rolling-mean trace."""
+    *args: Any, window: int = 5, name: str = "Moving Avg", color: str = "royalblue", **kwargs: Any
+) -> go.Scatter | go.Figure:
+    """Rolling-mean line; trace-returning or figure-first (see :func:`add_trendline`)."""
+    from plotlyvizpro.overlays import add_moving_average as _overlay
+
+    if args and isinstance(args[0], go.Figure):
+        fig, x, y = args[0], args[1], args[2]
+        return _overlay(fig, x, y, window=window, name=name, color=color, **kwargs)
+    x, y = args[0], args[1]
     y_series = pd.Series(np.asarray(y, dtype=float)).rolling(window=window).mean()
     return go.Scatter(x=x, y=y_series, mode="lines", name=name, line={"color": color, "dash": "dot"})
 
 
-def add_zscore_band(x: pd.Series, y: pd.Series, z: float = 2) -> tuple[np.ndarray, np.ndarray]:
-    """Return constant ``(upper, lower)`` arrays at mean +/- z standard deviations."""
+def add_zscore_band(
+    *args: Any, z: float = 2, band: float | None = None, **kwargs: Any
+) -> tuple[np.ndarray, np.ndarray] | go.Figure:
+    """Mean +/- z*SD band.
+
+    ``add_zscore_band(x, y, z=2)`` returns ``(upper, lower)`` arrays;
+    ``add_zscore_band(fig, x, y, band=1)`` shades the band on the figure.
+    """
+    from plotlyvizpro.overlays import add_zscore_band as _overlay
+
+    z = band if band is not None else z
+    if args and isinstance(args[0], go.Figure):
+        fig, x, y = args[0], args[1], args[2]
+        kwargs.pop("name", None)
+        return _overlay(fig, x, y, z=z, **kwargs)
+    x, y = args[0], args[1]
     arr = np.asarray(y, dtype=float)
     mean, std = arr.mean(), arr.std()
     return np.full_like(arr, mean + z * std), np.full_like(arr, mean - z * std)

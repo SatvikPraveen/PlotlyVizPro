@@ -1,13 +1,14 @@
 # 📄 pages/notebook_03.py
-import streamlit as st
 import pandas as pd
+import streamlit as st
+
 from utils.plot_utils import (
-    histogram_plot,
-    density_heatmap,
-    density_contour,
     apply_theme,
+    density_contour,
+    density_heatmap,
+    histogram_plot,
     save_fig_as_html,
-    save_fig_as_png
+    save_fig_as_png,
 )
 
 # 🎨 Apply global theme
@@ -34,7 +35,9 @@ st.plotly_chart(fig1, use_container_width=True)
 
 # 📘 Histogram – By Category (Overlayed)
 st.subheader("2️⃣ Profit Distribution by Category (Overlayed)")
-fig2 = histogram_plot(df, x="Profit", color="Category", nbins=50, barmode="overlay", title="Profit by Category (Overlay)")
+fig2 = histogram_plot(
+    df, x="Profit", color="Category", nbins=50, barmode="overlay", title="Profit by Category (Overlay)"
+)
 st.plotly_chart(fig2, use_container_width=True)
 
 # 🌈 Density Heatmap – Sales vs Profit
