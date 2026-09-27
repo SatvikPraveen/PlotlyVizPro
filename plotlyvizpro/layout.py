@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from collections.abc import Mapping, Sequence
+from collections.abc import Callable, Mapping, Sequence
 from typing import Any
 
 import plotly.graph_objects as go
@@ -185,4 +185,32 @@ def add_reference_line(
         fig.add_vline(x=value, line={"color": color, "dash": dash, "width": 1}, annotation_text=label)
     else:
         raise ValueError("axis must be 'x' or 'y'")
+    return fig
+
+
+def pipe(
+    fig: go.Figure, *steps: Callable[..., go.Figure] | tuple[Callable[..., go.Figure], dict[str, Any]]
+) -> go.Figure:
+    """Apply a sequence of ``fig -> fig`` functions, pandas ``DataFrame.pipe`` style.
+
+    Each step is either a callable taking the figure as its first argument, or a
+    ``(callable, kwargs)`` tuple. Use :func:`functools.partial` for positional
+    arguments::
+
+        from functools import partial
+
+        fig = pipe(
+            scatter_plot(df, "x", "y"),
+            partial(add_trendline, x=df["x"], y=df["y"]),
+            (add_moving_average, {"x": df["x"], "y": df["y"], "window": 7}),
+        )
+    """
+    for step in steps:
+        if isinstance(step, tuple):
+            func, kwargs = step
+            fig = func(fig, **kwargs)
+        else:
+            fig = step(fig)
+        if not isinstance(fig, go.Figure):
+            raise TypeError(f"pipe step {step!r} did not return a Figure")
     return fig

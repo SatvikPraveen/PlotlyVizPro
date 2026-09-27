@@ -50,6 +50,7 @@ from plotlyvizpro.layout import (
     add_trace,
     create_figure,
     create_subplots,
+    pipe,
     set_margins,
     update_layout,
 )
@@ -84,6 +85,7 @@ __all__ = [
     "histogram_plot",
     "line_plot",
     "pie_chart",
+    "pipe",
     "register_templates",
     "save_figure",
     "save_html",
