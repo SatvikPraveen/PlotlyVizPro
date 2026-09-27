@@ -3,6 +3,7 @@
 .env/
 env/
 venv/
+.venv/
 .plotly_env/
 plotly_env/
 __pycache__/
