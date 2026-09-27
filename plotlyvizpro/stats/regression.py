@@ -90,6 +90,7 @@ class OLSFit:
     p_values: FloatArray
     confidence: float
     residuals: FloatArray = field(repr=False)
+    x_unit: str = "x"
 
     @property
     def slope(self) -> float:
@@ -102,12 +103,16 @@ class OLSFit:
         return float(self.coef[0])
 
     def equation(self, precision: int = 3) -> str:
-        """Human-readable fitted polynomial, e.g. ``y = 1.20 + 0.50x``."""
-        terms = [f"{self.coef[0]:.{precision}f}"]
+        """Human-readable fitted polynomial, e.g. ``y = 1.20 + 0.50x``.
+
+        For datetime ``x`` the variable is ``day`` (days since the first observation).
+        """
+        terms = [f"{self.coef[0]:.{precision}g}"]
         for k, c in enumerate(self.coef[1:], start=1):
             sign = "+" if c >= 0 else "-"
-            power = "x" if k == 1 else f"x^{k}"
-            terms.append(f"{sign} {abs(c):.{precision}f}{power}")
+            var = self.x_unit if k == 1 else f"{self.x_unit}^{k}"
+            sep = "·" if self.x_unit != "x" else ""
+            terms.append(f"{sign} {abs(c):.{precision}g}{sep}{var}")
         return "y = " + " ".join(terms)
 
 
@@ -118,7 +123,7 @@ def ols_fit(x: ArrayLike, y: ArrayLike, degree: int = 1, confidence: float = 0.9
     ----------
     x, y:
         Samples. ``x`` may be datetime-like; it is converted to days since the
-        first observation for numerical stability and kept as-is for display.
+        first observation (so coefficients are per day) and kept as-is for display.
     degree:
         Polynomial degree (1 = straight line).
     confidence:
@@ -135,6 +140,11 @@ def ols_fit(x: ArrayLike, y: ArrayLike, degree: int = 1, confidence: float = 0.9
     x_disp = _x_display(x)
     xf = as_float_array(x, "x")
     yf = as_float_array(y, "y")
+    x_unit = "x"
+    if np.issubdtype(np.asarray(x_disp).dtype, np.datetime64):
+        # Express datetime x in days since the first observation so coefficients are per day.
+        xf = (xf - np.nanmin(xf)) / 86_400e9
+        x_unit = "day"
     keep = ~(np.isnan(xf) | np.isnan(yf))
     xf, yf, x_disp = xf[keep], yf[keep], x_disp[keep]
     n = xf.size
@@ -193,6 +203,7 @@ def ols_fit(x: ArrayLike, y: ArrayLike, degree: int = 1, confidence: float = 0.9
         p_values=p_values,
         confidence=confidence,
         residuals=resid,
+        x_unit=x_unit,
     )
 
 

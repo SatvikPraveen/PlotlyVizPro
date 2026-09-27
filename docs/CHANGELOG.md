@@ -1,81 +1,55 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project are documented here. The format follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
+[Semantic Versioning](https://semver.org/).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [Unreleased]
+## [2.0.0] - 2026-09-27
 
 ### Added
-- Comprehensive testing infrastructure with pytest
-- GitHub Actions CI/CD workflows (tests, linting, Docker builds)
-- Development tools: Makefile, pre-commit hooks, editorconfig
-- Extended documentation suite
-- Project configuration via pyproject.toml
-- Code quality checks (black, flake8, isort, mypy)
+- Installable, typed package `plotlyvizpro` (`py.typed`, mypy `--strict` clean).
+- `stats`: OLS with *t* confidence/prediction bands and p-values; robust
+  LOWESS; percentile/basic/BCa bootstrap; z-score, IQR, Hampel and generalized
+  ESD anomaly detectors; KDE, ECDF with DKW band, Q-Q, bin rules; classical
+  seasonal decomposition with strength measures; ACF.
+- `overlays`: trendline (CI/PI bands, equation annotation), LOWESS, rolling and
+  EWMA lines, Bollinger and z-score bands, anomaly markers, bootstrap error
+  bars, KDE/ECDF/Q-Q, decomposition and ACF figures; `layout.pipe` for chaining.
+- `colors`: OKLab/OKLCH, Machado-2009 CVD simulation, WCAG contrast, five-check
+  palette audit, CVD-optimal ordering, sequential ramps; Okabe-Ito and Tol palettes.
+- `theme`: `pvp_light`/`pvp_dark` templates with audited palettes; journal
+  presets (Nature, IEEE, Elsevier, PLOS, ACM, poster, slide) with DPI-aware export.
+- `downsample`: LTTB, MinMax, M4 and `max_error`.
+- `export`/`provenance`: HTML/PNG/SVG/PDF/JSON, `save_figure` with provenance
+  sidecar; SHA-256 of inputs, package versions, git commit.
+- `data`/`datasets`: seeded generators, checksum manifest, verified loader.
+- CLI: `info`, `generate-data`, `verify-data`, `audit-palette`, `demo`, `benchmark`.
+- Streamlit pages: statistical lab, palette audit, downsampling comparison;
+  every page runs under `AppTest` in CI.
+- CI: ruff + mypy gate, py3.10-3.13 × 3 OS matrix with coverage floor,
+  kaleido export job, notebook execution job, benchmarks artifact, build check;
+  docs deploy; release workflow with trusted publishing.
+- MkDocs site with methods write-up, architecture, reproducibility and benchmarks.
+- `CITATION.cff`, `docker-compose.yml`, multi-stage non-root Dockerfile.
+
+### Changed
+- `utils/plot_utils.py` is now a facade over the package (notebooks unchanged).
+- `scatter_mapbox` deprecated in favour of token-free `scatter_map` (MapLibre).
+- `apply_theme` no longer mutates built-in templates in place.
+- Datasets regenerated deterministically (seed 42); exports regenerated.
+- Tooling: ruff replaces black/flake8/isort; `requirements*.txt` defer to extras.
+
+### Fixed
+- Duplicate definitions of `add_trendline`, `add_moving_average`,
+  `add_zscore_band` and `scatter_mapbox` shadowing each other.
+- PNG export passing the `engine` argument removed in Plotly 6.
+- Undefined `px` in `examples/03_integrations/dashboard_layout.py`.
+- Landing page referencing a non-existent sample export.
 
 ## [1.0.0] - 2026-03-09
 
-### Added
-- 10 comprehensive Jupyter notebooks covering Plotly fundamentals to advanced topics
-- Streamlit application with interactive visual gallery
-- Modular utility functions (`plot_utils.py`, `streamlit_utils.py`)
-- Synthetic dataset generation with Faker library
-- Docker support for reproducible environments
-- Comprehensive README with setup instructions
-- CONTRIBUTING.md and CODE_OF_CONDUCT.md
-- Plotly cheatsheet for quick reference
-- Export functionality for HTML and PNG formats
+Initial release: ten tutorial notebooks, Streamlit gallery, `plot_utils.py`,
+synthetic datasets, Docker environment.
 
-### Notebooks Included
-- 01: Line & Scatter Charts
-- 02: Bar, Pie & Box Charts
-- 03: Histogram, Density & Heatmaps
-- 04: Choropleth & GeoJSON Maps
-- 05: Animation & Interactivity
-- 06: Dashboards & Subplots
-- 07: Graph Objects Deep Dive
-- 08: Mapbox & Geo Layers
-- 09: Real-World Visualizations
-- 10: Statistical Overlays & .pipe()
-
-### Documentation
-- Complete README with badges and examples
-- Contributing guidelines
-- Code of conduct
-- GPL-3.0 License
-
-### Infrastructure
-- Dockerfile for containerized Jupyter environment
-- Requirements files for production and development
-- .gitignore and .dockerignore configurations
-
----
-
-## Release Notes Template
-
-### [Version] - YYYY-MM-DD
-
-#### Added
-- New features
-
-#### Changed
-- Changes to existing functionality
-
-#### Deprecated
-- Soon-to-be removed features
-
-#### Removed
-- Removed features
-
-#### Fixed
-- Bug fixes
-
-#### Security
-- Security improvements
-
----
-
-[Unreleased]: https://github.com/SatvikPraveen/PlotlyVizPro/compare/v1.0.0...HEAD
+[2.0.0]: https://github.com/SatvikPraveen/PlotlyVizPro/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/SatvikPraveen/PlotlyVizPro/releases/tag/v1.0.0

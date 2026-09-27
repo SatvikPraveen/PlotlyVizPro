@@ -68,3 +68,9 @@ docs/_templates/
 # *.json
 # *.xlsx
 # *.parquet
+
+# MkDocs build output
+site/
+.ruff_cache/
+.hypothesis/
+.benchmarks/

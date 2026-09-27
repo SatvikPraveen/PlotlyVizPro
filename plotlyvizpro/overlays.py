@@ -135,6 +135,7 @@ def add_trendline(
             showarrow=False,
             align="left",
             font={"size": 11, "color": MUTED},
+            bgcolor="rgba(255,255,255,0.7)",
             text=f"{fit.equation()}<br>R² = {fit.r_squared:.3f}, n = {fit.dof + degree + 1}",
         )
     fig.layout.meta = {

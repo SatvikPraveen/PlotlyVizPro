@@ -1,380 +1,224 @@
-# 📊 PlotlyVizPro – Mastering Interactive Visualizations with Plotly
+# PlotlyVizPro
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-darkgreen.svg)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![Plotly](https://img.shields.io/badge/Plotly-100%25-brightgreen.svg)](https://plotly.com/python/)
-[![Docker Ready](https://img.shields.io/badge/Docker-Ready-blueviolet.svg)](https://www.docker.com/)
-[![Tests](https://img.shields.io/badge/tests-passing-success.svg)](https://github.com/SatvikPraveen/PlotlyVizPro/actions)
-[![Code Quality](https://img.shields.io/badge/code%20quality-A-success.svg)](https://github.com/SatvikPraveen/PlotlyVizPro)
+**A research-grade toolkit for interactive, publication-ready Plotly figures.**
 
----
+[![CI](https://github.com/SatvikPraveen/PlotlyVizPro/actions/workflows/ci.yml/badge.svg)](https://github.com/SatvikPraveen/PlotlyVizPro/actions/workflows/ci.yml)
+[![Docs](https://github.com/SatvikPraveen/PlotlyVizPro/actions/workflows/docs.yml/badge.svg)](https://satvikpraveen.github.io/PlotlyVizPro/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Typed](https://img.shields.io/badge/typing-mypy%20strict-blue.svg)](pyproject.toml)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Cite](https://img.shields.io/badge/cite-CITATION.cff-green.svg)](CITATION.cff)
 
-## 📦 Overview
+Plotly makes charts interactive. PlotlyVizPro adds what a quantitative analyst
+needs on top: **statistical overlays with honest uncertainty**, **palettes that
+survive colour-vision deficiency**, **shape-preserving downsampling** for
+million-point series, and **exports that carry their own provenance** — all
+typed, tested against reference implementations, and reproducible.
 
-**PlotlyVizPro** is a modular, multi-notebook visualization project crafted to help you master interactive plotting using **Plotly**, **Streamlit**, and **Python utilities**. From chart fundamentals to advanced dashboards, this project equips you with:
+![Daily sales with OLS confidence band, LOWESS smoother and Hampel anomalies](exports/images/readme/overlays.png)
 
-✅ A reusable, utility-first visualization toolkit  
-✅ A thematic, notebook-driven learning framework  
-✅ A polished, production-grade portfolio project
+## Contents
 
----
+- [Why](#why) · [Install](#install) · [Quick start](#quick-start)
+- [Features](#features): [statistics](#statistical-overlays) · [colour](#colour-vision-safe-palettes) · [downsampling](#downsampling-large-series) · [publication export](#publication-export-and-provenance) · [data](#reproducible-datasets) · [CLI](#command-line) · [app](#streamlit-gallery)
+- [Verification](#verification) · [Benchmarks](#benchmarks) · [Project layout](#project-layout) · [Development](#development) · [Citing](#citing) · [License](#license)
 
-## 🚀 Highlights
+## Why
 
-- 📈 **Express + Graph Objects**: Built using both Plotly APIs
-- 📊 **Charts**: Line, bar, pie, box, histogram, heatmap, KDE
-- 🧭 **Maps**: Choropleth, Mapbox, GeoJSON overlays
-- 🧮 **Statistical Add-ons**: Trendlines, Z-bands, moving averages
-- 🔄 **Animations**: Sliders, dropdown filters, `animation_frame`
-- 🧼 **Clean Output**: HTML for interactivity, PNG for documentation
-- 🧰 **Modular Design**: Plotting utilities, reusable layout functions
-- 🐳 **Docker Support**: Containerized Jupyter environment for reproducibility
-- ✅ **Full Test Suite**: Comprehensive testing with pytest
-- 🔄 **CI/CD Pipeline**: Automated testing and quality checks
-- 📚 **Complete Documentation**: API reference, tutorials, deployment guides
+Most plotting helpers stop at "draw a line through it". A figure that goes into
+a paper or a decision needs more:
 
----
+| Question | Plotly alone | PlotlyVizPro |
+|---|---|---|
+| Is that trend real? | `trendline="ols"` draws a line | OLS with *t*-based confidence **and** prediction bands, coefficient p-values, per-day slopes for datetime axes; robust LOWESS |
+| How uncertain is this mean? | — | Bootstrap CIs (percentile / basic / **BCa**) with per-group error bars |
+| Which points are anomalous? | — | z-score, IQR fences, rolling **Hampel**, Rosner's **generalized ESD** |
+| Can a colour-blind reader tell the series apart? | default palette | Machado-2009 CVD simulation, OKLab ΔE audit, contrast check, CVD-optimal ordering; both templates ship audited |
+| Will 2 M points render? | browser stalls | **LTTB / MinMax / M4** to a few thousand points with a max-error report |
+| What produced this figure? | — | Provenance sidecar: package versions, git commit, SHA-256 of inputs |
+| Is it the right size for the journal? | manual | Nature / IEEE / Elsevier / PLOS / ACM presets at the right DPI |
 
-## ⚖️ Why Plotly?
-
-| Feature               | Matplotlib | Seaborn    | Plotly               |
-| --------------------- | ---------- | ---------- | -------------------- |
-| Interactivity         | ❌ Static  | ❌ Static  | ✅ Fully interactive |
-| Dashboards/Animations | ❌ Minimal | ❌ Minimal | ✅ Native support    |
-| Hover/Zoom Features   | ❌         | ❌         | ✅ Built-in          |
-| Publication Quality   | ✅         | ✅         | ✅                   |
-
-PlotlyVizPro builds on this by organizing all core concepts in modular, theme-consistent notebooks.
-
----
-
-## 🎯 Project Philosophy
-
-PlotlyVizPro was built to:
-
-- 🧩 Encourage modular design using utilities and thematic structuring
-- 📦 Package core visualization skills into reusable functions
-- 💡 Help learners _think like developers_ by designing reusable pipelines
-- 🧱 Promote reproducibility with Docker + synthetic datasets
-- 🚀 Act as a launchpad for portfolio enhancement and tech interviews
-
----
-
-## 🧠 Core Concepts Covered
-
-| Area               | Concepts                                                           |
-| ------------------ | ------------------------------------------------------------------ |
-| Basic Charts       | Line, scatter, bar, pie, histogram, box plots                      |
-| Chart Styling      | Theming, axis config, layout tuning, custom tooltips               |
-| Interactivity      | Hover templates, sliders, dropdowns, callbacks                     |
-| Statistical Layers | Trendlines, rolling averages, ±z-score confidence bands            |
-| Dashboard Design   | Subplots, grids, shared axes, spacings, annotations                |
-| Geo Visuals        | Choropleths, GeoJSON overlays, Mapbox tokens                       |
-| Plot Architecture  | `.pipe()` overlays, centralized `plot_utils.py`, layout automation |
-| Exports            | Dynamic HTML and static PNG renderings for reporting               |
-
----
-
-### 📉 Sample: Line & Scatter
-
-![Line Plot](exports/images/01_line_scatter/regional_sales_dark.png)
-
-![Scatter Plot](exports/images/01_line_scatter/profit_vs_sales_scatter.png)
-
----
-
-### 🗺️ Sample: Statistical Overlays
-
-![Trend Plot](exports/images/10_statistical_overlays/sales_trend_ma.png)
-
----
-```
-## 🗂️ Project Structure
-├── .github/                  # GitHub workflows and templates
-│   ├── workflows/           # CI/CD pipelines
-│   │   ├── test.yml         # Automated testing
-│   │   ├── lint.yml         # Code quality checks
-│   │   └── docker.yml       # Docker build tests
-│   └── ISSUE_TEMPLATE/      # Issue and PR templates
-├── docs/                     # Extended documentation
-│   ├── API.md               # Complete API reference
-│   ├── TUTORIALS.md         # Step-by-step tutorials
-│   ├── DEPLOYMENT.md        # Deployment guides
-│   └── TROUBLESHOOTING.md   # Common issues & solutions
-├── tests/                    # Test suite
-│   ├── test_plot_utils.py   # Utility function tests
-│   ├── test_data_generation.py
-│   ├── test_notebooks.py
-│   └── test_streamlit_app.py
-├── exports/                  # HTML and PNG exports by notebook
-├── notebooks/                # 10 structured Jupyter notebooks
-├── pages/                    # Streamlit pages for app mode
-├── utils/                    # Reusable plotting utilities
-├── datasets/                # Synthetic datasets
-├── .editorconfig            # Editor configuration
-├── .env.example             # Environment variables template
-├── .gitignore               # Git ignore patterns
-├── .pre-commit-config.yaml  # Pre-commit hooks
-├── config.py                # Configuration management
-├── Dockerfile               # Docker environment for reproducibility
-├── Makefile                 # Common development commands
-├── pyproject.toml           # Modern Python project config
-├── pytest.ini               # Test configuration
-├── app.py                   # Main Streamlit app entry point
-├── generate_datasets.py     # Generates synthetic datasets using Faker
-├── requirements.txt         # Minimal dependencies to run the project
-├── requirements_dev.txt     # Full dev environment
-├── requirements.txt         # Minimal dependencies to run the project
-└── README.md                # You're here!
-```
+## Install
 
 ```bash
-# Clone the repo
-git clone https://github.com/SatvikPraveen/PlotlyVizPro.git
-cd PlotlyVizPro
-
-# Install dependencies (creates venv automatically)
-make install
-
-# Or for development (includes testing tools)
-make install-dev
-
-# Run tests
-make test
-
-# Launch JupyterLab
-make run-jupyter
-
-# Launch Streamlit app
-make run-app
-
-# See all available commands
-make help
+pip install "plotlyvizpro[all] @ git+https://github.com/SatvikPraveen/PlotlyVizPro"
 ```
 
-### ▶️ Manual Setup
+Or from a clone: `pip install -e ".[all]"` (runtime), `make install-dev` (everything).
+The core needs only NumPy, pandas, SciPy and Plotly; static images need `kaleido`.
 
-```bash
-# Clone the repo
-git clone https://github.com/SatvikPraveen/PlotlyVizPro.git
-cd PlotlyVizPro
+## Quick start
 
-# Create a virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+```python
+from functools import partial
+import plotlyvizpro as pvp
+from plotlyvizpro.data import load
+from plotlyvizpro.overlays import add_anomalies, add_lowess, add_trendline
 
-# Install dependencies
-pip install -r requirements.txt
+df = load("superstore")  # schema + SHA-256 verified
+daily = df.groupby("OrderDate")["Sales"].sum().reset_index()
+x, y = daily["OrderDate"], daily["Sales"]
 
-# For development (includes testing tools)
-pip install -r requirements_devatmaps      | Distribution plots, hexbin overlays          |
-| 04  | Choropleth & GeoJSON Maps      | Choropleth, projections, custom shape tuning |
-| 05  | Animation & Interactivity      | Sliders, dropdowns, animation_frame          |
-| 06  | Dashboards & Subplots          | Grid layouts, spacing, multi-panel views     |
-| 07  | Graph Objects Deep Dive        | Manual axis, layout, annotation control      |
-| 08  | Mapbox & Geo Layers            | Mapbox tokens, styles, satellite maps        |
-| 09  | Real-World Visualizations      | COVID & Superstore use cases                 |
-| 10  | Statistical Overlays + .pipe() | Modular overlays, Z-bands, moving average    |
+fig = pvp.pipe(
+    pvp.scatter_plot(daily, "OrderDate", "Sales", opacity=0.5, title="Daily sales"),
+    partial(add_trendline, x=x, y=y, show_ci=True),  # OLS + 95 % CI, equation annotated
+    partial(add_lowess, x=x, y=y, frac=0.2),  # robust local smoother
+    partial(add_anomalies, x=x, y=y, method="hampel"),  # rolling median/MAD detector
+)
+fig.layout.meta["ols"]["p_values"]  # results are stored on the figure
 
----
-
-## ⚙️ Setup Instructions
-
-### ▶️ Local Setup
-
-```bash
-# Clone the repo
-git clone https://github.com/SatvikPraveen/PlotlyVizPro.git
-cd PlotlyVizPro
-
-# Create a virtual environment
-python3 -m venv plotly_env
-source plotly_env/bin/activate  # On Windows: plotly_env\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch JupyterLab
-jupyter lab
+pvp.apply_journal_preset(fig, "ieee_single")  # 3.5 in wide, 8 pt, 300 dpi
+pvp.save_figure(fig, "daily_sales", formats=("html", "png", "svg"))  # + provenance sidecar
 ```
 
----
+## Features
 
-## 🐳 Docker Setup (Optional)
+### Statistical overlays
 
-```bash
-# Build image
-docker build -t plotlyvizpro .
+`plotlyvizpro.stats` holds the estimators (no Plotly import); `plotlyvizpro.overlays` draws them.
 
-# Run container (auto-launches JupyterLab at port 8888)
-docker run -p 8888:8888 plotlyvizpro
+| Estimator | Method | Cross-checked against |
+|---|---|---|
+| `ols_fit` | QR least squares, *t* bands, binomial-expansion SEs on the original scale | `statsmodels.OLS` (bands, SEs, p-values, adj. R²) |
+| `lowess` | Cleveland 1979, tricube + bisquare robustifying iterations, `delta` speed-up | `statsmodels.nonparametric.lowess` |
+| `bootstrap_ci` | percentile, basic, **BCa** with jackknife acceleration | empirical coverage simulation |
+| `zscore_outliers`, `iqr_outliers`, `hampel_filter`, `generalized_esd` | see [Methods](docs/methods.md) | NIST/SEMATECH ESD worked example |
+| `kde`, `ecdf`, `qq_points`, `histogram_bins`, `describe` | SciPy kernels, DKW band, probplot | SciPy |
+| `seasonal_decompose`, `autocorrelation` | classical MA decomposition, strength measures | `statsmodels.tsa.seasonal_decompose` |
+| `rolling`, `ewma`, `bollinger_bands`, `zscore_bands`, `savitzky_golay` | pandas / SciPy | pandas |
+
+![Seasonal decomposition](exports/images/readme/decomposition.png)
+
+### Colour-vision-safe palettes
+
+```python
+from plotlyvizpro.colors import audit_palette, order_palette, simulate_cvd
+
+print(audit_palette(["#2a78d6", "#eb6834", "#1baf7a", "#eda100"], mode="light", pairs="all").to_text())
 ```
 
-🛡️ No token/password required. Uses `--allow-root` for compatibility.
+Checks: OKLCH lightness band, chroma floor, CVD separation (Machado 2009,
+protan/deutan, OKLab ΔE×100 ≥ 8), normal-vision floor (≥ 15), WCAG contrast
+vs surface (≥ 3:1). The registered `pvp_light` and `pvp_dark` templates pass
+in their mode; `order_palette` finds the slot order that maximises the minimum
+adjacent CVD distance. Okabe-Ito and Paul Tol palettes are included.
 
----
+![pvp_light palette under simulated colour-vision deficiency](exports/images/readme/palette_cvd.png)
 
-## 🌐 Streamlit Dashboard Features
+### Downsampling large series
 
-Launch the app with `streamlit run app.py` and explore:
+```python
+from plotlyvizpro.downsample import downsample, max_error
 
-- 🔄 Real-time filtering and visualization controls
-- 📊 Embedded charts from exported HTMLs
-- 🧮 Summary statistics + quick insights
-- 🎨 Toggle between chart types with ease
-
-## 🧪 Datasets
-
-All datasets are **synthetically generated** via `generate_datasets.py` using the `faker` library.
-
-- 🔁 Fully reproducible
-- 🔓 License-free
-- 🔬 Customizable complexity (sales, dates, geography, etc.)
-
----
-
-## 🧰 Utility Functions (utils/plot_utils.py)
-
-| Type          | Utilities                                                      |
-| ------------- | -------------------------------------------------------------- |
-| Core Charts   | `line_plot()`, `bar_plot()`, `scatter_plot()`, `box_plot()`    |
-| Interactivity | Sliders, hover templates, dropdowns                            |
-| Stats Add-ons | `add_trendline()`, `add_moving_average()`, `add_zscore_band()` |
-| Layout Tools  | `make_subplots_custom()`, `add_annotations()`, `apply_theme()` |
-| Export Tools  | `save_fig_as_html()`, `save_fig_as_png()`                      |
-
-📚 **Full API Reference**: See [docs/API.md](docs/API.md) for complete function documentation.
-
----
-
-## 🧪 Testing & Quality Assurance
-
-PlotlyVizPro includes a comprehensive test suite and CI/CD pipeline:
-
-```bash
-# Run all tests
-make test
-
-# Run with coverage report
-make test-cov
-
-# Run code quality checks
-make lint
-
-# Auto-format code
-make format
+keep = downsample(x, y, threshold=4000, method="lttb")  # indices, so other columns stay aligned
+max_error(x, y, keep)
 ```
 
-### Test Coverage
+LTTB (Steinarsson 2013), per-bucket MinMax and M4 (Jugel et al. 2014).
+One million points reduce to 4,000 in about 40 ms.
 
-- ✅ Unit tests for plotting utilities
-- ✅ Data generation validation
-- ✅ Notebook structure verification
-- ✅ Streamlit app testing
-- ✅ CI/CD with GitHub Actions
+![200k-point series downsampled three ways](exports/images/readme/downsample.png)
 
-### Code Quality
+### Publication export and provenance
 
-- **Black** for code formatting
-- **Flake8** for linting
-- **isort** for import sorting
-- **MyPy** for type checking
-- **Pre-commit hooks** for automated checks
+`apply_journal_preset(fig, "nature_single")` sizes the figure to 89 mm and sets
+7 pt text; `save_image` reads the preset's DPI back so the PNG lands at the
+right pixel width. `save_figure` writes HTML/PNG/SVG/PDF/JSON plus
+`<stem>.provenance.json` (package versions, platform, git commit with a
+`-dirty` flag, SHA-256 of registered inputs, parameters, seed), and stores the
+same record in `fig.layout.meta` so it survives JSON round-trips.
 
----
+### Reproducible datasets
 
-## 📚 Documentation
+Eight synthetic datasets are generated from one seeded `numpy.random.Generator`
+and described in `datasets/manifest.json` (SHA-256, size, rows, columns).
+`data.load("covid")` verifies the digest, parses dates and checks the schema.
 
-Comprehensive documentation is available in the `docs/` directory:
+### Command line
 
-- **[API Reference](docs/API.md)** - Complete function documentation
-- **[Tutorials](docs/TUTORIALS.md)** - Step-by-step guides
-- **[Deployment Guide](docs/DEPLOYMENT.md)** - Deploy to various platforms
-- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
-
----
-
-## 📤 Plot Exports
-
-Each notebook saves plots in:
-
-```bash
-exports/
-├── html/             # Interactive outputs
-│   ├── 01_line_scatter/
-│   ├── ...
-├── images/           # PNG renders
-│   ├── 01_line_scatter/
-│   ├── ...
+```
+plotlyvizpro info                     # versions, export dir, image-engine status
+plotlyvizpro generate-data --seed 42  # regenerate datasets + manifest
+plotlyvizpro verify-data              # exit 1 on checksum mismatch
+plotlyvizpro audit-palette pvp_dark --mode dark
+plotlyvizpro audit-palette "#2a78d6,#eb6834" --pairs all --json
+plotlyvizpro demo --formats html,png  # showcase figure with overlays
+plotlyvizpro benchmark --n 1000000    # time the downsamplers
 ```
 
----
+### Streamlit gallery
 
-## 💼 Use Case Scenarios
+`make run-app` serves the ten notebook galleries plus three research pages:
+**Statistical lab** (any dataset, any column, every overlay, coefficient table,
+bootstrap CIs, KDE/ECDF/Q-Q), **Palette audit** (paste hex colours, see them
+under simulated protan/deutan/tritan vision) and **Downsampling** (LTTB vs
+MinMax vs M4 on up to 1 M points with timing and error). Every page is executed
+headlessly in CI via `streamlit.testing`.
 
-- 📊 **Portfolio Project**: Showcase your visualization skills to recruiters with modular, professional-quality notebooks and dashboards.
-- 🧑‍🏫 **Learning Companion**: Study Plotly’s API differences (`plotly.express` vs `graph_objects`) across notebooks.
-- 🧪 **Interactive Reporting**: Generate rich HTML reports or launch dashboards with Streamlit using synthetic, reproducible datasets.
-- 🧰 **Toolkit for Projects**: Plug in your own data and reuse `plot_utils.py` utilities for fast prototyping and visualization pipelines.
+## Verification
 
----
+| Gate | Tool | Status |
+|---|---|---|
+| Lint + format | ruff (pycodestyle, pyflakes, isort, bugbear, pyupgrade, pydocstyle, numpy, pandas, pytest rules) | clean |
+| Types | mypy `--strict` | clean |
+| Unit + property tests | pytest, Hypothesis; 250+ tests | 98 % branch coverage (85 % floor enforced) |
+| Numerical cross-checks | statsmodels, SciPy, NIST worked example | rtol ≤ 1e-6 where closed-form |
+| Notebooks | nbclient executes all ten | CI job |
+| App | `AppTest` runs 14 pages | CI matrix |
+| Image export | kaleido renders PNG/SVG/PDF at preset DPI | CI job |
+| Matrix | Python 3.10-3.13 on Linux; 3.12 on macOS and Windows | CI |
 
-## 📌 Cheatsheet
+## Benchmarks
 
-A compact markdown cheatsheet available at:
+| task | time |
+|---|---:|
+| LTTB, 1,000,000 → 4,000 points | 42 ms |
+| MinMax, 1,000,000 → 4,000 | 22 ms |
+| M4, 1,000,000 → 1,000 px | 17 ms |
+| OLS with bands, n = 50,000 | 6.5 ms |
 
-```bash
-docs/plotly_cheatsheet.md
+Apple M-series laptop; `make bench` reproduces the full `pytest-benchmark`
+table, and CI uploads `benchmark.json` on every push. Details in
+[docs/benchmarks.md](docs/benchmarks.md).
+
+## Project layout
+
+```
+plotlyvizpro/          the package (charts, layout, theme, colors, stats/, overlays,
+                       downsample, export, provenance, data, datasets, cli)
+tests/                 unit, property and cross-validation tests; AppTest for the app
+benchmarks/            pytest-benchmark suite
+notebooks/             10 tutorial notebooks (01 line/scatter … 10 statistical overlays)
+pages/, app.py         Streamlit gallery + research pages
+examples/              runnable scripts, including examples/05_research/
+datasets/              seeded synthetic CSVs + manifest.json
+exports/               HTML/PNG gallery regenerated from the notebooks
+docs/, mkdocs.yml      site: getting started, architecture, methods, reproducibility, API
+utils/plot_utils.py    backward-compatible facade used by the notebooks
 ```
 
-Includes:
+## Development
 
-- Plotly syntax patterns
-- Utility usage demos
-- Dashboard tips
-- Export best practices
+```bash
+make install-dev   # .venv, extras, pre-commit hooks
+make check         # ruff + mypy + pytest (what CI runs)
+make test-notebooks
+make bench
+make docs-serve
+```
 
----
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) and the
+[architecture notes](docs/architecture.md).
 
-## 📜 License
+## Citing
 
-This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0). See the [LICENSE](./LICENSE) file for more details.
+If this toolkit helps your research, cite it via the repository's
+[`CITATION.cff`](CITATION.cff) (GitHub renders a "Cite this repository"
+button). The file also lists the primary references for the implemented
+methods: Cleveland (1979), Efron & Tibshirani (1993), Rosner (1983), Machado,
+Oliveira & Fernandes (2009), Ottosson (2020), Steinarsson (2013), Jugel et al. (2014).
 
----
+## License
 
-## 🤝 Contributions Welcome
-
-- 🛠 Got a bug fix or improvement? [Open a PR](https://github.com/SatvikPraveen/PlotlyVizPro/pulls)
-- 🧠 Found a bug or want to request a feature? [File an issue](https://github.com/SatvikPraveen/PlotlyVizPro/issues)
-- ⭐ If this helped you, consider starring the repository!
-
----
-
-## 💬 Join the Conversation
-
-Got an idea, stuck on something, or want to share your use-case?
-
-👉 Visit the [Discussions](https://github.com/SatvikPraveen/PlotlyVizPro/discussions) tab and say hello!
-
----
-
-## 🧭 Related Projects
-
-Explore the full suite of Python data mastery repositories:
-
-- 📊 [**PandasPlayground**](https://github.com/SatvikPraveen/PandasPlayground)  
-  Modular pipelines for mastering data wrangling, merging, and analysis using pandas.
-
-- 🔢 [**NumPyMasterPro**](https://github.com/SatvikPraveen/NumPyMasterPro)  
-  A concept-to-implementation NumPy project covering arrays, broadcasting, and indexing.
-
-- 📈 [**MatplotlibMasterPro**](https://github.com/SatvikPraveen/MatplotlibMasterPro)  
-  Comprehensive Matplotlib practice with style guides, animations, and thematic plots.
-
-- 🖼️ [**SeabornMasterPro**](https://github.com/SatvikPraveen/SeabornMasterPro)  
-  Complete mastery of Seaborn's statistical plots, themes, dashboards, and time series.
-
-Each project is standalone but follows a consistent **pedagogical and modular structure**, forming a **progressive learning track** in data visualization and numerical computing with Python.
-
----
+GPL-3.0-or-later. See [LICENSE](LICENSE).

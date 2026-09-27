@@ -20,7 +20,7 @@ class TestOLS:
         assert fit.coef == pytest.approx([1.5, 2.0], abs=1e-9)
         assert fit.r_squared == pytest.approx(1.0)
         assert fit.residual_std == pytest.approx(0.0, abs=1e-9)
-        assert fit.equation(1) == "y = 1.5 + 2.0x"
+        assert fit.equation(2) == "y = 1.5 + 2x"
 
     def test_matches_closed_form_slope_intercept_and_stderr(self, linear_xy):
         x, y = linear_xy
@@ -76,6 +76,9 @@ class TestOLS:
         fit = ols_fit(pd.Series(dates), y)
         assert np.issubdtype(np.asarray(fit.x).dtype, np.datetime64)
         assert fit.r_squared == pytest.approx(1.0)
+        assert fit.slope == pytest.approx(2.0)  # per day
+        assert fit.x_unit == "day"
+        assert "day" in fit.equation()
 
     def test_nan_rows_dropped(self):
         x = np.array([0, 1, 2, np.nan, 4, 5.0])

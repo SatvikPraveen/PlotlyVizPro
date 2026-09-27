@@ -1,0 +1,77 @@
+site_name: PlotlyVizPro
+site_description: Research-grade toolkit for interactive, publication-ready Plotly figures
+site_url: https://satvikpraveen.github.io/PlotlyVizPro/
+repo_url: https://github.com/SatvikPraveen/PlotlyVizPro
+repo_name: SatvikPraveen/PlotlyVizPro
+edit_uri: edit/main/docs/
+copyright: GPL-3.0-or-later
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: numpy
+            show_source: true
+            show_root_heading: true
+            members_order: source
+            separate_signature: true
+            show_signature_annotations: true
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Architecture: architecture.md
+  - Methods: methods.md
+  - Reproducibility: reproducibility.md
+  - Benchmarks: benchmarks.md
+  - Tutorials: TUTORIALS.md
+  - Deployment: DEPLOYMENT.md
+  - Troubleshooting: TROUBLESHOOTING.md
+  - Plotly cheatsheet: plotly_cheatsheet.md
+  - API reference:
+      - charts: api/charts.md
+      - layout: api/layout.md
+      - theme: api/theme.md
+      - colors: api/colors.md
+      - stats: api/stats.md
+      - overlays: api/overlays.md
+      - downsample: api/downsample.md
+      - export & provenance: api/export.md
+      - data & datasets: api/data.md
+      - cli: api/cli.md
+  - Changelog: CHANGELOG.md
