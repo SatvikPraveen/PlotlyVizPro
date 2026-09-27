@@ -5,27 +5,24 @@ Combine animation + geographic mapping + time series.
 Demonstrates: Animation frames + choropleth + time-based transitions
 """
 
-from pathlib import Path
-
-import pandas as pd
 import plotly.express as px
 
-# Load population data with time dimension
-data_path = Path(__file__).parent.parent.parent / "datasets" / "world_population.csv"
-df = pd.read_csv(data_path)
+# Plotly's bundled Gapminder panel has the country/year/ISO structure an animated
+# choropleth needs (the project's synthetic world_population.csv has no time axis).
+df = px.data.gapminder()
 
 # Create animated choropleth map
 fig = px.choropleth(
     df,
     locations="iso_alpha",
-    color="life_expectancy",
+    color="lifeExp",
     hover_name="country",
-    hover_data={"population": ":,", "gdp_per_capita": "$:,.0f", "life_expectancy": ":.1f", "iso_alpha": False},
+    hover_data={"pop": ":,", "gdpPercap": "$:,.0f", "lifeExp": ":.1f", "iso_alpha": False},
     animation_frame="year",
     color_continuous_scale="Viridis",
     range_color=[40, 85],
-    title="World Life Expectancy Evolution (1950-2020)",
-    labels={"life_expectancy": "Life Expectancy (years)"},
+    title="World Life Expectancy Evolution (1952-2007)",
+    labels={"lifeExp": "Life Expectancy (years)"},
 )
 
 # Update map layout

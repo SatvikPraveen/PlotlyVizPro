@@ -16,7 +16,12 @@ data_path = Path(__file__).parent.parent.parent / "datasets" / "superstore.csv"
 df = pd.read_csv(data_path)
 
 # Prepare aggregated views
-region_data = df.groupby("Region").agg({"Sales": "sum", "Profit": "sum", "Quantity": "sum"}).reset_index()
+region_data = (
+    df.groupby("Region")
+    .agg({"Sales": "sum", "Profit": "sum", "OrderID": "count"})
+    .rename(columns={"OrderID": "Quantity"})
+    .reset_index()
+)
 
 # Create linked views (scatter + bar)
 fig = make_subplots(

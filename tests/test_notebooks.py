@@ -12,7 +12,7 @@ EXPECTED = [
     "01_line_scatter.ipynb",
     "02_bar_pie_box.ipynb",
     "03_histogram_density.ipynb",
-    "04_heatmaps_choropeth.ipynb",
+    "04_heatmaps_choropleth.ipynb",
     "05_animations_interactive.ipynb",
     "06_subplots_dashboards.ipynb",
     "07_graph_objects.ipynb",

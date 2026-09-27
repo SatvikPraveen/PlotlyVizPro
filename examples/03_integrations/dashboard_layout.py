@@ -27,7 +27,13 @@ category_metrics = df.groupby("Category").agg({"Sales": "sum", "Profit": "sum"})
 region_sales = df.groupby("Region")["Sales"].sum()
 
 # Panel 4: Scatter - Sales vs Profit
-segment_data = df.groupby("Segment").agg({"Sales": "sum", "Profit": "sum", "Quantity": "sum"}).reset_index()
+segment_data = (
+    df.groupby("SubCategory")
+    .agg({"Sales": "sum", "Profit": "sum", "OrderID": "count"})
+    .rename(columns={"OrderID": "Quantity", "SubCategory": "Segment"})
+    .reset_index()
+    .rename(columns={"SubCategory": "Segment"})
+)
 
 # Create 2x2 subplot grid
 fig = make_subplots(

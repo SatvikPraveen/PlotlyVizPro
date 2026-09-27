@@ -12,7 +12,7 @@ from utils.plot_utils import apply_dark_theme, line_plot
 # Create data
 df = pd.DataFrame(
     {
-        "Month": pd.date_range("2024-01-01", periods=12, freq="M"),
+        "Month": pd.date_range("2024-01-01", periods=12, freq="ME"),
         "Revenue": [45, 52, 48, 61, 58, 67, 71, 69, 78, 82, 85, 90],
     }
 )
