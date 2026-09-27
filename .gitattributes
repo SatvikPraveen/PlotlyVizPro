@@ -1,0 +1,17 @@
+# Normalise line endings so dataset digests are identical on every platform.
+* text=auto eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.cff text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.pdf binary
+*.svg text eol=lf

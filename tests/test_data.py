@@ -78,3 +78,15 @@ def test_manifest_skips_missing_files(tmp_path):
     (tmp_path / "covid_data.csv").unlink()
     manifest = json.loads(data.write_manifest(tmp_path).read_text())
     assert "covid_data.csv" not in manifest["files"]
+
+
+def test_crlf_checkout_still_verifies(tmp_path):
+    """A Windows-style CRLF checkout of an unchanged file must pass verification."""
+    datasets.generate_all(tmp_path, seed=1)
+    path = tmp_path / "animated_sales.csv"
+    path.write_bytes(path.read_bytes().replace(b"\n", b"\r\n"))
+    df = data.load("animated_sales", directory=tmp_path)
+    assert len(df) == 48
+    assert data.verify_manifest(tmp_path)["animated_sales.csv"] is True
+    expected = json.loads((tmp_path / "manifest.json").read_text())["files"]["animated_sales.csv"]["sha256"]
+    assert data.verify_digest(path, expected) == data.sha256_lf(path)

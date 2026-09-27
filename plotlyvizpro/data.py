@@ -8,6 +8,7 @@ SHA-256 so a figure's provenance can be traced to exact bytes.
 
 from __future__ import annotations
 
+import hashlib
 import json
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -140,9 +141,8 @@ def load(name: str, *, directory: StrPath | None = None, verify: bool = True) ->
         if manifest_path.exists():
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             expected = manifest.get("files", {}).get(spec.filename, {}).get("sha256")
-            actual = sha256_of_file(path)
-            if expected and expected != actual:
-                raise IntegrityError(f"{spec.filename}: sha256 {actual[:12]}… does not match manifest {expected[:12]}…")
+            if expected:
+                verify_digest(path, expected)
     df = pd.read_csv(path, parse_dates=list(spec.date_columns))
     missing = [c for c in spec.columns if c not in df.columns]
     if missing:
@@ -150,6 +150,34 @@ def load(name: str, *, directory: StrPath | None = None, verify: bool = True) ->
     if spec.sort_by:
         df = df.sort_values(list(spec.sort_by), kind="stable").reset_index(drop=True)
     return df
+
+
+def sha256_lf(path: StrPath) -> str:
+    """SHA-256 of a text file with CRLF line endings normalised to LF.
+
+    Git on Windows may check text files out with CRLF (unless ``.gitattributes``
+    pins LF), which would change the raw digest without changing the data.
+    """
+    data = Path(path).read_bytes().replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
+
+
+def verify_digest(path: StrPath, expected: str) -> str:
+    """Return the matching digest or raise :class:`IntegrityError`.
+
+    The raw file digest is tried first, then the LF-normalised digest so a
+    CRLF checkout of an unchanged file still verifies.
+    """
+    actual = sha256_of_file(path)
+    if actual == expected:
+        return actual
+    normalised = sha256_lf(path)
+    if normalised == expected:
+        return normalised
+    raise IntegrityError(
+        f"{Path(path).name}: sha256 {actual[:12]}... does not match manifest {expected[:12]}... "
+        "(regenerate with `plotlyvizpro generate-data` or rewrite the manifest)"
+    )
 
 
 def write_manifest(
@@ -181,7 +209,8 @@ def verify_manifest(directory: StrPath | None = None) -> dict[str, bool]:
     """Return ``filename -> matches`` for every entry in the manifest."""
     base = Path(directory) if directory is not None else datasets_dir()
     manifest = json.loads((base / MANIFEST_NAME).read_text(encoding="utf-8"))
-    return {
-        fname: (base / fname).exists() and sha256_of_file(base / fname) == entry["sha256"]
-        for fname, entry in manifest["files"].items()
-    }
+    out: dict[str, bool] = {}
+    for fname, entry in manifest["files"].items():
+        target = base / fname
+        out[fname] = target.exists() and entry["sha256"] in (sha256_of_file(target), sha256_lf(target))
+    return out
