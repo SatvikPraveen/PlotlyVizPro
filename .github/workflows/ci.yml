@@ -57,7 +57,7 @@ jobs:
         run: pytest -m "not notebook and not kaleido" --cov --cov-report=xml --cov-report=term
       - name: Upload coverage
         if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.12'
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v7
         with:
           files: ./coverage.xml
           fail_ci_if_error: false
