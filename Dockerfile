@@ -12,12 +12,11 @@ WORKDIR /app
 FROM base AS build
 COPY pyproject.toml README.md LICENSE ./
 COPY plotlyvizpro ./plotlyvizpro
-RUN pip install --upgrade pip && pip install ".[all]"
+RUN pip install --upgrade pip && pip install --prefix=/install ".[all]"
 
-# Runtime layer: copy site-packages, run as a non-root user.
+# Runtime layer: copy the installed prefix (version-agnostic), run as a non-root user.
 FROM base AS runtime
-COPY --from=build /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
-COPY --from=build /usr/local/bin /usr/local/bin
+COPY --from=build /install /usr/local
 COPY . .
 RUN useradd --create-home --uid 1000 viz && chown -R viz:viz /app
 USER viz
